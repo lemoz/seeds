@@ -41,9 +41,11 @@ Seeds bridge that gap. We don't build software - we build the bridge to existing
 ## Structure
 
 ```
-seeds/
+.
 ├── seeds/              # Published seeds by profession
-├── professions/        # Profession → workflow mappings
+│   ├── templates/      # Seed templates
+│   └── examples/       # Example seeds
+├── professions/        # Profession -> workflow mappings
 ├── repos/              # GitHub repo profiles for reverse-seeding
 ├── rubric/             # Scoring criteria (workflows + repos)
 ├── docs/               # Project documentation

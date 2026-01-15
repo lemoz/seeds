@@ -1,0 +1,25 @@
+# Profession definition schema.
+
+# Unique profession id (kebab-case).
+id: marketing-agency
+# Human-friendly profession name.
+name: Marketing Agency
+# Short, one-line summary for listings.
+summary: "Teams that manage marketing, branding, and client campaigns."
+# Longer description of the profession's scope.
+description: "Agencies delivering marketing strategy, creative production, and ongoing client services."
+# Tags to help search and grouping.
+tags:
+  - marketing
+  - agency
+  - creative
+# Lifecycle status for the profession entry.
+status: draft
+# Workflows relevant to this profession.
+workflows:
+  - # Workflow id (kebab-case).
+    id: client-scheduling
+    # Importance for this profession: primary | secondary | tertiary.
+    priority: primary
+    # Outcome phrasing tailored to this profession.
+    outcome: "Clients can book branded discovery calls without back-and-forth."

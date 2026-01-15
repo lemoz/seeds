@@ -1,0 +1,26 @@
+# Workflow definition schema.
+
+# Unique workflow id (kebab-case).
+id: client-scheduling
+# Human-friendly workflow name.
+name: Client Scheduling
+# Short summary for catalog listings.
+summary: "Provide a branded booking flow with routing and availability built in."
+# Outcome statement for the workflow.
+outcome: "Clients can book meetings without back-and-forth emails."
+# Key pain points this workflow solves.
+pain_points:
+  - "Scheduling ping-pong delays confirmations."
+  - "Time zones and availability cause missed handoffs."
+# Typical frequency for the profession (daily | weekly | monthly | ad-hoc).
+frequency: weekly
+# Tags for discovery and grouping.
+tags:
+  - scheduling
+  - booking
+  - client
+# Lifecycle status for the workflow.
+status: draft
+# Professions this workflow applies to.
+related_professions:
+  - marketing-agency
