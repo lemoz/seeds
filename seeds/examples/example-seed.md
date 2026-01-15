@@ -1,60 +1,209 @@
+# Client Scheduling System
+
+> Clients book meetings directly on your calendar without email back-and-forth.
+
+## What You'll Get
+
+A branded scheduling page where clients can:
+- See your available time slots
+- Book meetings instantly
+- Receive confirmation emails
+- Add events to their calendar
+
+Plus an admin dashboard where you can:
+- Manage event types (Discovery Call, Project Kickoff, etc.)
+- Set your availability windows
+- View and manage bookings
+
+## Before We Start
+
+I need some information to customize this for you:
+
+1. **Company name?** (used for branding)
+2. **Primary brand color?** (hex code like #3B82F6)
+3. **Default meeting length?** (e.g., 30 minutes)
+4. **Your timezone?** (e.g., America/New_York)
+5. **Working hours?** (e.g., Mon-Fri 9am-5pm)
+
+## Let's Build
+
+### Step 1: Project Structure
+
+I'll create the following structure:
+
+```
+scheduling-app/
+├── src/
+│   ├── app/
+│   │   ├── page.tsx              # Public booking page
+│   │   ├── admin/
+│   │   │   └── page.tsx          # Admin dashboard
+│   │   └── api/
+│   │       ├── availability/
+│   │       │   └── route.ts      # Get available slots
+│   │       ├── bookings/
+│   │       │   └── route.ts      # Create/manage bookings
+│   │       └── event-types/
+│   │           └── route.ts      # Manage event types
+│   ├── components/
+│   │   ├── Calendar.tsx          # Date picker
+│   │   ├── TimeSlots.tsx         # Available times
+│   │   ├── BookingForm.tsx       # Attendee details
+│   │   └── AdminNav.tsx          # Admin navigation
+│   └── lib/
+│       ├── db.ts                 # Database client
+│       ├── availability.ts       # Slot calculation
+│       └── email.ts              # Email sending
+├── prisma/
+│   └── schema.prisma
+├── docker-compose.yml
+├── Dockerfile
+├── railway.json
+├── fly.toml
+└── package.json
+```
+
+### Step 2: Database Schema
+
+```prisma
+model User {
+  id            String      @id @default(cuid())
+  email         String      @unique
+  name          String
+  timezone      String      @default("America/New_York")
+  eventTypes    EventType[]
+  bookings      Booking[]
+  availability  Availability[]
+  createdAt     DateTime    @default(now())
+}
+
+model EventType {
+  id          String    @id @default(cuid())
+  title       String
+  slug        String
+  duration    Int       // minutes
+  description String?
+  color       String    @default("#3B82F6")
+  userId      String
+  user        User      @relation(fields: [userId], references: [id])
+  bookings    Booking[]
+  active      Boolean   @default(true)
+  createdAt   DateTime  @default(now())
+}
+
+model Booking {
+  id            String    @id @default(cuid())
+  eventTypeId   String
+  eventType     EventType @relation(fields: [eventTypeId], references: [id])
+  userId        String
+  user          User      @relation(fields: [userId], references: [id])
+  startTime     DateTime
+  endTime       DateTime
+  attendeeName  String
+  attendeeEmail String
+  notes         String?
+  status        String    @default("confirmed") // confirmed, cancelled
+  createdAt     DateTime  @default(now())
+}
+
+model Availability {
+  id        String   @id @default(cuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id])
+  dayOfWeek Int      // 0=Sunday, 1=Monday, etc.
+  startTime String   // "09:00"
+  endTime   String   // "17:00"
+}
+```
+
+### Step 3: Core Components
+
+**Availability Calculator** - Finds open slots by:
+1. Getting user's availability windows for the day
+2. Fetching existing bookings
+3. Subtracting booked times from available windows
+4. Returning slots in attendee's timezone
+
+**Booking Flow**:
+1. Attendee selects date → fetches available slots
+2. Attendee picks time → shows booking form
+3. Form submitted → creates booking + sends emails
+4. Confirmation shown with calendar links
+
+### Step 4: API Endpoints
+
+```
+GET  /api/availability?date=2024-01-15&eventType=discovery
+     → Returns available time slots for that date
+
+POST /api/bookings
+     → Creates new booking, sends confirmation emails
+     Body: { eventTypeId, startTime, attendeeName, attendeeEmail, notes }
+
+GET  /api/bookings
+     → Lists bookings (admin only)
+
+PATCH /api/bookings/:id
+     → Update booking status (cancel, reschedule)
+
+GET  /api/event-types
+     → Lists active event types
+
+POST /api/event-types
+     → Creates new event type (admin only)
+```
+
 ---
-id: calcom-agency-scheduling
-name: Cal.com Agency Scheduling
-source:
-  repo: https://github.com/calcom/cal.com
-  version: main
-  commit: "replace-with-commit-sha"
-workflow: client-scheduling
-profession: marketing-agency
-outcome: "Clients can book branded discovery calls without back-and-forth."
-oss_tool: calcom
-deployment: docker
-status: draft
----
 
-# Cal.com Agency Scheduling
+## Deployment
 
-## The Outcome
-A branded scheduling portal where prospects can book discovery calls, with team routing and time-zone handling already configured.
+Where would you like to deploy?
 
-## Before You Start
-- [ ] Confirm where you want to deploy (local Docker, VPS, or Railway).
-- [ ] Gather your company logo, primary color, and preferred time zone.
-- [ ] List the team members who will accept meetings.
+### Option 1: Local Docker
+```bash
+docker-compose up -d
+# Access at http://localhost:3000
+# Admin at http://localhost:3000/admin
+```
 
-## Your Context
-Answer these to customize the seed. Use placeholders like {{COMPANY_NAME}}.
+### Option 2: Railway
+```bash
+railway login
+railway init
+railway up
+# Returns your public URL
+```
 
-- What is your company name? -> {{COMPANY_NAME}}
-- What is your primary brand color (hex)? -> {{BRAND_COLOR}}
-- What time zone should scheduling default to? -> {{DEFAULT_TIMEZONE}}
-- What is the default meeting length (minutes)? -> {{MEETING_LENGTH_MIN}}
-- Which team members should be bookable? -> {{TEAM_MEMBERS}}
+### Option 3: Fly.io
+```bash
+fly auth login
+fly launch
+fly deploy
+# Returns your public URL
+```
 
-## The Prompt
+### Option 4: Other
+Tell me your preferred platform (Render, DigitalOcean, Vercel+Supabase, etc.) and I'll generate the config.
 
 ---
-You are setting up Cal.com for a marketing agency scheduling workflow.
 
-Use the repo at https://github.com/calcom/cal.com and deploy with docker.
+## After Deployment
 
-Goals:
-1) Brand the booking page for {{COMPANY_NAME}} using {{BRAND_COLOR}}.
-2) Create a "Discovery Call" event type with duration {{MEETING_LENGTH_MIN}} minutes.
-3) Set default time zone to {{DEFAULT_TIMEZONE}}.
-4) Add the team members listed in {{TEAM_MEMBERS}} with round-robin routing.
-
-Return:
-- Deployment steps
-- Required env vars and config changes
-- Links or screenshots showing the branded booking page
----
-
-## Expected Result
-The booking page loads with the agency's branding, and test bookings can be created for the Discovery Call event.
+Once deployed, you can:
+- Visit `/admin` to create your first event type
+- Set your availability schedule
+- Share your booking link: `https://yourapp.com/book/discovery-call`
 
 ## Customization Ideas
-- Add a qualification form before booking.
-- Create separate event types for "Audit Review" and "Project Kickoff."
-- Route bookings by service line or industry focus.
+
+Want to extend this further? Common additions:
+- **Google Calendar sync** - Auto-block booked times
+- **Zoom integration** - Auto-create meeting links
+- **Payment required** - Collect payment before booking
+- **Intake form** - Custom questions before booking
+- **Team scheduling** - Round-robin assignment
+- **Buffer time** - Gaps between meetings
+
+---
+
+*This seed generates fresh code based on scheduling app patterns. No external repos required.*

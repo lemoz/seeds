@@ -1,53 +1,103 @@
+# {{SEED_NAME}}
+
+> {{OUTCOME_STATEMENT}}
+
+## What You'll Get
+
+{{DESCRIPTION_OF_END_RESULT}}
+
+## Before We Start
+
+I need some information to customize this for you:
+
+1. **Company name?** (used for branding)
+2. **Primary brand color?** (hex code like #3B82F6)
+3. **{{DOMAIN_SPECIFIC_QUESTION_1}}**
+4. **{{DOMAIN_SPECIFIC_QUESTION_2}}**
+
+## Let's Build
+
+### Step 1: Project Structure
+
+I'll create the following structure:
+
+```
+{{PROJECT_NAME}}/
+├── src/
+│   ├── app/              # Next.js pages
+│   ├── components/       # UI components
+│   ├── lib/              # Utilities
+│   └── api/              # API routes
+├── prisma/
+│   └── schema.prisma     # Database schema
+├── docker-compose.yml    # Local deployment
+├── Dockerfile            # Container build
+├── railway.json          # Railway deployment
+├── fly.toml              # Fly.io deployment
+└── package.json
+```
+
+### Step 2: Database Schema
+
+```prisma
+{{PRISMA_SCHEMA}}
+```
+
+### Step 3: Core Components
+
+{{DESCRIPTION_OF_KEY_COMPONENTS}}
+
+### Step 4: API Endpoints
+
+{{API_ENDPOINT_DESCRIPTIONS}}
+
 ---
-# Unique seed id (kebab-case).
-id: seed-id
-# Human-friendly seed name.
-name: Seed Name
-# Source repo reference for the seed.
-source:
-  # GitHub repo URL used as the base.
-  repo: https://github.com/org/repo
-  # Release tag or version string.
-  version: v1.2.3
-  # Commit SHA for the source used.
-  commit: abc1234
-# Workflow id this seed supports.
-workflow: workflow-id
-# Profession id this seed targets.
-profession: profession-id
-# Outcome statement for the user.
-outcome: "What the user will have when done"
-# Short OSS tool name.
-oss_tool: tool-name
-# Deployment method: docker | railway | vps | local.
-deployment: docker
-# Seed lifecycle status: draft | active | deprecated.
-status: draft
----
 
-# [Seed Name]
+## Deployment
 
-## The Outcome
-[Describe the concrete result the user will have when finished.]
+Where would you like to deploy?
 
-## Before You Start
-- [ ] Prerequisite 1
-- [ ] Prerequisite 2
+### Option 1: Local Docker
+```bash
+docker-compose up -d
+# Access at http://localhost:3000
+```
 
-## Your Context
-Answer these to customize the seed. Use placeholders like {{COMPANY_NAME}}.
+### Option 2: Railway
+```bash
+railway login
+railway init
+railway up
+# Returns: https://{{project}}.up.railway.app
+```
 
-- What is your company name? -> {{COMPANY_NAME}}
-- What services do you offer? -> {{SERVICES}}
+### Option 3: Fly.io
+```bash
+fly auth login
+fly launch
+fly deploy
+# Returns: https://{{project}}.fly.dev
+```
 
-## The Prompt
+### Option 4: Other
+Tell me your preferred platform and I'll generate the appropriate config.
 
 ---
-[The actual mega-prompt for Claude Code goes here.]
----
 
-## Expected Result
-[Describe what should be visible or working when done. Add screenshots if useful.]
+## After Deployment
+
+Once deployed, you can:
+- {{POST_DEPLOYMENT_ACTION_1}}
+- {{POST_DEPLOYMENT_ACTION_2}}
+- {{POST_DEPLOYMENT_ACTION_3}}
 
 ## Customization Ideas
-[Common add-ons users request after the first deploy.]
+
+Want to extend this further? Common additions:
+- {{EXTENSION_IDEA_1}}
+- {{EXTENSION_IDEA_2}}
+- {{EXTENSION_IDEA_3}}
+
+---
+
+*This seed generates fresh code based on proven patterns. No external repos required.*

@@ -1,216 +1,217 @@
 # Reverse-Seed Process
 
-How to extract a seed prompt from any GitHub repository.
+How to extract the "DNA" from an OSS project and create a self-contained generative seed.
 
 ## Overview
 
-The reverse-seed process analyzes a GitHub repo and generates a deployment prompt (seed) that Claude Code can use to deploy and customize that tool for any user.
+The reverse-seed process analyzes a working open source project and extracts the essential patterns, architecture, and logic needed for Claude Code to generate a similar application from scratch.
+
+**Important:** We're not creating instructions to clone a repo. We're extracting the DNA so Claude Code can grow fresh code.
 
 ```
-GitHub Repo → Analysis → Seed Prompt
+OSS Project → Analyze → Extract DNA → Encode as Seed → Generative Prompt
 ```
 
-## The Process
+## What We Extract
 
-### Step 1: Clone & Scan
+### 1. Core Architecture
+- Application structure (monolith, microservices, etc.)
+- Key directories and their purposes
+- How components connect
 
-Clone the repository and identify key files:
+### 2. Database Schema
+- Tables/collections and relationships
+- Key fields and types
+- Indexes and constraints
 
-```bash
-git clone https://github.com/org/repo
-cd repo
+### 3. API Structure
+- Endpoints and their purposes
+- Request/response shapes
+- Authentication patterns
+
+### 4. Essential Business Logic
+- Core workflows (scheduling, CRUD, etc.)
+- Key algorithms
+- State management patterns
+
+### 5. Configuration Surface
+- What can be customized
+- Environment variables
+- Feature flags
+
+### 6. Deployment Requirements
+- Required services (database, cache, etc.)
+- Resource needs
+- Network configuration
+
+## The Extraction Process
+
+### Step 1: Study the Project
+
+Clone and explore the OSS project:
+- Read README and docs
+- Understand the problem it solves
+- Run it locally to see how it works
+
+### Step 2: Map the Architecture
+
+Document the structure:
+```
+/src
+  /api         → REST endpoints
+  /db          → Database models
+  /services    → Business logic
+  /ui          → Frontend components
+/config        → Configuration files
+/docker        → Container setup
 ```
 
-**Key files to find:**
-- `README.md` - Purpose and basic setup
-- `package.json` / `requirements.txt` / `go.mod` - Dependencies
-- `docker-compose.yml` / `Dockerfile` - Container setup
-- `.env.example` - Environment variables
-- `/docs` - Additional documentation
-- `LICENSE` - Usage terms
+### Step 3: Extract Database Schema
 
-### Step 2: Understand Purpose
-
-Extract from README and docs:
-- What does this tool do?
-- Who is the target user?
-- What problem does it solve?
-- What are the main features?
-
-### Step 3: Map Deployment
-
-Document how to get it running:
-
-| Question | Where to Find |
-|----------|---------------|
-| What's the primary deployment method? | README, docker-compose |
-| What prerequisites are needed? | README, docs |
-| What commands start the app? | README, package.json scripts |
-| What ports does it use? | docker-compose, .env.example |
-| What databases/services does it need? | docker-compose, README |
-
-### Step 4: Map Configuration
-
-Identify all configuration surfaces:
-
-**Environment Variables** (from `.env.example`):
-```
-DATABASE_URL=         # Required - database connection
-SECRET_KEY=           # Required - encryption key
-SMTP_HOST=            # Optional - email sending
-LOGO_URL=             # Optional - branding
+Capture the data model:
+```sql
+-- Core entities
+users (id, email, name, created_at)
+bookings (id, user_id, start_time, end_time, status)
+event_types (id, name, duration, user_id)
 ```
 
-**Config Files** (list all with their purpose):
+### Step 4: Extract API Patterns
+
+Document key endpoints:
 ```
-config/default.yml    # Main app settings
-config/features.yml   # Feature flags
+POST /api/bookings     → Create booking
+GET  /api/bookings/:id → Get booking
+GET  /api/availability → Check available slots
 ```
 
 ### Step 5: Identify Customization Hooks
 
-What can users change to make it their own?
+What should users be able to change?
+- Branding (name, colors, logo)
+- Business rules (hours, duration)
+- Features (notifications, integrations)
 
-| Category | Examples |
-|----------|----------|
-| Branding | Logo, colors, company name, favicon |
-| Features | Enable/disable modules, feature flags |
-| Fields | Custom properties, form fields |
-| Integrations | API keys, webhooks, SSO |
-| Workflows | Automation rules, notifications |
+### Step 6: Document Deployment Needs
 
-### Step 6: Generate Seed Prompt
+What's required to run this?
+- PostgreSQL database
+- Redis cache (optional)
+- SMTP for emails
+- File storage for uploads
 
-Combine everything into a seed file:
+### Step 7: Encode as Generative Prompt
+
+Transform extracted knowledge into a prompt that tells Claude Code how to generate similar software:
 
 ```markdown
----
-id: tool-name-seed
-name: Tool Name for [Workflow]
-source:
-  repo: github.com/org/repo
-  version: v1.0.0
-workflow: the-workflow-slug
-outcome: "What the user gets when done"
----
-
-# Tool Name for [Workflow]
-
-## The Outcome
-[Clear description of end result]
-
-## Before You Start
-- [ ] Docker installed
-- [ ] Domain name ready (optional)
-- [ ] SMTP credentials (optional)
-
-## Your Context
-Answer these to customize:
-
-- Company name? → {{COMPANY_NAME}}
-- Primary color? → {{PRIMARY_COLOR}}
-- Admin email? → {{ADMIN_EMAIL}}
-
 ## The Prompt
 
----
-I need you to deploy [Tool Name] for my {{COMPANY_NAME}}.
+Build a scheduling application with these characteristics:
 
-**My context:**
+### Architecture
+- Next.js 14 app with App Router
+- PostgreSQL database via Prisma
+- REST API under /api
+
+### Database Schema
+Generate these models:
+- User: id, email, name, timezone, created_at
+- EventType: id, title, duration, userId
+- Booking: id, eventTypeId, startTime, endTime, attendeeEmail, status
+
+### API Endpoints
+- POST /api/event-types - Create event type
+- GET /api/availability?date=X - Get available slots
+- POST /api/bookings - Create booking
+
+### Customization
+Apply these values:
 - Company: {{COMPANY_NAME}}
-- Branding: {{PRIMARY_COLOR}}
-- Admin: {{ADMIN_EMAIL}}
+- Brand color: {{BRAND_COLOR}}
+- Timezone: {{TIMEZONE}}
 
-**Deployment:**
-[Paste deployment commands from Step 3]
-
-**Configuration:**
-[Paste key env vars from Step 4, with {{PLACEHOLDERS}}]
-
-**Customizations:**
-[List customization hooks from Step 5]
-
-Please deploy this and customize it for my needs.
----
-
-## Expected Result
-[What they should see when done]
+### Deployment
+[Deployment instructions based on chosen target]
 ```
 
-## Example: Reverse-Seeding Cal.com
+## Multi-Target Deployment
 
-### Input
-- Repo: https://github.com/calcom/cal.com
-- Workflow: Client self-scheduling
+Every seed must support multiple deployment options:
 
-### Analysis
-
-**Purpose:** Open-source Calendly alternative for scheduling meetings.
-
-**Deployment:** Docker Compose with Postgres
-
-**Key Config:**
-- `NEXT_PUBLIC_WEBAPP_URL` - App URL
-- `DATABASE_URL` - Postgres connection
-- `CALENDSO_ENCRYPTION_KEY` - Security
-- `NEXT_PUBLIC_APP_NAME` - Branding
-
-**Customization Hooks:**
-- App name and logo
-- Available booking types
-- Working hours defaults
-- Email templates
-- Integrations (Google, Zoom, etc.)
-
-### Output Seed
-
-```markdown
----
-id: calcom-scheduling
-name: Cal.com for Client Scheduling
-source:
-  repo: github.com/calcom/cal.com
-  version: v3.0
-workflow: client-self-scheduling
-outcome: "Clients book meetings on your calendar without email back-and-forth"
----
-
-# Cal.com for Client Scheduling
-
-## The Outcome
-A branded scheduling page where clients pick available times and book directly on your calendar.
-
-## Before You Start
-- [ ] Docker and Docker Compose installed
-- [ ] Domain or subdomain ready
-- [ ] Google/Outlook calendar access
-
-## Your Context
-- Business name? → {{BUSINESS_NAME}}
-- Scheduling page URL? → {{SCHEDULING_URL}}
-- Default meeting length? → {{MEETING_LENGTH}}
-
-## The Prompt
-
----
-Deploy Cal.com as a self-hosted scheduling tool for {{BUSINESS_NAME}}.
-
-Use Docker Compose. Configure:
-- App name: {{BUSINESS_NAME}} Scheduling
-- URL: {{SCHEDULING_URL}}
-- Default meeting: {{MEETING_LENGTH}} minutes
-
-Set up an initial booking type for "Discovery Call" and configure working hours for Monday-Friday 9am-5pm.
----
+### Local Docker
+```yaml
+# docker-compose.yml
+services:
+  app:
+    build: .
+    ports: ["3000:3000"]
+  db:
+    image: postgres:15
 ```
+
+### Railway
+```json
+// railway.json
+{
+  "build": { "builder": "DOCKERFILE" },
+  "deploy": { "startCommand": "npm start" }
+}
+```
+
+### Fly.io
+```toml
+# fly.toml
+[build]
+  dockerfile = "Dockerfile"
+
+[[services]]
+  internal_port = 3000
+```
+
+## Seed Output Format
+
+The final seed should:
+
+1. **Ask context questions** - Gather customization values
+2. **Generate all code** - Full project structure
+3. **Ask deployment target** - Where to deploy
+4. **Deploy** - Execute deployment to chosen target
+5. **Return URL** - Provide access to running app
 
 ## Quality Checklist
 
-Before publishing a reverse-seeded prompt:
+Before publishing a seed:
 
-- [ ] Deployment instructions are complete
-- [ ] All required env vars documented
-- [ ] Placeholders match context questions
-- [ ] Tested with Claude Code successfully
-- [ ] Expected result is accurate
+- [ ] Seed generates working code without network
+- [ ] All {{PLACEHOLDERS}} are documented
+- [ ] At least 3 deployment targets supported
+- [ ] Tested end-to-end (seed → running URL)
+- [ ] Generated code is clean and maintainable
 - [ ] No hardcoded secrets or URLs
+- [ ] Database migrations included
+- [ ] Basic error handling in place
+
+## Example: Scheduling Seed DNA
+
+**Source:** Analyzed from Cal.com patterns
+
+**Extracted DNA:**
+- Next.js + Prisma + PostgreSQL stack
+- User → EventType → Booking data model
+- Availability calculation algorithm
+- iCal/Google Calendar integration pattern
+- Timezone handling approach
+
+**Seed generates:**
+- Fresh Next.js 14 project
+- Custom-branded booking page
+- Admin dashboard for managing events
+- API for integrations
+- Deployment configs for local/Railway/Fly.io
+
+**Seed does NOT:**
+- Clone Cal.com
+- Copy Cal.com code
+- Require Cal.com license
+- Depend on external repos

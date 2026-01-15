@@ -2,118 +2,144 @@
 
 ## Vision
 
-Seeds enable anyone with Claude Code or Codex to deploy a customized version of any open source project for their specific workflow in minutes, not weeks.
+Seeds are **self-contained generative prompts** that, when run with Claude Code, produce a fully working, deployed application customized for the user's needs.
 
-**The core innovation:** A reverse-seed process that can analyze any GitHub repo and extract a deployment prompt - turning the entire OSS ecosystem into a library of launchable solutions.
+**No network required to build. No external repos to clone. The seed IS the code.**
 
 ## Core Principles
 
-### 1. Workflows, Not Tools
-Instead of "deploy Metabase" → "I need to see which customers are about to churn"
-Instead of "set up Cal.com" → "I need clients to self-schedule without back-and-forth"
+### 1. Self-Contained
+The seed contains everything needed to generate the project. It doesn't link to external repos - it encodes the essential "DNA" of the software that Claude Code unpacks into working files.
 
-### 2. Adapt, Don't Create
-Claude Code excels at customization, not greenfield development. Seeds give it a working codebase to tailor, not a blank slate to fill.
-
-### 3. Leverage, Don't Build
-Millions of OSS projects already exist. We don't build software - we build the bridge to existing software.
-
-## The Two-Way Conversion
-
+### 2. End-to-End
+A seed takes the user from nothing to a running URL:
 ```
-GitHub Repo  ⟷  Seed Prompt
+Seed Prompt → Generate Code → Choose Deployment → Running Software
 ```
 
-**Forward (Deploy):** Seed prompt + user context → Claude Code → Customized deployment
+### 3. Multi-Target Deployment
+Every seed asks: "Where do you want to deploy?"
+- Local (Docker on your machine)
+- Railway
+- Fly.io
+- Render
+- DigitalOcean
+- AWS/GCP
 
-**Reverse (Extract):** GitHub repo → Reverse-seed process → Seed prompt
-
-This bidirectional flow is the key insight. Any repo can become a seed.
-
-## How It Works
-
-### Reverse-Seed Process
-
-```
-1. GitHub OSS Repo
-   │
-   ▼
-2. Analyze repo structure, dependencies, config points
-   │
-   ▼
-3. Extract deployment instructions
-   │
-   ▼
-4. Identify customization hooks
-   │
-   ▼
-5. Generate seed prompt with {{PLACEHOLDERS}}
-   │
-   ▼
-6. Seed ready for users
-```
-
-### User Flow
-
-```
-1. User has a workflow problem
-   │
-   ▼
-2. Search/browse seeds by outcome
-   │
-   ▼
-3. Find: "Launch [OSS Project] for your needs"
-   │
-   ▼
-4. Provide context (profession, specifics, preferences)
-   │
-   ▼
-5. Run seed prompt with Claude Code
-   │
-   ▼
-6. Working customized solution
-```
+### 4. Workflows, Not Tools
+Seeds are organized by outcome:
+- "I need clients to self-schedule" → Scheduling seed
+- "I need to track projects" → Project management seed
+- "I need a client portal" → Portal seed
 
 ## What a Seed Contains
 
-1. **Source reference** - GitHub repo URL, version/commit
-2. **Deployment instructions** - How to get it running
-3. **Customization map** - What can be tailored and how
-4. **Context prompts** - Questions to ask the user
-5. **Tailoring instructions** - How Claude Code should customize
+1. **Project DNA**
+   - Essential code patterns and structure
+   - Key files encoded in the prompt
+   - Database schemas
+   - API structures
+
+2. **Customization Hooks**
+   - {{COMPANY_NAME}}, {{BRAND_COLOR}}, etc.
+   - User answers questions, values get injected
+
+3. **Multi-Target Deployment Configs**
+   - docker-compose.yml (local)
+   - railway.json (Railway)
+   - fly.toml (Fly.io)
+   - Dockerfile (universal)
+
+4. **Deployment Logic**
+   - Prompts user for target
+   - Handles deployment to chosen platform
+   - Returns working URL
+
+## How Seeds Work
+
+### User Flow
+```
+1. User finds seed for their workflow
+   ↓
+2. User runs seed with Claude Code
+   ↓
+3. Seed asks context questions
+   - Company name?
+   - Brand colors?
+   - etc.
+   ↓
+4. Claude Code generates all project files
+   ↓
+5. Seed asks: "Where do you want to deploy?"
+   - Local Docker
+   - Railway
+   - Fly.io
+   - etc.
+   ↓
+6. Claude Code deploys to chosen target
+   ↓
+7. User gets URL to running software
+```
+
+### What Happens Inside
+```
+Seed Prompt (contains project DNA)
+    ↓
+Claude Code "unpacks" the DNA
+    ↓
+Generates: /src, /config, /docker, etc.
+    ↓
+Injects {{PLACEHOLDERS}} with user values
+    ↓
+Generates deployment config for chosen target
+    ↓
+Deploys (local docker-compose up OR railway up OR fly deploy)
+    ↓
+Returns URL
+```
+
+## The Reverse-Seed Process
+
+To create a seed, we analyze an existing OSS project and extract its DNA:
+
+### Input
+- A working open source project (e.g., Cal.com)
+
+### Extraction
+1. **Identify core architecture** - What makes this app work?
+2. **Extract essential patterns** - Key code structures, schemas, APIs
+3. **Map configuration surface** - What can be customized?
+4. **Capture deployment requirements** - What services does it need?
+5. **Encode into generative prompt** - Compress into seed format
+
+### Output
+A self-contained seed that can regenerate a similar app without needing the original repo.
+
+**Important:** The seed doesn't recreate the exact OSS project. It captures the *essence* and *patterns* that let Claude Code generate a similar solution. This avoids licensing issues and creates truly bespoke software.
+
+## Seed vs. Original Repo
+
+| Aspect | Original Repo | Seed Output |
+|--------|---------------|-------------|
+| Source | Clone from GitHub | Generated from DNA |
+| Dependencies | Exact versions | Fresh, current |
+| Customization | Fork and modify | Built-in from start |
+| Deployment | Figure it out | Choose target, done |
+| Network | Required | Only for deployment |
+| Licensing | Bound to original | Fresh code |
 
 ## Target Audience
 
-Anyone capable of running Claude Code or Codex. The seed removes:
-- "What should I build?" → We match workflows to proven OSS
-- "How do I describe it?" → We provide the prompt
-- "Will this work?" → The OSS is already battle-tested
-
-## Scaling Strategy
-
-### Old Approach (Manual)
-Write prompts for 1000 workflows = years of work
-
-### New Approach (Reverse-Seed)
-1. Map 50 professions × 20 workflows = 1000 workflow targets
-2. Find best OSS repo for each workflow
-3. Run reverse-seed process on each repo
-4. 1000 seeds in weeks, not years
-
-## Product Vision
-
-**"Launch [Open Source Project] for Your Needs"**
-
-A searchable catalog where users:
-1. Describe their workflow/outcome
-2. See matching OSS options
-3. Click to get a customized deployment prompt
-4. Run with Claude Code
-5. Have a working solution
+Anyone with Claude Code or Codex who wants working software for their workflow without:
+- Learning to code
+- Understanding deployment
+- Managing infrastructure
+- Reading documentation
 
 ## Success Metrics
 
-- 1000+ seeds published
-- 50+ professions covered
-- 2000+ workflows mapped
-- Reverse-seed process works on 90%+ of target repos
+- Seeds published: 1000+
+- Professions covered: 50+
+- Deployment targets supported: 5+
+- Time from seed to running URL: < 30 minutes
+- Success rate (seed → working deployment): > 90%
