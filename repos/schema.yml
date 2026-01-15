@@ -1,0 +1,51 @@
+# Repo profile schema for reverse-seeding.
+
+# Unique repo id (kebab-case).
+id: calcom
+# Human-friendly repo name.
+name: Cal.com
+# GitHub URL for the repo.
+github_url: https://github.com/calcom/cal.com
+# One-line description of the product.
+description: "Scheduling platform with team booking and routing."
+# Primary category or domain.
+category: scheduling
+# License identifier (SPDX preferred).
+license: MIT
+# Optional homepage or docs URL.
+homepage: https://cal.com
+# Date this repo profile was last reviewed (YYYY-MM-DD).
+last_reviewed: "2025-01-01"
+# Workflows this repo can support.
+workflows:
+  - client-scheduling
+# Deployment information.
+deployment:
+  # Supported deployment methods.
+  methods:
+    - docker
+    - local
+  # Link to setup or deployment docs.
+  docs_url: https://github.com/calcom/cal.com#readme
+# Configuration surface summary.
+configuration:
+  # Config surfaces available (env | config-files | settings-ui).
+  surfaces:
+    - env
+    - config-files
+  # Example env file path or name.
+  env_example: .env.example
+# Reverse-seedable criteria checklist.
+reverse_seedable:
+  # Clear deployment method documented.
+  clear_deployment: true
+  # Configuration surface available.
+  config_surface: true
+  # Documentation exists.
+  documentation: true
+  # Active maintenance (recent commits).
+  active_maintenance: true
+  # Permissive license (MIT/Apache/BSD).
+  permissive_license: true
+# Free-form notes for reviewers.
+notes: ""

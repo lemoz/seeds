@@ -1,9 +1,11 @@
 ---
 id: WO-001
 title: Project Foundations & Seed Format
-status: ready
+status: you_review
 priority: 1
-tags: [foundations, format]
+tags:
+  - foundations
+  - format
 created_at: 2025-01-15
 goal: |
   Create the canonical seed file format, templates, and schemas that will be used
@@ -19,8 +21,8 @@ acceptance_criteria:
 stop_conditions:
   - If unclear on what fields a schema should have, escalate with proposed options
   - If example seed requires a real repo, use Cal.com (calcom/cal.com) as reference
+updated_at: 2026-01-15
 ---
-
 # WO-001: Project Foundations & Seed Format
 
 ## Objective
