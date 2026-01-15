@@ -1,6 +1,6 @@
 id: seeds
 name: Seeds
-description: Workflow-outcome prompts that deploy and tailor OSS for specific professions
+description: Reverse-seed GitHub repos into launchable prompts for any workflow
 type: long_term
 stage: foundations
 status: active
@@ -8,9 +8,9 @@ priority: 1
 starred: true
 
 success_criteria: |
+  Reverse-seed process that reliably extracts deployment prompts from GitHub repos.
   Library of 1000+ seeds covering top workflows across professions.
-  Each seed enables someone with Claude Code to deploy a tailored solution in hours.
-  Searchable catalog with profession/workflow filtering.
+  Searchable catalog: "Launch [OSS] for your needs" by workflow/outcome.
 
 success_metrics:
   - name: Seeds published
@@ -22,9 +22,13 @@ success_metrics:
   - name: Workflows mapped
     target: 2000
     current: 0
+  - name: Repos reverse-seeded
+    target: 500
+    current: 0
 
 tags:
   - meta
   - automation
   - oss
   - prompts
+  - github

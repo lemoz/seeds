@@ -1,6 +1,12 @@
-# Workflow Scoring Rubric
+# Scoring Rubrics
 
-Score each workflow 1-5 on six criteria. Threshold for seed development: 20+ out of 30.
+Two rubrics: one for evaluating **workflows** (what to build seeds for) and one for evaluating **repos** (what to reverse-seed).
+
+---
+
+# Part 1: Workflow Scoring Rubric
+
+Score each workflow 1-5 on six criteria. Threshold for seed development: **20+ out of 30**.
 
 ## Criteria
 
@@ -70,7 +76,7 @@ Can this be solved in hours with Claude Code?
 | 4 | Half day, straightforward |
 | 5 | Few hours, well-defined scope |
 
-## Scoring Template
+## Workflow Scoring Template
 
 ```yaml
 profession:
@@ -87,4 +93,133 @@ scores:
   skill_match:
 total:
 qualifies: # true if >= 20
+```
+
+---
+
+# Part 2: Repo Scoring Rubric
+
+Score each GitHub repo 1-5 on ten criteria. Threshold for reverse-seeding: **35+ out of 50**.
+
+## Quality Signals (1-5 each)
+
+### 1. Stars / Popularity
+| Score | Description |
+|-------|-------------|
+| 1 | <50 stars |
+| 2 | 50-100 stars |
+| 3 | 100-500 stars |
+| 4 | 500-1000 stars |
+| 5 | >1000 stars |
+
+### 2. Maintenance Activity
+| Score | Description |
+|-------|-------------|
+| 1 | No commits in 6+ months |
+| 2 | Commits in last 6 months |
+| 3 | Commits in last 3 months |
+| 4 | Commits in last month |
+| 5 | Active weekly commits |
+
+### 3. Documentation Quality
+| Score | Description |
+|-------|-------------|
+| 1 | Minimal/no README |
+| 2 | Basic README only |
+| 3 | README + some docs |
+| 4 | Good docs, setup guides |
+| 5 | Excellent docs, tutorials, API reference |
+
+### 4. Community Health
+| Score | Description |
+|-------|-------------|
+| 1 | No community activity |
+| 2 | Some issues, rarely addressed |
+| 3 | Active issues, slow response |
+| 4 | Responsive maintainers |
+| 5 | Thriving community (Discord, forum, etc.) |
+
+### 5. License
+| Score | Description |
+|-------|-------------|
+| 1 | Proprietary or no license |
+| 2 | Restrictive license |
+| 3 | GPL (copyleft) |
+| 4 | LGPL, MPL |
+| 5 | MIT, Apache, BSD (permissive) |
+
+## Reverse-Seed-Ability (1-5 each)
+
+### 6. Deployment Clarity
+| Score | Description |
+|-------|-------------|
+| 1 | Complex, undocumented setup |
+| 2 | Manual multi-step process |
+| 3 | Documented but complex |
+| 4 | Docker or simple setup |
+| 5 | One-command deployment |
+
+### 7. Configuration Surface
+| Score | Description |
+|-------|-------------|
+| 1 | Hard-coded, no config |
+| 2 | Minimal config options |
+| 3 | Config files exist |
+| 4 | Env vars + config files |
+| 5 | Rich config + settings UI |
+
+### 8. Customization Depth
+| Score | Description |
+|-------|-------------|
+| 1 | No customization possible |
+| 2 | Basic theming only |
+| 3 | Some extensibility |
+| 4 | Plugins or themes system |
+| 5 | Fully extensible (API, plugins, themes) |
+
+### 9. Dependency Simplicity
+| Score | Description |
+|-------|-------------|
+| 1 | 5+ external services required |
+| 2 | 3-4 external services |
+| 3 | 1-2 external services |
+| 4 | Optional external services |
+| 5 | Self-contained, no dependencies |
+
+### 10. AI Parseability
+| Score | Description |
+|-------|-------------|
+| 1 | AI cannot understand structure |
+| 2 | Poorly organized, hard to parse |
+| 3 | Standard structure, some gaps |
+| 4 | Clean structure, good patterns |
+| 5 | Excellent structure, AI-friendly |
+
+## Repo Scoring Template
+
+```yaml
+repo:
+github_url:
+category:
+
+quality:
+  stars:
+  maintenance:
+  documentation:
+  community:
+  license:
+  subtotal:
+
+reverse_seedability:
+  deployment:
+  config_surface:
+  customization:
+  dependencies:
+  ai_parseability:
+  subtotal:
+
+total:
+qualifies: # true if >= 35
+
+notes:
 ```
