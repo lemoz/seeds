@@ -1,0 +1,30 @@
+id: seeds
+name: Seeds
+description: Workflow-outcome prompts that deploy and tailor OSS for specific professions
+type: long_term
+stage: foundations
+status: active
+priority: 1
+starred: true
+
+success_criteria: |
+  Library of 1000+ seeds covering top workflows across professions.
+  Each seed enables someone with Claude Code to deploy a tailored solution in hours.
+  Searchable catalog with profession/workflow filtering.
+
+success_metrics:
+  - name: Seeds published
+    target: 1000
+    current: 0
+  - name: Professions covered
+    target: 50
+    current: 0
+  - name: Workflows mapped
+    target: 2000
+    current: 0
+
+tags:
+  - meta
+  - automation
+  - oss
+  - prompts
