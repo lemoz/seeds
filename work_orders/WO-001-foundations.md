@@ -5,6 +5,20 @@ status: ready
 priority: 1
 tags: [foundations, format]
 created_at: 2025-01-15
+goal: |
+  Create the canonical seed file format, templates, and schemas that will be used
+  for all seeds in the project. This includes the seed markdown template,
+  profession YAML schema, workflow YAML schema, and repo profile YAML schema.
+acceptance_criteria:
+  - seeds/templates/seed-template.md exists with complete structure
+  - professions/schema.yml defines profession YAML format
+  - professions/workflows-schema.yml defines workflow YAML format
+  - repos/schema.yml defines repo profile YAML format
+  - One example seed exists at seeds/examples/example-seed.md
+  - All schemas are valid YAML with comments explaining each field
+stop_conditions:
+  - If unclear on what fields a schema should have, escalate with proposed options
+  - If example seed requires a real repo, use Cal.com (calcom/cal.com) as reference
 ---
 
 # WO-001: Project Foundations & Seed Format
@@ -16,21 +30,20 @@ Establish the foundational structure, define the canonical seed format, and spec
 
 ### Seed Format
 - [ ] Define seed file format (markdown structure, frontmatter schema)
-- [ ] Create seed template file
+- [ ] Create seed template file at seeds/templates/seed-template.md
 - [ ] Include source repo reference structure (GitHub URL, version, commit)
 - [ ] Define customization hooks syntax ({{PLACEHOLDERS}})
 - [ ] Create example seed as reference implementation
 
-### Reverse-Seed Requirements
-- [ ] Define what makes a repo "reverse-seedable"
-- [ ] Document minimum repo requirements (README, docs, config)
-- [ ] Create repo profile YAML schema
-- [ ] Define extraction metadata format
+### Schemas
+- [ ] Create professions/schema.yml - profession definition format
+- [ ] Create professions/workflows-schema.yml - workflow definition format
+- [ ] Create repos/schema.yml - repo profile format for reverse-seeding
 
-### Supporting Schemas
-- [ ] Define profession YAML schema
-- [ ] Define workflow YAML schema
-- [ ] Set up directory structure conventions
+### Directory Structure
+- [ ] Create seeds/templates/ directory
+- [ ] Create seeds/examples/ directory
+- [ ] Document directory conventions in README or docs
 
 ## Seed Format Spec (Draft)
 
@@ -85,11 +98,3 @@ A repo is reverse-seedable if it has:
 3. **Documentation** - README explains what it does
 4. **Active maintenance** - Recent commits, responsive issues
 5. **Permissive license** - MIT, Apache, etc.
-
-## Acceptance Criteria
-
-- Seed template is documented and usable
-- One complete example seed exists (from a real repo)
-- Reverse-seedable criteria documented
-- All schemas defined
-- Directory conventions documented
