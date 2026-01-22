@@ -1,7 +1,7 @@
 ---
 id: WO-006
 title: GitHub OSS Discovery
-status: you_review
+status: done
 priority: 1
 tags:
   - github
