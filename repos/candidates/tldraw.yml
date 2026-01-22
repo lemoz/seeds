@@ -1,0 +1,25 @@
+id: tldraw
+name: tldraw
+github_url: https://github.com/tldraw/tldraw
+category: client-feedback-approvals
+description: "Canvas-based diagramming tool suited for collaborative markups."
+license: MIT
+workflows:
+  - client-feedback-approvals
+quality:
+  stars: 5
+  maintenance: 4
+  documentation: 4
+  community: 4
+  license: 5
+  subtotal: 22
+reverse_seedability:
+  deployment: 4
+  config_surface: 3
+  customization: 3
+  dependencies: 4
+  ai_parseability: 4
+  subtotal: 18
+total: 40
+qualifies: true
+notes: "Flexible canvas and permissive license offer a solid base for feedback workflows."

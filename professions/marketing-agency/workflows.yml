@@ -1,0 +1,112 @@
+workflows:
+  - id: client-feedback-approvals
+    name: Client Feedback & Approvals
+    summary: "Collect structured feedback and approvals on creative deliverables."
+    outcome: "Clients review deliverables in one place and approve changes quickly."
+    pain_points:
+      - "Feedback gets lost across email threads."
+      - "Version confusion slows approvals."
+    frequency: weekly
+    tags:
+      - client
+      - feedback
+      - approvals
+      - review
+    status: draft
+    related_professions:
+      - marketing-agency
+    workflow_score: 27
+    repo_selection:
+      winner: excalidraw
+      rationale: "Highest score with real-time collaboration and a permissive license suited for visual reviews."
+      candidates:
+        - excalidraw
+        - tldraw
+  - id: project-task-tracking
+    name: Project & Task Tracking
+    summary: "Track projects, tasks, and deadlines across the agency."
+    outcome: "Teams manage work with clear ownership and delivery timelines."
+    pain_points:
+      - "Task ownership is unclear across teams."
+      - "Deadlines slip without shared visibility."
+    frequency: daily
+    tags:
+      - project-management
+      - kanban
+      - planning
+    status: draft
+    related_professions:
+      - marketing-agency
+    workflow_score: 26
+    repo_selection:
+      winner: focalboard
+      rationale: "Permissive license and simpler setup edge out Wekan's slower maintenance cadence."
+      candidates:
+        - focalboard
+        - wekan
+  - id: client-dashboard-portal
+    name: Client Dashboard & Portal
+    summary: "Client-facing portal for status, deliverables, and updates."
+    outcome: "Clients self-serve project status without constant check-ins."
+    pain_points:
+      - "Status updates require manual emails."
+      - "Clients lack a single source of truth."
+    frequency: weekly
+    tags:
+      - client
+      - portal
+      - dashboard
+    status: draft
+    related_professions:
+      - marketing-agency
+    workflow_score: 26
+    repo_selection:
+      winner: appsmith
+      rationale: "Low-code portal builder with ready UI and connectors; Streamlit requires more build effort."
+      candidates:
+        - appsmith
+        - streamlit
+  - id: knowledge-base
+    name: Knowledge Base
+    summary: "Internal wiki for SOPs, processes, and documentation."
+    outcome: "Teams find and maintain SOPs without hunting across tools."
+    pain_points:
+      - "Docs are scattered across tools and folders."
+      - "Onboarding takes too long due to missing SOPs."
+    frequency: weekly
+    tags:
+      - wiki
+      - documentation
+      - sop
+    status: draft
+    related_professions:
+      - marketing-agency
+    workflow_score: 25
+    repo_selection:
+      winner: bookstack
+      rationale: "Structured wiki UI and permissions outperform the lighter-weight TiddlyWiki setup."
+      candidates:
+        - bookstack
+        - tiddlywiki
+  - id: performance-reporting
+    name: Performance Reporting
+    summary: "Dashboards for marketing metrics and KPIs."
+    outcome: "Stakeholders track campaign performance in a single dashboard."
+    pain_points:
+      - "Reporting is manual and time-consuming."
+      - "Metrics live across multiple tools."
+    frequency: weekly
+    tags:
+      - analytics
+      - reporting
+      - dashboard
+    status: draft
+    related_professions:
+      - marketing-agency
+    workflow_score: 25
+    repo_selection:
+      winner: evidence
+      rationale: "Lighter deployment and code-driven dashboards make it easier to reverse-seed than Superset."
+      candidates:
+        - evidence
+        - superset

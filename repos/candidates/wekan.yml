@@ -1,0 +1,25 @@
+id: wekan
+name: Wekan
+github_url: https://github.com/wekan/wekan
+category: project-task-tracking
+description: "Trello-style kanban boards for projects and task tracking."
+license: MIT
+workflows:
+  - project-task-tracking
+quality:
+  stars: 5
+  maintenance: 2
+  documentation: 3
+  community: 4
+  license: 5
+  subtotal: 19
+reverse_seedability:
+  deployment: 4
+  config_surface: 3
+  customization: 3
+  dependencies: 3
+  ai_parseability: 4
+  subtotal: 17
+total: 36
+qualifies: true
+notes: "Feature-complete kanban with permissive license; maintenance cadence appears slower."

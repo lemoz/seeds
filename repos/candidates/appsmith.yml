@@ -1,0 +1,25 @@
+id: appsmith
+name: Appsmith
+github_url: https://github.com/appsmithorg/appsmith
+category: client-dashboard-portal
+description: "Low-code platform for building internal tools and client dashboards."
+license: Apache-2.0
+workflows:
+  - client-dashboard-portal
+quality:
+  stars: 5
+  maintenance: 4
+  documentation: 4
+  community: 4
+  license: 5
+  subtotal: 22
+reverse_seedability:
+  deployment: 4
+  config_surface: 4
+  customization: 4
+  dependencies: 3
+  ai_parseability: 4
+  subtotal: 19
+total: 41
+qualifies: true
+notes: "Strong docs and permissive license make it a robust base for client-facing portals."

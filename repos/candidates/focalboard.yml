@@ -1,0 +1,25 @@
+id: focalboard
+name: Focalboard
+github_url: https://github.com/mattermost/focalboard
+category: project-task-tracking
+description: "Trello-style project and task tracking with boards and cards."
+license: MIT
+workflows:
+  - project-task-tracking
+quality:
+  stars: 5
+  maintenance: 3
+  documentation: 3
+  community: 3
+  license: 5
+  subtotal: 19
+reverse_seedability:
+  deployment: 4
+  config_surface: 3
+  customization: 3
+  dependencies: 4
+  ai_parseability: 4
+  subtotal: 18
+total: 37
+qualifies: true
+notes: "Simpler stack and permissive license; feature depth and momentum appear lower than newer entrants."

@@ -1,0 +1,25 @@
+id: tiddlywiki
+name: TiddlyWiki
+github_url: https://github.com/TiddlyWiki/TiddlyWiki5
+category: knowledge-base
+description: "Single-file wiki with rich customization and offline-friendly workflows."
+license: BSD-3-Clause
+workflows:
+  - knowledge-base
+quality:
+  stars: 5
+  maintenance: 3
+  documentation: 4
+  community: 2
+  license: 5
+  subtotal: 19
+reverse_seedability:
+  deployment: 4
+  config_surface: 3
+  customization: 4
+  dependencies: 5
+  ai_parseability: 3
+  subtotal: 19
+total: 38
+qualifies: true
+notes: "Lightweight footprint and plugin ecosystem; smaller community than full-stack wikis."

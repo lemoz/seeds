@@ -1,0 +1,25 @@
+id: evidence
+name: Evidence
+github_url: https://github.com/evidence-dev/evidence
+category: performance-reporting
+description: "Code-based BI and reporting framework built on markdown and SQL."
+license: MIT
+workflows:
+  - performance-reporting
+quality:
+  stars: 5
+  maintenance: 4
+  documentation: 3
+  community: 3
+  license: 5
+  subtotal: 20
+reverse_seedability:
+  deployment: 4
+  config_surface: 4
+  customization: 3
+  dependencies: 3
+  ai_parseability: 5
+  subtotal: 19
+total: 39
+qualifies: true
+notes: "Developer-friendly workflow; smaller community and docs depth reduce score."

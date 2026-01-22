@@ -1,0 +1,25 @@
+id: superset
+name: Apache Superset
+github_url: https://github.com/apache/superset
+category: performance-reporting
+description: "Enterprise-grade BI platform with dashboards and charting."
+license: Apache-2.0
+workflows:
+  - performance-reporting
+quality:
+  stars: 5
+  maintenance: 4
+  documentation: 4
+  community: 5
+  license: 5
+  subtotal: 23
+reverse_seedability:
+  deployment: 2
+  config_surface: 4
+  customization: 5
+  dependencies: 2
+  ai_parseability: 2
+  subtotal: 15
+total: 38
+qualifies: true
+notes: "Powerful but heavy stack; deployment complexity lowers reverse-seedability."

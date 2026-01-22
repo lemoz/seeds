@@ -1,0 +1,25 @@
+id: bookstack
+name: BookStack
+github_url: https://github.com/BookStackApp/BookStack
+category: knowledge-base
+description: "Simple, structured wiki for documentation and SOPs."
+license: MIT
+workflows:
+  - knowledge-base
+quality:
+  stars: 5
+  maintenance: 4
+  documentation: 4
+  community: 4
+  license: 5
+  subtotal: 22
+reverse_seedability:
+  deployment: 4
+  config_surface: 3
+  customization: 3
+  dependencies: 3
+  ai_parseability: 4
+  subtotal: 17
+total: 39
+qualifies: true
+notes: "Permissive license and predictable structure make it a strong reverse-seed target."

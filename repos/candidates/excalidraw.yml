@@ -1,0 +1,25 @@
+id: excalidraw
+name: Excalidraw
+github_url: https://github.com/excalidraw/excalidraw
+category: client-feedback-approvals
+description: "Collaborative whiteboard for visual feedback and review."
+license: MIT
+workflows:
+  - client-feedback-approvals
+quality:
+  stars: 5
+  maintenance: 5
+  documentation: 4
+  community: 5
+  license: 5
+  subtotal: 24
+reverse_seedability:
+  deployment: 4
+  config_surface: 3
+  customization: 3
+  dependencies: 4
+  ai_parseability: 4
+  subtotal: 18
+total: 42
+qualifies: true
+notes: "Strong community and real-time collaboration make it adaptable for creative reviews."

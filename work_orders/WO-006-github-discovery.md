@@ -1,9 +1,12 @@
 ---
 id: WO-006
 title: GitHub OSS Discovery
-status: ready
+status: you_review
 priority: 1
-tags: [github, discovery, research]
+tags:
+  - github
+  - discovery
+  - research
 created_at: 2025-01-15
 goal: |
   Research and identify the best GitHub repos for the 5 pilot Marketing/Creative
@@ -19,8 +22,8 @@ stop_conditions:
   - If no good OSS exists for a workflow, escalate with alternatives
   - If multiple repos score equally, escalate for human decision
   - If repo requires paid services to function, skip it
+updated_at: 2026-01-22
 ---
-
 # WO-006: GitHub OSS Discovery
 
 ## Objective
