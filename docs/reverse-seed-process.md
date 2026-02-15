@@ -215,3 +215,52 @@ Before publishing a seed:
 - Copy Cal.com code
 - Require Cal.com license
 - Depend on external repos
+
+## DNA Boundary (What To Extract vs Leave Behind)
+
+Use this quick boundary test while reverse-seeding:
+
+- Keep if it defines outcomes:
+  - Entity relationships and invariants
+  - API shape and workflow ordering
+  - Core algorithms (for example, availability minus bookings)
+  - Deployment/runtime requirements
+- Drop if it is implementation residue:
+  - Vendor-specific wrappers
+  - UI styling/component internals
+  - Legacy migrations and backward-compatibility branches
+  - Repo-specific scripts that do not affect generated behavior
+
+## Extraction Checklist (WO-005 Baseline)
+
+Use this checklist before writing any seed:
+
+- [ ] Confirm workflow outcome in one sentence (what the user gets)
+- [ ] Identify 3-5 core entities and required relationships
+- [ ] Map the minimum API endpoints needed for end-to-end flow
+- [ ] Isolate one core algorithm and define input/output contract
+- [ ] Define exactly 4-6 user customization questions
+- [ ] Define local + Railway + Fly deployment requirements
+- [ ] Define generation constraints (no network during generation)
+- [ ] Add failure behavior for deployment targets
+- [ ] Run one smoke generation test and capture metrics
+- [ ] Publish lessons learned and known limitations
+
+## Lessons Learned From First Extraction (WO-005, 2026-02-15)
+
+1. A seed needs a strict generation contract, not only architecture notes.
+   - The most reliable format is: ask questions, generate fixed file tree, enforce quality gate, then deploy.
+2. Availability logic must be described as an explicit conflict predicate.
+   - Portable rule: `candidateStart < bookingEnd && bookingStart < candidateEnd`.
+3. Calendar integration must be adapter-first.
+   - Google/Outlook payload adapters plus ICS fallback are generalizable and avoid vendor lock-in.
+4. Deployment logic must include branching behavior, not only config files.
+   - Seeds should tell the agent what command path to run for each target.
+5. Keep seeds compact and operational.
+   - For WO-005, the seed stays below the 500-line stop condition by embedding only critical schema/contracts and using concise file constraints.
+6. Repository availability is a practical limitation to document.
+   - In this workspace, `repos/cal.com` was not present, so extraction used already-documented scheduling patterns rather than fresh source traversal.
+
+## WO-005 Test Evidence
+
+- Detailed run log: `docs/test-reports/WO-005-reverse-seed-test-report.md`
