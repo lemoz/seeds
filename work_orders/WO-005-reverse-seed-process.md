@@ -1,9 +1,12 @@
 ---
 id: WO-005
 title: Reverse-Seed Process
-status: ready
+status: you_review
 priority: 1
-tags: [core, reverse-seed, process]
+tags:
+  - core
+  - reverse-seed
+  - process
 created_at: 2025-01-15
 goal: |
   Create the reverse-seed extraction process that analyzes OSS projects and
@@ -21,8 +24,8 @@ stop_conditions:
   - If unclear what "DNA" to extract vs copy, escalate with examples
   - If generated seed is too large (>500 lines), escalate to discuss compression
   - If certain patterns can't be generalized, document as limitation
+updated_at: 2026-02-15
 ---
-
 # WO-005: Reverse-Seed Process
 
 ## Objective
