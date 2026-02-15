@@ -1,0 +1,135 @@
+id: hotel-manager
+name: "Hotel Manager"
+sector: "Food & Hospitality"
+summary: "Oversees lodging operations, staff schedules, occupancy, and guest experience metrics."
+status: draft
+workflow_count_estimate: 8
+workflows:
+  - name: "Room inventory and overbooking controls"
+    description: "Standardize room inventory and overbooking controls for Hotel Manager operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Hotel Manager teams rely on ad-hoc handoffs for room inventory and overbooking controls, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Housekeeping room-turn assignment queue"
+    description: "Standardize housekeeping room-turn assignment queue for Hotel Manager operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Hotel Manager teams rely on ad-hoc handoffs for housekeeping room-turn assignment queue, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 2
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 5
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Group block reservation management"
+    description: "Standardize group block reservation management for Hotel Manager operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Hotel Manager teams rely on ad-hoc handoffs for group block reservation management, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Maintenance ticket escalation from guests"
+    description: "Standardize maintenance ticket escalation from guests for Hotel Manager operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Hotel Manager teams rely on ad-hoc handoffs for maintenance ticket escalation from guests, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Rate plan update and channel sync"
+    description: "Standardize rate plan update and channel sync for Hotel Manager operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Hotel Manager teams rely on ad-hoc handoffs for rate plan update and channel sync, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Night audit reconciliation workflow"
+    description: "Standardize night audit reconciliation workflow for Hotel Manager operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Hotel Manager teams rely on ad-hoc handoffs for night audit reconciliation workflow, causing delays, rework, and missed follow-through."
+    frequency: monthly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 3
+      frequency: 3
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 22
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Guest complaint service recovery tracking"
+    description: "Standardize guest complaint service recovery tracking for Hotel Manager operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Hotel Manager teams rely on ad-hoc handoffs for guest complaint service recovery tracking, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Staff shift scheduling across departments"
+    description: "Standardize staff shift scheduling across departments for Hotel Manager operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Hotel Manager teams rely on ad-hoc handoffs for staff shift scheduling across departments, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 2
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 5
+      total: 26
+      qualifies_for_seed: true
+    priority_seed: false

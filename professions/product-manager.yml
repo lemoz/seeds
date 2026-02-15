@@ -1,0 +1,135 @@
+id: product-manager
+name: "Product Manager"
+sector: "Tech"
+summary: "Prioritizes roadmap execution, customer feedback loops, and release communications."
+status: draft
+workflow_count_estimate: 8
+workflows:
+  - name: "Customer feedback triage to roadmap decisions"
+    description: "Standardize customer feedback triage to roadmap decisions for Product Manager operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Product Manager teams rely on ad-hoc handoffs for customer feedback triage to roadmap decisions, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 5
+    rubric_scores:
+      pain_severity: 5
+      frequency: 5
+      oss_availability: 5
+      ai_tailorability: 5
+      standalone_value: 5
+      skill_match: 5
+      total: 30
+      qualifies_for_seed: true
+    priority_seed: true
+  - name: "PRD drafting and stakeholder sign-off"
+    description: "Standardize prd drafting and stakeholder sign-off for Product Manager operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Product Manager teams rely on ad-hoc handoffs for prd drafting and stakeholder sign-off, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Sprint goal alignment with engineering leads"
+    description: "Standardize sprint goal alignment with engineering leads for Product Manager operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Product Manager teams rely on ad-hoc handoffs for sprint goal alignment with engineering leads, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Feature flag rollout checklist management"
+    description: "Standardize feature flag rollout checklist management for Product Manager operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Product Manager teams rely on ad-hoc handoffs for feature flag rollout checklist management, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 2
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 5
+      total: 26
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Beta program participant feedback loop"
+    description: "Standardize beta program participant feedback loop for Product Manager operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Product Manager teams rely on ad-hoc handoffs for beta program participant feedback loop, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "KPI dashboard review and action tracking"
+    description: "Standardize kpi dashboard review and action tracking for Product Manager operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Product Manager teams rely on ad-hoc handoffs for kpi dashboard review and action tracking, causing delays, rework, and missed follow-through."
+    frequency: monthly
+    complexity_score: 2
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 3
+      frequency: 3
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 5
+      total: 23
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Release notes and internal enablement workflow"
+    description: "Standardize release notes and internal enablement workflow for Product Manager operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Product Manager teams rely on ad-hoc handoffs for release notes and internal enablement workflow, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 2
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 5
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Experiment backlog prioritization and results logging"
+    description: "Standardize experiment backlog prioritization and results logging for Product Manager operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Product Manager teams rely on ad-hoc handoffs for experiment backlog prioritization and results logging, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false

@@ -1,0 +1,135 @@
+id: clinic-administrator
+name: "Clinic Administrator"
+sector: "Health & Wellness"
+summary: "Coordinates outpatient clinic operations, staffing, billing, and regulatory workflows."
+status: draft
+workflow_count_estimate: 8
+workflows:
+  - name: "Provider calendar template maintenance"
+    description: "Standardize provider calendar template maintenance for Clinic Administrator operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Clinic Administrator teams rely on ad-hoc handoffs for provider calendar template maintenance, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 2
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 5
+      total: 26
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Prior authorization request tracking"
+    description: "Standardize prior authorization request tracking for Clinic Administrator operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Clinic Administrator teams rely on ad-hoc handoffs for prior authorization request tracking, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 4
+    seedability_score: 3
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 3
+      total: 23
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Referral intake and specialist routing"
+    description: "Standardize referral intake and specialist routing for Clinic Administrator operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Clinic Administrator teams rely on ad-hoc handoffs for referral intake and specialist routing, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Claim denial workqueue resolution"
+    description: "Standardize claim denial workqueue resolution for Clinic Administrator operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Clinic Administrator teams rely on ad-hoc handoffs for claim denial workqueue resolution, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 4
+    seedability_score: 3
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 3
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "No-show recovery outreach"
+    description: "Standardize no-show recovery outreach for Clinic Administrator operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Clinic Administrator teams rely on ad-hoc handoffs for no-show recovery outreach, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Medical records request fulfillment"
+    description: "Standardize medical records request fulfillment for Clinic Administrator operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Clinic Administrator teams rely on ad-hoc handoffs for medical records request fulfillment, causing delays, rework, and missed follow-through."
+    frequency: monthly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 3
+      frequency: 3
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 22
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Staff credential expiration monitoring"
+    description: "Standardize staff credential expiration monitoring for Clinic Administrator operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Clinic Administrator teams rely on ad-hoc handoffs for staff credential expiration monitoring, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Daily clinic throughput dashboard refresh"
+    description: "Standardize daily clinic throughput dashboard refresh for Clinic Administrator operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Clinic Administrator teams rely on ad-hoc handoffs for daily clinic throughput dashboard refresh, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 2
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 5
+      total: 26
+      qualifies_for_seed: true
+    priority_seed: false

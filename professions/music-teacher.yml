@@ -1,0 +1,135 @@
+id: music-teacher
+name: "Music Teacher"
+sector: "Education"
+summary: "Runs private or group music instruction, lesson planning, and recital readiness tracking."
+status: draft
+workflow_count_estimate: 8
+workflows:
+  - name: "Lesson scheduling and recurring slot management"
+    description: "Standardize lesson scheduling and recurring slot management for Music Teacher operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Music Teacher teams rely on ad-hoc handoffs for lesson scheduling and recurring slot management, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 2
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 5
+      total: 26
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Practice assignment tracking per student"
+    description: "Standardize practice assignment tracking per student for Music Teacher operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Music Teacher teams rely on ad-hoc handoffs for practice assignment tracking per student, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Recital repertoire planning workflow"
+    description: "Standardize recital repertoire planning workflow for Music Teacher operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Music Teacher teams rely on ad-hoc handoffs for recital repertoire planning workflow, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Tuition billing and late payment reminders"
+    description: "Standardize tuition billing and late payment reminders for Music Teacher operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Music Teacher teams rely on ad-hoc handoffs for tuition billing and late payment reminders, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 2
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 5
+      total: 26
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Student progress note capture after lessons"
+    description: "Standardize student progress note capture after lessons for Music Teacher operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Music Teacher teams rely on ad-hoc handoffs for student progress note capture after lessons, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Parent communication and feedback logs"
+    description: "Standardize parent communication and feedback logs for Music Teacher operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Music Teacher teams rely on ad-hoc handoffs for parent communication and feedback logs, causing delays, rework, and missed follow-through."
+    frequency: monthly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 3
+      frequency: 3
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 22
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Sheet music library and licensing management"
+    description: "Standardize sheet music library and licensing management for Music Teacher operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Music Teacher teams rely on ad-hoc handoffs for sheet music library and licensing management, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Makeup lesson request queue"
+    description: "Standardize makeup lesson request queue for Music Teacher operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Music Teacher teams rely on ad-hoc handoffs for makeup lesson request queue, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 2
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 5
+      total: 26
+      qualifies_for_seed: true
+    priority_seed: false

@@ -1,12 +1,14 @@
 ---
 id: WO-002
 title: Profession Mapping Framework
-status: ready
+status: you_review
 priority: 1
-tags: [professions, mapping]
+tags:
+  - professions
+  - mapping
 created_at: 2025-01-15
+updated_at: 2026-02-15
 ---
-
 # WO-002: Profession Mapping Framework
 
 ## Objective

@@ -1,0 +1,135 @@
+id: dentist
+name: "Dentist"
+sector: "Health & Wellness"
+summary: "Provides dental care, treatment planning, recalls, and patient documentation."
+status: draft
+workflow_count_estimate: 8
+workflows:
+  - name: "Chair scheduling and recall automation"
+    description: "Standardize chair scheduling and recall automation for Dentist operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Dentist teams rely on ad-hoc handoffs for chair scheduling and recall automation, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 5
+    rubric_scores:
+      pain_severity: 5
+      frequency: 5
+      oss_availability: 5
+      ai_tailorability: 5
+      standalone_value: 5
+      skill_match: 5
+      total: 30
+      qualifies_for_seed: true
+    priority_seed: true
+  - name: "Treatment plan estimate presentation"
+    description: "Standardize treatment plan estimate presentation for Dentist operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Dentist teams rely on ad-hoc handoffs for treatment plan estimate presentation, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Insurance eligibility and benefits verification"
+    description: "Standardize insurance eligibility and benefits verification for Dentist operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Dentist teams rely on ad-hoc handoffs for insurance eligibility and benefits verification, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 4
+    seedability_score: 3
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 3
+      total: 23
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Clinical note completion after procedures"
+    description: "Standardize clinical note completion after procedures for Dentist operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Dentist teams rely on ad-hoc handoffs for clinical note completion after procedures, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Digital x-ray and chart attachment audits"
+    description: "Standardize digital x-ray and chart attachment audits for Dentist operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Dentist teams rely on ad-hoc handoffs for digital x-ray and chart attachment audits, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Lab case status tracking for crowns"
+    description: "Standardize lab case status tracking for crowns for Dentist operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Dentist teams rely on ad-hoc handoffs for lab case status tracking for crowns, causing delays, rework, and missed follow-through."
+    frequency: monthly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 3
+      frequency: 3
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 22
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Unscheduled treatment follow-up outreach"
+    description: "Standardize unscheduled treatment follow-up outreach for Dentist operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Dentist teams rely on ad-hoc handoffs for unscheduled treatment follow-up outreach, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Sterilization log and compliance checks"
+    description: "Standardize sterilization log and compliance checks for Dentist operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Dentist teams rely on ad-hoc handoffs for sterilization log and compliance checks, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 4
+    seedability_score: 3
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 3
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false

@@ -1,0 +1,135 @@
+id: boutique-owner
+name: "Boutique Owner"
+sector: "Retail"
+summary: "Runs merchandising, in-store operations, and customer retention campaigns."
+status: draft
+workflow_count_estimate: 8
+workflows:
+  - name: "New arrival merchandising plan setup"
+    description: "Standardize new arrival merchandising plan setup for Boutique Owner operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Boutique Owner teams rely on ad-hoc handoffs for new arrival merchandising plan setup, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Size-run replenishment alerts"
+    description: "Standardize size-run replenishment alerts for Boutique Owner operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Boutique Owner teams rely on ad-hoc handoffs for size-run replenishment alerts, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "In-store clienteling follow-up messages"
+    description: "Standardize in-store clienteling follow-up messages for Boutique Owner operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Boutique Owner teams rely on ad-hoc handoffs for in-store clienteling follow-up messages, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Purchase order receiving and discrepancy tracking"
+    description: "Standardize purchase order receiving and discrepancy tracking for Boutique Owner operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Boutique Owner teams rely on ad-hoc handoffs for purchase order receiving and discrepancy tracking, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Markdown cadence and sell-through analysis"
+    description: "Standardize markdown cadence and sell-through analysis for Boutique Owner operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Boutique Owner teams rely on ad-hoc handoffs for markdown cadence and sell-through analysis, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Omnichannel pickup and return handling"
+    description: "Standardize omnichannel pickup and return handling for Boutique Owner operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Boutique Owner teams rely on ad-hoc handoffs for omnichannel pickup and return handling, causing delays, rework, and missed follow-through."
+    frequency: monthly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 3
+      frequency: 3
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 22
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Window display refresh calendar"
+    description: "Standardize window display refresh calendar for Boutique Owner operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Boutique Owner teams rely on ad-hoc handoffs for window display refresh calendar, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 2
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 5
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Loyalty reward redemption reconciliation"
+    description: "Standardize loyalty reward redemption reconciliation for Boutique Owner operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Boutique Owner teams rely on ad-hoc handoffs for loyalty reward redemption reconciliation, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false

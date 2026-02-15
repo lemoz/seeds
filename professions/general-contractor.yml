@@ -1,0 +1,135 @@
+id: general-contractor
+name: "General Contractor"
+sector: "Construction & Trades"
+summary: "Plans jobs, schedules subcontractors, and tracks project execution in the field."
+status: draft
+workflow_count_estimate: 8
+workflows:
+  - name: "Subcontractor schedule and dependency coordination"
+    description: "Standardize subcontractor schedule and dependency coordination for General Contractor operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "General Contractor teams rely on ad-hoc handoffs for subcontractor schedule and dependency coordination, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 5
+    rubric_scores:
+      pain_severity: 5
+      frequency: 5
+      oss_availability: 5
+      ai_tailorability: 5
+      standalone_value: 5
+      skill_match: 5
+      total: 30
+      qualifies_for_seed: true
+    priority_seed: true
+  - name: "Bid package distribution and comparison"
+    description: "Standardize bid package distribution and comparison for General Contractor operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "General Contractor teams rely on ad-hoc handoffs for bid package distribution and comparison, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Permit and inspection milestone tracking"
+    description: "Standardize permit and inspection milestone tracking for General Contractor operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "General Contractor teams rely on ad-hoc handoffs for permit and inspection milestone tracking, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 4
+    seedability_score: 3
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 3
+      total: 23
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Daily jobsite report collection"
+    description: "Standardize daily jobsite report collection for General Contractor operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "General Contractor teams rely on ad-hoc handoffs for daily jobsite report collection, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 2
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 5
+      total: 26
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Change order pricing and approval routing"
+    description: "Standardize change order pricing and approval routing for General Contractor operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "General Contractor teams rely on ad-hoc handoffs for change order pricing and approval routing, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Submittal and RFI turnaround tracking"
+    description: "Standardize submittal and rfi turnaround tracking for General Contractor operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "General Contractor teams rely on ad-hoc handoffs for submittal and rfi turnaround tracking, causing delays, rework, and missed follow-through."
+    frequency: monthly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 3
+      frequency: 3
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 22
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Budget draw request preparation"
+    description: "Standardize budget draw request preparation for General Contractor operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "General Contractor teams rely on ad-hoc handoffs for budget draw request preparation, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Safety incident and toolbox talk logs"
+    description: "Standardize safety incident and toolbox talk logs for General Contractor operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "General Contractor teams rely on ad-hoc handoffs for safety incident and toolbox talk logs, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 4
+    seedability_score: 3
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 3
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false

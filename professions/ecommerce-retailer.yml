@@ -1,0 +1,135 @@
+id: ecommerce-retailer
+name: "Ecommerce Retailer"
+sector: "Retail"
+summary: "Operates online storefront workflows across catalog, inventory, and order fulfillment."
+status: draft
+workflow_count_estimate: 8
+workflows:
+  - name: "Order exception handling and fulfillment recovery"
+    description: "Standardize order exception handling and fulfillment recovery for Ecommerce Retailer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Ecommerce Retailer teams rely on ad-hoc handoffs for order exception handling and fulfillment recovery, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 5
+    rubric_scores:
+      pain_severity: 5
+      frequency: 5
+      oss_availability: 5
+      ai_tailorability: 5
+      standalone_value: 5
+      skill_match: 5
+      total: 30
+      qualifies_for_seed: true
+    priority_seed: true
+  - name: "Product feed sync error monitoring"
+    description: "Standardize product feed sync error monitoring for Ecommerce Retailer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Ecommerce Retailer teams rely on ad-hoc handoffs for product feed sync error monitoring, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Abandoned cart recovery campaign setup"
+    description: "Standardize abandoned cart recovery campaign setup for Ecommerce Retailer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Ecommerce Retailer teams rely on ad-hoc handoffs for abandoned cart recovery campaign setup, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Return merchandise authorization processing"
+    description: "Standardize return merchandise authorization processing for Ecommerce Retailer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Ecommerce Retailer teams rely on ad-hoc handoffs for return merchandise authorization processing, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 4
+    seedability_score: 3
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 3
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Marketplace listing compliance checks"
+    description: "Standardize marketplace listing compliance checks for Ecommerce Retailer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Ecommerce Retailer teams rely on ad-hoc handoffs for marketplace listing compliance checks, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 4
+    seedability_score: 3
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 3
+      total: 23
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Warehouse pick-pack queue balancing"
+    description: "Standardize warehouse pick-pack queue balancing for Ecommerce Retailer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Ecommerce Retailer teams rely on ad-hoc handoffs for warehouse pick-pack queue balancing, causing delays, rework, and missed follow-through."
+    frequency: monthly
+    complexity_score: 2
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 3
+      frequency: 3
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 5
+      total: 23
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Customer support refund approval routing"
+    description: "Standardize customer support refund approval routing for Ecommerce Retailer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Ecommerce Retailer teams rely on ad-hoc handoffs for customer support refund approval routing, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Flash sale inventory reservation controls"
+    description: "Standardize flash sale inventory reservation controls for Ecommerce Retailer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Ecommerce Retailer teams rely on ad-hoc handoffs for flash sale inventory reservation controls, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false

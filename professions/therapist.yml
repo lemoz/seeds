@@ -1,0 +1,135 @@
+id: therapist
+name: "Therapist"
+sector: "Health & Wellness"
+summary: "Delivers behavioral health sessions, notes, care plans, and follow-up communication."
+status: draft
+workflow_count_estimate: 8
+workflows:
+  - name: "New client intake and informed consent"
+    description: "Standardize new client intake and informed consent for Therapist operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Therapist teams rely on ad-hoc handoffs for new client intake and informed consent, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Session scheduling and reminder outreach"
+    description: "Standardize session scheduling and reminder outreach for Therapist operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Therapist teams rely on ad-hoc handoffs for session scheduling and reminder outreach, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 2
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 5
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Progress note completion and lock deadlines"
+    description: "Standardize progress note completion and lock deadlines for Therapist operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Therapist teams rely on ad-hoc handoffs for progress note completion and lock deadlines, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Treatment plan goal review cadence"
+    description: "Standardize treatment plan goal review cadence for Therapist operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Therapist teams rely on ad-hoc handoffs for treatment plan goal review cadence, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Insurance claim and EOB reconciliation"
+    description: "Standardize insurance claim and eob reconciliation for Therapist operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Therapist teams rely on ad-hoc handoffs for insurance claim and eob reconciliation, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 4
+    seedability_score: 3
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 3
+      total: 23
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Crisis escalation and safety plan follow-up"
+    description: "Standardize crisis escalation and safety plan follow-up for Therapist operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Therapist teams rely on ad-hoc handoffs for crisis escalation and safety plan follow-up, causing delays, rework, and missed follow-through."
+    frequency: monthly
+    complexity_score: 4
+    seedability_score: 3
+    rubric_scores:
+      pain_severity: 3
+      frequency: 3
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 3
+      total: 21
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Homework assignment and check-in tracking"
+    description: "Standardize homework assignment and check-in tracking for Therapist operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Therapist teams rely on ad-hoc handoffs for homework assignment and check-in tracking, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Telehealth session technical issue log"
+    description: "Standardize telehealth session technical issue log for Therapist operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Therapist teams rely on ad-hoc handoffs for telehealth session technical issue log, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false

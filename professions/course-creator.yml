@@ -1,0 +1,135 @@
+id: course-creator
+name: "Course Creator"
+sector: "Education"
+summary: "Designs online learning content, student communications, and completion tracking."
+status: draft
+workflow_count_estimate: 8
+workflows:
+  - name: "Curriculum outline and module sequencing"
+    description: "Standardize curriculum outline and module sequencing for Course Creator operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Course Creator teams rely on ad-hoc handoffs for curriculum outline and module sequencing, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Lesson recording and edit review workflow"
+    description: "Standardize lesson recording and edit review workflow for Course Creator operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Course Creator teams rely on ad-hoc handoffs for lesson recording and edit review workflow, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Assignment release and due-date scheduling"
+    description: "Standardize assignment release and due-date scheduling for Course Creator operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Course Creator teams rely on ad-hoc handoffs for assignment release and due-date scheduling, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 2
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 5
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Student Q&A moderation queue"
+    description: "Standardize student q&a moderation queue for Course Creator operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Course Creator teams rely on ad-hoc handoffs for student q&a moderation queue, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 2
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 5
+      total: 26
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Drip content publication automation"
+    description: "Standardize drip content publication automation for Course Creator operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Course Creator teams rely on ad-hoc handoffs for drip content publication automation, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Completion certificate generation"
+    description: "Standardize completion certificate generation for Course Creator operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Course Creator teams rely on ad-hoc handoffs for completion certificate generation, causing delays, rework, and missed follow-through."
+    frequency: monthly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 3
+      frequency: 3
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 22
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Affiliate payout calculation and approval"
+    description: "Standardize affiliate payout calculation and approval for Course Creator operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Course Creator teams rely on ad-hoc handoffs for affiliate payout calculation and approval, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Course refund request triage"
+    description: "Standardize course refund request triage for Course Creator operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Course Creator teams rely on ad-hoc handoffs for course refund request triage, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false

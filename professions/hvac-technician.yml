@@ -1,0 +1,135 @@
+id: hvac-technician
+name: "HVAC Technician"
+sector: "Construction & Trades"
+summary: "Handles HVAC maintenance and installs with route planning and compliance documentation."
+status: draft
+workflow_count_estimate: 8
+workflows:
+  - name: "Preventive maintenance route scheduling"
+    description: "Standardize preventive maintenance route scheduling for HVAC Technician operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "HVAC Technician teams rely on ad-hoc handoffs for preventive maintenance route scheduling, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 2
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 5
+      total: 26
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Diagnostic checklist completion on service calls"
+    description: "Standardize diagnostic checklist completion on service calls for HVAC Technician operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "HVAC Technician teams rely on ad-hoc handoffs for diagnostic checklist completion on service calls, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 2
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 5
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Refrigerant usage and leak compliance logs"
+    description: "Standardize refrigerant usage and leak compliance logs for HVAC Technician operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "HVAC Technician teams rely on ad-hoc handoffs for refrigerant usage and leak compliance logs, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 4
+    seedability_score: 3
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 3
+      total: 23
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Parts availability check before dispatch"
+    description: "Standardize parts availability check before dispatch for HVAC Technician operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "HVAC Technician teams rely on ad-hoc handoffs for parts availability check before dispatch, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Installation startup and commissioning reports"
+    description: "Standardize installation startup and commissioning reports for HVAC Technician operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "HVAC Technician teams rely on ad-hoc handoffs for installation startup and commissioning reports, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 2
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 5
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Warranty claim submission for failed units"
+    description: "Standardize warranty claim submission for failed units for HVAC Technician operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "HVAC Technician teams rely on ad-hoc handoffs for warranty claim submission for failed units, causing delays, rework, and missed follow-through."
+    frequency: monthly
+    complexity_score: 4
+    seedability_score: 3
+    rubric_scores:
+      pain_severity: 3
+      frequency: 3
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 3
+      total: 21
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Seasonal tune-up reminder outreach"
+    description: "Standardize seasonal tune-up reminder outreach for HVAC Technician operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "HVAC Technician teams rely on ad-hoc handoffs for seasonal tune-up reminder outreach, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 2
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 5
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Invoice and service agreement renewal follow-up"
+    description: "Standardize invoice and service agreement renewal follow-up for HVAC Technician operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "HVAC Technician teams rely on ad-hoc handoffs for invoice and service agreement renewal follow-up, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false

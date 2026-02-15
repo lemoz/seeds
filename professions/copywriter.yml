@@ -1,0 +1,135 @@
+id: copywriter
+name: "Copywriter"
+sector: "Creative"
+summary: "Delivers content projects with briefs, approvals, and deadline management."
+status: draft
+workflow_count_estimate: 8
+workflows:
+  - name: "Creative brief intake and clarification"
+    description: "Standardize creative brief intake and clarification for Copywriter operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Copywriter teams rely on ad-hoc handoffs for creative brief intake and clarification, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "SEO keyword map to content calendar"
+    description: "Standardize seo keyword map to content calendar for Copywriter operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Copywriter teams rely on ad-hoc handoffs for seo keyword map to content calendar, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 2
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 5
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Draft review and revision rounds"
+    description: "Standardize draft review and revision rounds for Copywriter operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Copywriter teams rely on ad-hoc handoffs for draft review and revision rounds, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Brand voice compliance checklist"
+    description: "Standardize brand voice compliance checklist for Copywriter operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Copywriter teams rely on ad-hoc handoffs for brand voice compliance checklist, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 4
+    seedability_score: 3
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 3
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Client approval routing for final copy"
+    description: "Standardize client approval routing for final copy for Copywriter operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Copywriter teams rely on ad-hoc handoffs for client approval routing for final copy, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Content handoff to CMS publishing"
+    description: "Standardize content handoff to cms publishing for Copywriter operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Copywriter teams rely on ad-hoc handoffs for content handoff to cms publishing, causing delays, rework, and missed follow-through."
+    frequency: monthly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 3
+      frequency: 3
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 22
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Retainer scope burn tracking"
+    description: "Standardize retainer scope burn tracking for Copywriter operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Copywriter teams rely on ad-hoc handoffs for retainer scope burn tracking, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Case study interview transcription workflow"
+    description: "Standardize case study interview transcription workflow for Copywriter operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Copywriter teams rely on ad-hoc handoffs for case study interview transcription workflow, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false

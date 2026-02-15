@@ -1,26 +1,27 @@
-# Workflow definition schema.
-
-# Unique workflow id (kebab-case).
-id: client-scheduling
-# Human-friendly workflow name.
-name: Client Scheduling
-# Short summary for catalog listings.
-summary: "Provide a branded booking flow with routing and availability built in."
-# Outcome statement for the workflow.
-outcome: "Clients can book meetings without back-and-forth emails."
-# Key pain points this workflow solves.
-pain_points:
-  - "Scheduling ping-pong delays confirmations."
-  - "Time zones and availability cause missed handoffs."
-# Typical frequency for the profession (daily | weekly | monthly | ad-hoc).
-frequency: weekly
-# Tags for discovery and grouping.
-tags:
-  - scheduling
-  - booking
-  - client
-# Lifecycle status for the workflow.
-status: draft
-# Professions this workflow applies to.
-related_professions:
-  - marketing-agency
+# Workflow schema (embedded under `workflows` in each profession file).
+#
+# Required keys:
+# - name
+# - description
+# - pain_point
+# - frequency (daily | weekly | monthly)
+# - complexity_score (1-5; higher means harder to implement)
+# - seedability_score (1-5; higher means better seed candidate)
+# - rubric_scores.* (Part 1 criteria from rubric/scoring.md)
+# - priority_seed (true only for top-ranked cross-catalog workflows)
+name: "Appointment scheduling and reminders"
+description: "Coordinate appointment slots, cancellations, and reminder outreach across providers."
+pain_point: "No-shows and scheduling backlogs reduce utilization and care continuity."
+frequency: daily
+complexity_score: 3
+seedability_score: 5
+rubric_scores:
+  pain_severity: 5
+  frequency: 5
+  oss_availability: 5
+  ai_tailorability: 5
+  standalone_value: 5
+  skill_match: 5
+  total: 30
+  qualifies_for_seed: true
+priority_seed: true

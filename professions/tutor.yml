@@ -1,0 +1,135 @@
+id: tutor
+name: "Tutor"
+sector: "Education"
+summary: "Provides one-on-one instruction, scheduling, assignments, and progress updates."
+status: draft
+workflow_count_estimate: 8
+workflows:
+  - name: "Student baseline assessment intake"
+    description: "Standardize student baseline assessment intake for Tutor operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Tutor teams rely on ad-hoc handoffs for student baseline assessment intake, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Recurring session scheduling and reminders"
+    description: "Standardize recurring session scheduling and reminders for Tutor operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Tutor teams rely on ad-hoc handoffs for recurring session scheduling and reminders, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 2
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 5
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Homework review and feedback turnaround"
+    description: "Standardize homework review and feedback turnaround for Tutor operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Tutor teams rely on ad-hoc handoffs for homework review and feedback turnaround, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Parent progress update cadence"
+    description: "Standardize parent progress update cadence for Tutor operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Tutor teams rely on ad-hoc handoffs for parent progress update cadence, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Test prep plan milestone tracking"
+    description: "Standardize test prep plan milestone tracking for Tutor operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Tutor teams rely on ad-hoc handoffs for test prep plan milestone tracking, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Resource worksheet library management"
+    description: "Standardize resource worksheet library management for Tutor operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Tutor teams rely on ad-hoc handoffs for resource worksheet library management, causing delays, rework, and missed follow-through."
+    frequency: monthly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 3
+      frequency: 3
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 22
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Session attendance and makeup credit ledger"
+    description: "Standardize session attendance and makeup credit ledger for Tutor operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Tutor teams rely on ad-hoc handoffs for session attendance and makeup credit ledger, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Monthly billing and package renewal reminders"
+    description: "Standardize monthly billing and package renewal reminders for Tutor operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Tutor teams rely on ad-hoc handoffs for monthly billing and package renewal reminders, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 2
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 5
+      total: 26
+      qualifies_for_seed: true
+    priority_seed: false

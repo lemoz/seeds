@@ -1,0 +1,135 @@
+id: marketing-agency
+name: "Marketing Agency"
+sector: "Creative"
+summary: "Executes multi-channel campaigns, reporting, and client communication at scale."
+status: draft
+workflow_count_estimate: 8
+workflows:
+  - name: "Client onboarding questionnaire and goals capture"
+    description: "Standardize client onboarding questionnaire and goals capture for Marketing Agency operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Marketing Agency teams rely on ad-hoc handoffs for client onboarding questionnaire and goals capture, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Campaign brief to production handoff"
+    description: "Standardize campaign brief to production handoff for Marketing Agency operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Marketing Agency teams rely on ad-hoc handoffs for campaign brief to production handoff, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Content calendar approvals across channels"
+    description: "Standardize content calendar approvals across channels for Marketing Agency operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Marketing Agency teams rely on ad-hoc handoffs for content calendar approvals across channels, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 2
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 5
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Ad spend pacing and budget reallocation"
+    description: "Standardize ad spend pacing and budget reallocation for Marketing Agency operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Marketing Agency teams rely on ad-hoc handoffs for ad spend pacing and budget reallocation, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Creative asset review and annotation workflow"
+    description: "Standardize creative asset review and annotation workflow for Marketing Agency operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Marketing Agency teams rely on ad-hoc handoffs for creative asset review and annotation workflow, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Lead attribution and CRM sync monitoring"
+    description: "Standardize lead attribution and crm sync monitoring for Marketing Agency operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Marketing Agency teams rely on ad-hoc handoffs for lead attribution and crm sync monitoring, causing delays, rework, and missed follow-through."
+    frequency: monthly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 3
+      frequency: 3
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 22
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Client monthly report assembly"
+    description: "Standardize client monthly report assembly for Marketing Agency operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Marketing Agency teams rely on ad-hoc handoffs for client monthly report assembly, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 2
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 5
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Retainer renewal and scope change tracking"
+    description: "Standardize retainer renewal and scope change tracking for Marketing Agency operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Marketing Agency teams rely on ad-hoc handoffs for retainer renewal and scope change tracking, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false

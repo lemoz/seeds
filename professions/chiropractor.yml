@@ -1,0 +1,135 @@
+id: chiropractor
+name: "Chiropractor"
+sector: "Health & Wellness"
+summary: "Manages patient visits, treatment plans, SOAP notes, and recurring care schedules."
+status: draft
+workflow_count_estimate: 8
+workflows:
+  - name: "New patient intake and contraindication screening"
+    description: "Standardize new patient intake and contraindication screening for Chiropractor operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Chiropractor teams rely on ad-hoc handoffs for new patient intake and contraindication screening, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "SOAP note completion after adjustments"
+    description: "Standardize soap note completion after adjustments for Chiropractor operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Chiropractor teams rely on ad-hoc handoffs for soap note completion after adjustments, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Treatment plan visit package tracking"
+    description: "Standardize treatment plan visit package tracking for Chiropractor operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Chiropractor teams rely on ad-hoc handoffs for treatment plan visit package tracking, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Re-exam scheduling and reminder cadence"
+    description: "Standardize re-exam scheduling and reminder cadence for Chiropractor operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Chiropractor teams rely on ad-hoc handoffs for re-exam scheduling and reminder cadence, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 2
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 5
+      total: 26
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Insurance claim submission for CPT codes"
+    description: "Standardize insurance claim submission for cpt codes for Chiropractor operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Chiropractor teams rely on ad-hoc handoffs for insurance claim submission for cpt codes, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 4
+    seedability_score: 3
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 3
+      total: 23
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Prior authorization follow-up queue"
+    description: "Standardize prior authorization follow-up queue for Chiropractor operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Chiropractor teams rely on ad-hoc handoffs for prior authorization follow-up queue, causing delays, rework, and missed follow-through."
+    frequency: monthly
+    complexity_score: 4
+    seedability_score: 3
+    rubric_scores:
+      pain_severity: 3
+      frequency: 3
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 3
+      total: 21
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Home exercise program assignment delivery"
+    description: "Standardize home exercise program assignment delivery for Chiropractor operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Chiropractor teams rely on ad-hoc handoffs for home exercise program assignment delivery, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Patient outcome score collection"
+    description: "Standardize patient outcome score collection for Chiropractor operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Chiropractor teams rely on ad-hoc handoffs for patient outcome score collection, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false

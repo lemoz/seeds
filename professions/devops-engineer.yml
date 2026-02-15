@@ -1,0 +1,135 @@
+id: devops-engineer
+name: "DevOps Engineer"
+sector: "Tech"
+summary: "Maintains CI/CD systems, incident operations, and environment reliability controls."
+status: draft
+workflow_count_estimate: 8
+workflows:
+  - name: "CI/CD pipeline failure triage"
+    description: "Standardize ci/cd pipeline failure triage for DevOps Engineer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "DevOps Engineer teams rely on ad-hoc handoffs for ci/cd pipeline failure triage, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 5
+    rubric_scores:
+      pain_severity: 5
+      frequency: 5
+      oss_availability: 5
+      ai_tailorability: 5
+      standalone_value: 5
+      skill_match: 5
+      total: 30
+      qualifies_for_seed: true
+    priority_seed: true
+  - name: "Infrastructure as code drift detection"
+    description: "Standardize infrastructure as code drift detection for DevOps Engineer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "DevOps Engineer teams rely on ad-hoc handoffs for infrastructure as code drift detection, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "On-call incident escalation routing"
+    description: "Standardize on-call incident escalation routing for DevOps Engineer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "DevOps Engineer teams rely on ad-hoc handoffs for on-call incident escalation routing, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 4
+    seedability_score: 3
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 3
+      total: 23
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Deployment approval and release notes"
+    description: "Standardize deployment approval and release notes for DevOps Engineer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "DevOps Engineer teams rely on ad-hoc handoffs for deployment approval and release notes, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 2
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 5
+      total: 26
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Cloud cost anomaly investigation"
+    description: "Standardize cloud cost anomaly investigation for DevOps Engineer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "DevOps Engineer teams rely on ad-hoc handoffs for cloud cost anomaly investigation, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Secrets rotation and expiration tracking"
+    description: "Standardize secrets rotation and expiration tracking for DevOps Engineer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "DevOps Engineer teams rely on ad-hoc handoffs for secrets rotation and expiration tracking, causing delays, rework, and missed follow-through."
+    frequency: monthly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 3
+      frequency: 3
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 22
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Backup restore drill scheduling"
+    description: "Standardize backup restore drill scheduling for DevOps Engineer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "DevOps Engineer teams rely on ad-hoc handoffs for backup restore drill scheduling, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 2
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 5
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Service-level objective breach follow-up"
+    description: "Standardize service-level objective breach follow-up for DevOps Engineer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "DevOps Engineer teams rely on ad-hoc handoffs for service-level objective breach follow-up, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false

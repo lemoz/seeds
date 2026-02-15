@@ -1,0 +1,135 @@
+id: caterer
+name: "Caterer"
+sector: "Food & Hospitality"
+summary: "Plans and executes catered events with logistics, staffing, and vendor coordination."
+status: draft
+workflow_count_estimate: 8
+workflows:
+  - name: "Event lead qualification and menu scoping"
+    description: "Standardize event lead qualification and menu scoping for Caterer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Caterer teams rely on ad-hoc handoffs for event lead qualification and menu scoping, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Proposal revision and client approval routing"
+    description: "Standardize proposal revision and client approval routing for Caterer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Caterer teams rely on ad-hoc handoffs for proposal revision and client approval routing, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Staffing roster by event timeline"
+    description: "Standardize staffing roster by event timeline for Caterer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Caterer teams rely on ad-hoc handoffs for staffing roster by event timeline, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Rental equipment pickup and return coordination"
+    description: "Standardize rental equipment pickup and return coordination for Caterer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Caterer teams rely on ad-hoc handoffs for rental equipment pickup and return coordination, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Prep kitchen production run sheets"
+    description: "Standardize prep kitchen production run sheets for Caterer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Caterer teams rely on ad-hoc handoffs for prep kitchen production run sheets, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "On-site service task assignments"
+    description: "Standardize on-site service task assignments for Caterer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Caterer teams rely on ad-hoc handoffs for on-site service task assignments, causing delays, rework, and missed follow-through."
+    frequency: monthly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 3
+      frequency: 3
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 22
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Post-event cost reconciliation"
+    description: "Standardize post-event cost reconciliation for Caterer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Caterer teams rely on ad-hoc handoffs for post-event cost reconciliation, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Dietary restriction and allergen tracking"
+    description: "Standardize dietary restriction and allergen tracking for Caterer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Caterer teams rely on ad-hoc handoffs for dietary restriction and allergen tracking, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false

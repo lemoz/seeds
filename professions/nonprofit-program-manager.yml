@@ -1,0 +1,135 @@
+id: nonprofit-program-manager
+name: "Nonprofit Program Manager"
+sector: "Nonprofit"
+summary: "Operates service delivery programs, participant tracking, and outcomes measurement."
+status: draft
+workflow_count_estimate: 8
+workflows:
+  - name: "Participant intake and eligibility verification"
+    description: "Standardize participant intake and eligibility verification for Nonprofit Program Manager operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Nonprofit Program Manager teams rely on ad-hoc handoffs for participant intake and eligibility verification, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Service delivery session attendance tracking"
+    description: "Standardize service delivery session attendance tracking for Nonprofit Program Manager operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Nonprofit Program Manager teams rely on ad-hoc handoffs for service delivery session attendance tracking, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Case note completion and supervisor review"
+    description: "Standardize case note completion and supervisor review for Nonprofit Program Manager operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Nonprofit Program Manager teams rely on ad-hoc handoffs for case note completion and supervisor review, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Referral partner follow-up queue"
+    description: "Standardize referral partner follow-up queue for Nonprofit Program Manager operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Nonprofit Program Manager teams rely on ad-hoc handoffs for referral partner follow-up queue, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 2
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 5
+      total: 26
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Outcome metric collection by cohort"
+    description: "Standardize outcome metric collection by cohort for Nonprofit Program Manager operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Nonprofit Program Manager teams rely on ad-hoc handoffs for outcome metric collection by cohort, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Program supply inventory and reorder"
+    description: "Standardize program supply inventory and reorder for Nonprofit Program Manager operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Nonprofit Program Manager teams rely on ad-hoc handoffs for program supply inventory and reorder, causing delays, rework, and missed follow-through."
+    frequency: monthly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 3
+      frequency: 3
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 22
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Incident reporting and escalation workflow"
+    description: "Standardize incident reporting and escalation workflow for Nonprofit Program Manager operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Nonprofit Program Manager teams rely on ad-hoc handoffs for incident reporting and escalation workflow, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 4
+    seedability_score: 3
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 3
+      total: 23
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Grant deliverable evidence packet assembly"
+    description: "Standardize grant deliverable evidence packet assembly for Nonprofit Program Manager operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Nonprofit Program Manager teams rely on ad-hoc handoffs for grant deliverable evidence packet assembly, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false

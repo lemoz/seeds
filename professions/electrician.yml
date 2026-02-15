@@ -1,0 +1,135 @@
+id: electrician
+name: "Electrician"
+sector: "Construction & Trades"
+summary: "Executes service calls and installations with dispatch, permits, and invoicing workflows."
+status: draft
+workflow_count_estimate: 8
+workflows:
+  - name: "Service call dispatch by urgency and zone"
+    description: "Standardize service call dispatch by urgency and zone for Electrician operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Electrician teams rely on ad-hoc handoffs for service call dispatch by urgency and zone, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "On-site estimate creation and client sign-off"
+    description: "Standardize on-site estimate creation and client sign-off for Electrician operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Electrician teams rely on ad-hoc handoffs for on-site estimate creation and client sign-off, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Permit application and inspection scheduling"
+    description: "Standardize permit application and inspection scheduling for Electrician operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Electrician teams rely on ad-hoc handoffs for permit application and inspection scheduling, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 4
+    seedability_score: 3
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 3
+      total: 23
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Panel load calculation documentation"
+    description: "Standardize panel load calculation documentation for Electrician operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Electrician teams rely on ad-hoc handoffs for panel load calculation documentation, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Material pickup and truck stock replenishment"
+    description: "Standardize material pickup and truck stock replenishment for Electrician operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Electrician teams rely on ad-hoc handoffs for material pickup and truck stock replenishment, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Job photo capture and code compliance logs"
+    description: "Standardize job photo capture and code compliance logs for Electrician operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Electrician teams rely on ad-hoc handoffs for job photo capture and code compliance logs, causing delays, rework, and missed follow-through."
+    frequency: monthly
+    complexity_score: 4
+    seedability_score: 3
+    rubric_scores:
+      pain_severity: 3
+      frequency: 3
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 3
+      total: 21
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Change order approval on active jobs"
+    description: "Standardize change order approval on active jobs for Electrician operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Electrician teams rely on ad-hoc handoffs for change order approval on active jobs, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Invoice generation and payment collection"
+    description: "Standardize invoice generation and payment collection for Electrician operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Electrician teams rely on ad-hoc handoffs for invoice generation and payment collection, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false

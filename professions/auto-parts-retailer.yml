@@ -1,0 +1,135 @@
+id: auto-parts-retailer
+name: "Auto Parts Retailer"
+sector: "Retail"
+summary: "Manages catalog lookups, inventory, returns, and counter sales performance."
+status: draft
+workflow_count_estimate: 8
+workflows:
+  - name: "VIN-based part lookup and fitment verification"
+    description: "Standardize vin-based part lookup and fitment verification for Auto Parts Retailer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Auto Parts Retailer teams rely on ad-hoc handoffs for vin-based part lookup and fitment verification, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Backorder and supplier ETA follow-up"
+    description: "Standardize backorder and supplier eta follow-up for Auto Parts Retailer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Auto Parts Retailer teams rely on ad-hoc handoffs for backorder and supplier eta follow-up, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Core return tracking for remanufactured parts"
+    description: "Standardize core return tracking for remanufactured parts for Auto Parts Retailer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Auto Parts Retailer teams rely on ad-hoc handoffs for core return tracking for remanufactured parts, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Commercial account pricing and terms updates"
+    description: "Standardize commercial account pricing and terms updates for Auto Parts Retailer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Auto Parts Retailer teams rely on ad-hoc handoffs for commercial account pricing and terms updates, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Warranty claim intake for defective parts"
+    description: "Standardize warranty claim intake for defective parts for Auto Parts Retailer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Auto Parts Retailer teams rely on ad-hoc handoffs for warranty claim intake for defective parts, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 4
+    seedability_score: 3
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 3
+      total: 23
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Counter pickup order staging"
+    description: "Standardize counter pickup order staging for Auto Parts Retailer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Auto Parts Retailer teams rely on ad-hoc handoffs for counter pickup order staging, causing delays, rework, and missed follow-through."
+    frequency: monthly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 3
+      frequency: 3
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 22
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Shelf bin cycle counts for fast movers"
+    description: "Standardize shelf bin cycle counts for fast movers for Auto Parts Retailer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Auto Parts Retailer teams rely on ad-hoc handoffs for shelf bin cycle counts for fast movers, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Seasonal demand replenishment planning"
+    description: "Standardize seasonal demand replenishment planning for Auto Parts Retailer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Auto Parts Retailer teams rely on ad-hoc handoffs for seasonal demand replenishment planning, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false

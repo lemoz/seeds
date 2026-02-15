@@ -1,0 +1,135 @@
+id: graphic-designer
+name: "Graphic Designer"
+sector: "Creative"
+summary: "Produces visual assets, manages feedback rounds, and tracks client approvals."
+status: draft
+workflow_count_estimate: 8
+workflows:
+  - name: "Design brief intake and asset collection"
+    description: "Standardize design brief intake and asset collection for Graphic Designer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Graphic Designer teams rely on ad-hoc handoffs for design brief intake and asset collection, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Moodboard and concept approval rounds"
+    description: "Standardize moodboard and concept approval rounds for Graphic Designer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Graphic Designer teams rely on ad-hoc handoffs for moodboard and concept approval rounds, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Multi-format export package generation"
+    description: "Standardize multi-format export package generation for Graphic Designer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Graphic Designer teams rely on ad-hoc handoffs for multi-format export package generation, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Brand guideline compliance review"
+    description: "Standardize brand guideline compliance review for Graphic Designer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Graphic Designer teams rely on ad-hoc handoffs for brand guideline compliance review, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 4
+    seedability_score: 3
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 3
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Revision request queue prioritization"
+    description: "Standardize revision request queue prioritization for Graphic Designer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Graphic Designer teams rely on ad-hoc handoffs for revision request queue prioritization, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 2
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 5
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Stock licensing and attribution tracking"
+    description: "Standardize stock licensing and attribution tracking for Graphic Designer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Graphic Designer teams rely on ad-hoc handoffs for stock licensing and attribution tracking, causing delays, rework, and missed follow-through."
+    frequency: monthly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 3
+      frequency: 3
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 22
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Printer proof approval workflow"
+    description: "Standardize printer proof approval workflow for Graphic Designer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Graphic Designer teams rely on ad-hoc handoffs for printer proof approval workflow, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Project archive and source file handoff"
+    description: "Standardize project archive and source file handoff for Graphic Designer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Graphic Designer teams rely on ad-hoc handoffs for project archive and source file handoff, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false

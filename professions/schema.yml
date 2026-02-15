@@ -1,25 +1,43 @@
-# Profession definition schema.
-
-# Unique profession id (kebab-case).
-id: marketing-agency
-# Human-friendly profession name.
-name: Marketing Agency
-# Short, one-line summary for listings.
-summary: "Teams that manage marketing, branding, and client campaigns."
-# Longer description of the profession's scope.
-description: "Agencies delivering marketing strategy, creative production, and ongoing client services."
-# Tags to help search and grouping.
-tags:
-  - marketing
-  - agency
-  - creative
-# Lifecycle status for the profession entry.
+# Profession mapping schema (WO-002).
+#
+# Required top-level keys:
+# - id (kebab-case)
+# - name
+# - sector
+# - summary
+# - workflow_count_estimate
+# - workflows (5-15 entries)
+#
+# Allowed sector values:
+# - Professional Services
+# - Food & Hospitality
+# - Health & Wellness
+# - Education
+# - Creative
+# - Retail
+# - Construction & Trades
+# - Nonprofit
+# - Tech
+id: accountant
+name: "Accountant"
+sector: "Professional Services"
+summary: "Manages bookkeeping, close processes, tax filings, and client financial reporting."
 status: draft
-# Workflows relevant to this profession.
+workflow_count_estimate: 8
 workflows:
-  - # Workflow id (kebab-case).
-    id: client-scheduling
-    # Importance for this profession: primary | secondary | tertiary.
-    priority: primary
-    # Outcome phrasing tailored to this profession.
-    outcome: "Clients can book branded discovery calls without back-and-forth."
+  - name: "Billing and invoice follow-up"
+    description: "Issue invoices, reconcile payments, and automate receivables follow-up workflows."
+    pain_point: "A/R follow-up is inconsistent, which slows cash flow and increases write-offs."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 5
+    rubric_scores:
+      pain_severity: 5
+      frequency: 5
+      oss_availability: 5
+      ai_tailorability: 5
+      standalone_value: 5
+      skill_match: 5
+      total: 30
+      qualifies_for_seed: true
+    priority_seed: true

@@ -1,0 +1,135 @@
+id: insurance-broker
+name: "Insurance Broker"
+sector: "Professional Services"
+summary: "Sources policy options, manages renewals, and services claims support for clients."
+status: draft
+workflow_count_estimate: 8
+workflows:
+  - name: "Prospect coverage needs intake"
+    description: "Standardize prospect coverage needs intake for Insurance Broker operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Insurance Broker teams rely on ad-hoc handoffs for prospect coverage needs intake, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Carrier quote comparison matrix"
+    description: "Standardize carrier quote comparison matrix for Insurance Broker operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Insurance Broker teams rely on ad-hoc handoffs for carrier quote comparison matrix, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Policy renewal timeline tracking"
+    description: "Standardize policy renewal timeline tracking for Insurance Broker operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Insurance Broker teams rely on ad-hoc handoffs for policy renewal timeline tracking, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Certificate of insurance issuance requests"
+    description: "Standardize certificate of insurance issuance requests for Insurance Broker operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Insurance Broker teams rely on ad-hoc handoffs for certificate of insurance issuance requests, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 4
+    seedability_score: 3
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 3
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Claims status follow-up with carriers"
+    description: "Standardize claims status follow-up with carriers for Insurance Broker operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Insurance Broker teams rely on ad-hoc handoffs for claims status follow-up with carriers, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 4
+    seedability_score: 3
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 3
+      total: 23
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Compliance document retention audits"
+    description: "Standardize compliance document retention audits for Insurance Broker operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Insurance Broker teams rely on ad-hoc handoffs for compliance document retention audits, causing delays, rework, and missed follow-through."
+    frequency: monthly
+    complexity_score: 4
+    seedability_score: 3
+    rubric_scores:
+      pain_severity: 3
+      frequency: 3
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 3
+      total: 21
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Endorsement change request processing"
+    description: "Standardize endorsement change request processing for Insurance Broker operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Insurance Broker teams rely on ad-hoc handoffs for endorsement change request processing, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Commission reconciliation by carrier statement"
+    description: "Standardize commission reconciliation by carrier statement for Insurance Broker operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Insurance Broker teams rely on ad-hoc handoffs for commission reconciliation by carrier statement, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false

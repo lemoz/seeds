@@ -1,0 +1,135 @@
+id: development-manager
+name: "Development Manager"
+sector: "Nonprofit"
+summary: "Owns donor pipelines, campaign execution, and grant/development reporting."
+status: draft
+workflow_count_estimate: 8
+workflows:
+  - name: "Major donor pipeline and follow-up cadence"
+    description: "Standardize major donor pipeline and follow-up cadence for Development Manager operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Development Manager teams rely on ad-hoc handoffs for major donor pipeline and follow-up cadence, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 5
+    rubric_scores:
+      pain_severity: 5
+      frequency: 5
+      oss_availability: 5
+      ai_tailorability: 5
+      standalone_value: 5
+      skill_match: 5
+      total: 30
+      qualifies_for_seed: true
+    priority_seed: true
+  - name: "Campaign pledge tracking and reminders"
+    description: "Standardize campaign pledge tracking and reminders for Development Manager operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Development Manager teams rely on ad-hoc handoffs for campaign pledge tracking and reminders, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 2
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 5
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Grant prospect research assignment queue"
+    description: "Standardize grant prospect research assignment queue for Development Manager operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Development Manager teams rely on ad-hoc handoffs for grant prospect research assignment queue, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 2
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 5
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Donation acknowledgement letter generation"
+    description: "Standardize donation acknowledgement letter generation for Development Manager operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Development Manager teams rely on ad-hoc handoffs for donation acknowledgement letter generation, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Board fundraising action item tracking"
+    description: "Standardize board fundraising action item tracking for Development Manager operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Development Manager teams rely on ad-hoc handoffs for board fundraising action item tracking, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Event sponsorship package fulfillment"
+    description: "Standardize event sponsorship package fulfillment for Development Manager operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Development Manager teams rely on ad-hoc handoffs for event sponsorship package fulfillment, causing delays, rework, and missed follow-through."
+    frequency: monthly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 3
+      frequency: 3
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 22
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Recurring donor churn risk review"
+    description: "Standardize recurring donor churn risk review for Development Manager operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Development Manager teams rely on ad-hoc handoffs for recurring donor churn risk review, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Monthly fundraising KPI dashboard"
+    description: "Standardize monthly fundraising kpi dashboard for Development Manager operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Development Manager teams rely on ad-hoc handoffs for monthly fundraising kpi dashboard, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 2
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 5
+      total: 26
+      qualifies_for_seed: true
+    priority_seed: false

@@ -1,0 +1,135 @@
+id: veterinarian
+name: "Veterinarian"
+sector: "Health & Wellness"
+summary: "Provides animal care, treatment records, follow-ups, and client communication."
+status: draft
+workflow_count_estimate: 8
+workflows:
+  - name: "Appointment triage by species and urgency"
+    description: "Standardize appointment triage by species and urgency for Veterinarian operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Veterinarian teams rely on ad-hoc handoffs for appointment triage by species and urgency, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Vaccination reminder and recall campaigns"
+    description: "Standardize vaccination reminder and recall campaigns for Veterinarian operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Veterinarian teams rely on ad-hoc handoffs for vaccination reminder and recall campaigns, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 2
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 5
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Diagnostic lab order and result tracking"
+    description: "Standardize diagnostic lab order and result tracking for Veterinarian operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Veterinarian teams rely on ad-hoc handoffs for diagnostic lab order and result tracking, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Surgical consent and pre-op checklist workflow"
+    description: "Standardize surgical consent and pre-op checklist workflow for Veterinarian operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Veterinarian teams rely on ad-hoc handoffs for surgical consent and pre-op checklist workflow, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 2
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 5
+      total: 26
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Treatment estimate approval with pet owners"
+    description: "Standardize treatment estimate approval with pet owners for Veterinarian operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Veterinarian teams rely on ad-hoc handoffs for treatment estimate approval with pet owners, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Pharmacy refill request processing"
+    description: "Standardize pharmacy refill request processing for Veterinarian operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Veterinarian teams rely on ad-hoc handoffs for pharmacy refill request processing, causing delays, rework, and missed follow-through."
+    frequency: monthly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 3
+      frequency: 3
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 22
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Boarding and discharge instruction logs"
+    description: "Standardize boarding and discharge instruction logs for Veterinarian operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Veterinarian teams rely on ad-hoc handoffs for boarding and discharge instruction logs, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Controlled drug inventory compliance audits"
+    description: "Standardize controlled drug inventory compliance audits for Veterinarian operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Veterinarian teams rely on ad-hoc handoffs for controlled drug inventory compliance audits, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 4
+    seedability_score: 3
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 3
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false

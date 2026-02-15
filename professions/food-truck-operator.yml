@@ -1,0 +1,135 @@
+id: food-truck-operator
+name: "Food Truck Operator"
+sector: "Food & Hospitality"
+summary: "Runs mobile food service including prep, route planning, and event operations."
+status: draft
+workflow_count_estimate: 8
+workflows:
+  - name: "Service location permit and schedule planning"
+    description: "Standardize service location permit and schedule planning for Food Truck Operator operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Food Truck Operator teams rely on ad-hoc handoffs for service location permit and schedule planning, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 4
+    seedability_score: 3
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 3
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Prep list generation from event forecasts"
+    description: "Standardize prep list generation from event forecasts for Food Truck Operator operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Food Truck Operator teams rely on ad-hoc handoffs for prep list generation from event forecasts, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Commissary kitchen inventory replenishment"
+    description: "Standardize commissary kitchen inventory replenishment for Food Truck Operator operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Food Truck Operator teams rely on ad-hoc handoffs for commissary kitchen inventory replenishment, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Mobile POS outage fallback procedures"
+    description: "Standardize mobile pos outage fallback procedures for Food Truck Operator operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Food Truck Operator teams rely on ad-hoc handoffs for mobile pos outage fallback procedures, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Daily route and fuel stop optimization"
+    description: "Standardize daily route and fuel stop optimization for Food Truck Operator operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Food Truck Operator teams rely on ad-hoc handoffs for daily route and fuel stop optimization, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Event booking deposits and balances"
+    description: "Standardize event booking deposits and balances for Food Truck Operator operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Food Truck Operator teams rely on ad-hoc handoffs for event booking deposits and balances, causing delays, rework, and missed follow-through."
+    frequency: monthly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 3
+      frequency: 3
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 22
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Generator maintenance and inspection logs"
+    description: "Standardize generator maintenance and inspection logs for Food Truck Operator operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Food Truck Operator teams rely on ad-hoc handoffs for generator maintenance and inspection logs, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 4
+    seedability_score: 3
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 3
+      total: 23
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "End-of-day sales and cash reconciliation"
+    description: "Standardize end-of-day sales and cash reconciliation for Food Truck Operator operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Food Truck Operator teams rely on ad-hoc handoffs for end-of-day sales and cash reconciliation, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false

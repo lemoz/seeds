@@ -1,0 +1,135 @@
+id: management-consultant
+name: "Management Consultant"
+sector: "Professional Services"
+summary: "Advises organizations on strategy, operations, and transformation initiatives."
+status: draft
+workflow_count_estimate: 8
+workflows:
+  - name: "Discovery interview scheduling and notes synthesis"
+    description: "Standardize discovery interview scheduling and notes synthesis for Management Consultant operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Management Consultant teams rely on ad-hoc handoffs for discovery interview scheduling and notes synthesis, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 2
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 5
+      total: 26
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Workplan milestone and deliverable tracking"
+    description: "Standardize workplan milestone and deliverable tracking for Management Consultant operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Management Consultant teams rely on ad-hoc handoffs for workplan milestone and deliverable tracking, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Data request log to client teams"
+    description: "Standardize data request log to client teams for Management Consultant operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Management Consultant teams rely on ad-hoc handoffs for data request log to client teams, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Steering committee meeting prep packets"
+    description: "Standardize steering committee meeting prep packets for Management Consultant operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Management Consultant teams rely on ad-hoc handoffs for steering committee meeting prep packets, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Recommendation draft review and approvals"
+    description: "Standardize recommendation draft review and approvals for Management Consultant operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Management Consultant teams rely on ad-hoc handoffs for recommendation draft review and approvals, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Change management task tracker rollout"
+    description: "Standardize change management task tracker rollout for Management Consultant operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Management Consultant teams rely on ad-hoc handoffs for change management task tracker rollout, causing delays, rework, and missed follow-through."
+    frequency: monthly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 3
+      frequency: 3
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 22
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Engagement margin and utilization reporting"
+    description: "Standardize engagement margin and utilization reporting for Management Consultant operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Management Consultant teams rely on ad-hoc handoffs for engagement margin and utilization reporting, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 2
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 5
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Proposal pipeline and staffing forecast"
+    description: "Standardize proposal pipeline and staffing forecast for Management Consultant operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Management Consultant teams rely on ad-hoc handoffs for proposal pipeline and staffing forecast, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false

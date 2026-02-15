@@ -1,0 +1,135 @@
+id: landscaper
+name: "Landscaper"
+sector: "Construction & Trades"
+summary: "Coordinates recurring service routes, crews, materials, and seasonal project work."
+status: draft
+workflow_count_estimate: 8
+workflows:
+  - name: "Recurring route optimization by crew"
+    description: "Standardize recurring route optimization by crew for Landscaper operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Landscaper teams rely on ad-hoc handoffs for recurring route optimization by crew, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Seasonal service package upsell tracking"
+    description: "Standardize seasonal service package upsell tracking for Landscaper operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Landscaper teams rely on ad-hoc handoffs for seasonal service package upsell tracking, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Irrigation inspection and repair queue"
+    description: "Standardize irrigation inspection and repair queue for Landscaper operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Landscaper teams rely on ad-hoc handoffs for irrigation inspection and repair queue, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 4
+    seedability_score: 3
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 3
+      total: 23
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Plant inventory and material ordering"
+    description: "Standardize plant inventory and material ordering for Landscaper operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Landscaper teams rely on ad-hoc handoffs for plant inventory and material ordering, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Weather delay rescheduling notifications"
+    description: "Standardize weather delay rescheduling notifications for Landscaper operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Landscaper teams rely on ad-hoc handoffs for weather delay rescheduling notifications, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 2
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 5
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Property visit photo reporting"
+    description: "Standardize property visit photo reporting for Landscaper operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Landscaper teams rely on ad-hoc handoffs for property visit photo reporting, causing delays, rework, and missed follow-through."
+    frequency: monthly
+    complexity_score: 2
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 3
+      frequency: 3
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 5
+      total: 23
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Snow response dispatch readiness"
+    description: "Standardize snow response dispatch readiness for Landscaper operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Landscaper teams rely on ad-hoc handoffs for snow response dispatch readiness, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Invoice batching for recurring clients"
+    description: "Standardize invoice batching for recurring clients for Landscaper operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Landscaper teams rely on ad-hoc handoffs for invoice batching for recurring clients, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false

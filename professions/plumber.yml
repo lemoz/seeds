@@ -1,0 +1,135 @@
+id: plumber
+name: "Plumber"
+sector: "Construction & Trades"
+summary: "Manages plumbing jobs, dispatch logistics, parts ordering, and customer updates."
+status: draft
+workflow_count_estimate: 8
+workflows:
+  - name: "Emergency leak dispatch and triage"
+    description: "Standardize emergency leak dispatch and triage for Plumber operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Plumber teams rely on ad-hoc handoffs for emergency leak dispatch and triage, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Sewer camera inspection report workflow"
+    description: "Standardize sewer camera inspection report workflow for Plumber operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Plumber teams rely on ad-hoc handoffs for sewer camera inspection report workflow, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 4
+    seedability_score: 3
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 3
+      total: 23
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Estimate approval and deposit collection"
+    description: "Standardize estimate approval and deposit collection for Plumber operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Plumber teams rely on ad-hoc handoffs for estimate approval and deposit collection, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Permit and inspection scheduling for repipes"
+    description: "Standardize permit and inspection scheduling for repipes for Plumber operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Plumber teams rely on ad-hoc handoffs for permit and inspection scheduling for repipes, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 4
+    seedability_score: 3
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 3
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Parts run tracking and truck restock"
+    description: "Standardize parts run tracking and truck restock for Plumber operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Plumber teams rely on ad-hoc handoffs for parts run tracking and truck restock, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Job completion photo and warranty documentation"
+    description: "Standardize job completion photo and warranty documentation for Plumber operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Plumber teams rely on ad-hoc handoffs for job completion photo and warranty documentation, causing delays, rework, and missed follow-through."
+    frequency: monthly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 3
+      frequency: 3
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 22
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Maintenance agreement renewal reminders"
+    description: "Standardize maintenance agreement renewal reminders for Plumber operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Plumber teams rely on ad-hoc handoffs for maintenance agreement renewal reminders, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 2
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 5
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Invoice follow-up for unpaid service calls"
+    description: "Standardize invoice follow-up for unpaid service calls for Plumber operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Plumber teams rely on ad-hoc handoffs for invoice follow-up for unpaid service calls, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false

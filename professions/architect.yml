@@ -1,0 +1,135 @@
+id: architect
+name: "Architect"
+sector: "Professional Services"
+summary: "Designs buildings, coordinates documentation, and manages approvals with clients."
+status: draft
+workflow_count_estimate: 8
+workflows:
+  - name: "Client program requirements capture"
+    description: "Standardize client program requirements capture for Architect operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Architect teams rely on ad-hoc handoffs for client program requirements capture, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Schematic design option review cycle"
+    description: "Standardize schematic design option review cycle for Architect operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Architect teams rely on ad-hoc handoffs for schematic design option review cycle, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Consultant drawing coordination matrix"
+    description: "Standardize consultant drawing coordination matrix for Architect operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Architect teams rely on ad-hoc handoffs for consultant drawing coordination matrix, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Permit set submission tracking"
+    description: "Standardize permit set submission tracking for Architect operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Architect teams rely on ad-hoc handoffs for permit set submission tracking, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 4
+    seedability_score: 3
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 3
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "RFI and submittal response log"
+    description: "Standardize rfi and submittal response log for Architect operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Architect teams rely on ad-hoc handoffs for rfi and submittal response log, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Construction administration site observation reports"
+    description: "Standardize construction administration site observation reports for Architect operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Architect teams rely on ad-hoc handoffs for construction administration site observation reports, causing delays, rework, and missed follow-through."
+    frequency: monthly
+    complexity_score: 2
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 3
+      frequency: 3
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 5
+      total: 23
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Change order impact assessment"
+    description: "Standardize change order impact assessment for Architect operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Architect teams rely on ad-hoc handoffs for change order impact assessment, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Fee proposal and milestone invoicing"
+    description: "Standardize fee proposal and milestone invoicing for Architect operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Architect teams rely on ad-hoc handoffs for fee proposal and milestone invoicing, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false

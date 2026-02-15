@@ -1,0 +1,135 @@
+id: roofer
+name: "Roofer"
+sector: "Construction & Trades"
+summary: "Runs roofing projects from inspections and estimates through completion and billing."
+status: draft
+workflow_count_estimate: 8
+workflows:
+  - name: "Roof inspection photo capture and annotation"
+    description: "Standardize roof inspection photo capture and annotation for Roofer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Roofer teams rely on ad-hoc handoffs for roof inspection photo capture and annotation, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 4
+    seedability_score: 3
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 3
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Estimate generation from measurement reports"
+    description: "Standardize estimate generation from measurement reports for Roofer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Roofer teams rely on ad-hoc handoffs for estimate generation from measurement reports, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 2
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 5
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Material delivery scheduling by job phase"
+    description: "Standardize material delivery scheduling by job phase for Roofer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Roofer teams rely on ad-hoc handoffs for material delivery scheduling by job phase, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 2
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 5
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Insurance supplement documentation tracking"
+    description: "Standardize insurance supplement documentation tracking for Roofer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Roofer teams rely on ad-hoc handoffs for insurance supplement documentation tracking, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 4
+    seedability_score: 3
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 3
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Crew assignment with weather contingency plans"
+    description: "Standardize crew assignment with weather contingency plans for Roofer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Roofer teams rely on ad-hoc handoffs for crew assignment with weather contingency plans, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Safety harness and ladder inspection logs"
+    description: "Standardize safety harness and ladder inspection logs for Roofer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Roofer teams rely on ad-hoc handoffs for safety harness and ladder inspection logs, causing delays, rework, and missed follow-through."
+    frequency: monthly
+    complexity_score: 4
+    seedability_score: 3
+    rubric_scores:
+      pain_severity: 3
+      frequency: 3
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 3
+      total: 21
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Change order approval for hidden damage"
+    description: "Standardize change order approval for hidden damage for Roofer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Roofer teams rely on ad-hoc handoffs for change order approval for hidden damage, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Final walkthrough punch list closure"
+    description: "Standardize final walkthrough punch list closure for Roofer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Roofer teams rely on ad-hoc handoffs for final walkthrough punch list closure, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false

@@ -1,0 +1,135 @@
+id: financial-advisor
+name: "Financial Advisor"
+sector: "Professional Services"
+summary: "Builds investment plans, services clients, and tracks portfolio recommendations."
+status: draft
+workflow_count_estimate: 8
+workflows:
+  - name: "Client risk profile review cycles"
+    description: "Standardize client risk profile review cycles for Financial Advisor operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Financial Advisor teams rely on ad-hoc handoffs for client risk profile review cycles, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Investment policy statement drafting"
+    description: "Standardize investment policy statement drafting for Financial Advisor operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Financial Advisor teams rely on ad-hoc handoffs for investment policy statement drafting, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Household cash-flow plan updates"
+    description: "Standardize household cash-flow plan updates for Financial Advisor operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Financial Advisor teams rely on ad-hoc handoffs for household cash-flow plan updates, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Portfolio rebalance recommendation queue"
+    description: "Standardize portfolio rebalance recommendation queue for Financial Advisor operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Financial Advisor teams rely on ad-hoc handoffs for portfolio rebalance recommendation queue, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 2
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 5
+      total: 26
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Compliance communication archiving"
+    description: "Standardize compliance communication archiving for Financial Advisor operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Financial Advisor teams rely on ad-hoc handoffs for compliance communication archiving, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 4
+    seedability_score: 3
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 3
+      total: 23
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Annual review meeting preparation"
+    description: "Standardize annual review meeting preparation for Financial Advisor operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Financial Advisor teams rely on ad-hoc handoffs for annual review meeting preparation, causing delays, rework, and missed follow-through."
+    frequency: monthly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 3
+      frequency: 3
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 22
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Prospect pipeline and follow-up tasks"
+    description: "Standardize prospect pipeline and follow-up tasks for Financial Advisor operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Financial Advisor teams rely on ad-hoc handoffs for prospect pipeline and follow-up tasks, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Fee billing reconciliation and statements"
+    description: "Standardize fee billing reconciliation and statements for Financial Advisor operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Financial Advisor teams rely on ad-hoc handoffs for fee billing reconciliation and statements, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false

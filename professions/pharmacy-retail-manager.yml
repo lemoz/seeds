@@ -1,0 +1,135 @@
+id: pharmacy-retail-manager
+name: "Pharmacy Retail Manager"
+sector: "Retail"
+summary: "Coordinates retail pharmacy operations, stock controls, and customer service flows."
+status: draft
+workflow_count_estimate: 8
+workflows:
+  - name: "Prescription pickup queue and wait-time tracking"
+    description: "Standardize prescription pickup queue and wait-time tracking for Pharmacy Retail Manager operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Pharmacy Retail Manager teams rely on ad-hoc handoffs for prescription pickup queue and wait-time tracking, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 2
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 5
+      total: 26
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Refill synchronization and reminder outreach"
+    description: "Standardize refill synchronization and reminder outreach for Pharmacy Retail Manager operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Pharmacy Retail Manager teams rely on ad-hoc handoffs for refill synchronization and reminder outreach, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 2
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 5
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Controlled substance perpetual inventory logs"
+    description: "Standardize controlled substance perpetual inventory logs for Pharmacy Retail Manager operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Pharmacy Retail Manager teams rely on ad-hoc handoffs for controlled substance perpetual inventory logs, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 4
+    seedability_score: 3
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 3
+      total: 23
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Prior authorization follow-up with prescribers"
+    description: "Standardize prior authorization follow-up with prescribers for Pharmacy Retail Manager operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Pharmacy Retail Manager teams rely on ad-hoc handoffs for prior authorization follow-up with prescribers, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 4
+    seedability_score: 3
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 3
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Immunization appointment scheduling"
+    description: "Standardize immunization appointment scheduling for Pharmacy Retail Manager operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Pharmacy Retail Manager teams rely on ad-hoc handoffs for immunization appointment scheduling, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 2
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 5
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Expired medication return and disposal workflow"
+    description: "Standardize expired medication return and disposal workflow for Pharmacy Retail Manager operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Pharmacy Retail Manager teams rely on ad-hoc handoffs for expired medication return and disposal workflow, causing delays, rework, and missed follow-through."
+    frequency: monthly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 3
+      frequency: 3
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 22
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Front-store and pharmacy staffing coordination"
+    description: "Standardize front-store and pharmacy staffing coordination for Pharmacy Retail Manager operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Pharmacy Retail Manager teams rely on ad-hoc handoffs for front-store and pharmacy staffing coordination, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Third-party adjudication rejection resolution"
+    description: "Standardize third-party adjudication rejection resolution for Pharmacy Retail Manager operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Pharmacy Retail Manager teams rely on ad-hoc handoffs for third-party adjudication rejection resolution, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 4
+    seedability_score: 3
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 3
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false

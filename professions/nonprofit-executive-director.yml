@@ -1,0 +1,135 @@
+id: nonprofit-executive-director
+name: "Nonprofit Executive Director"
+sector: "Nonprofit"
+summary: "Leads fundraising, program delivery, board operations, and mission impact reporting."
+status: draft
+workflow_count_estimate: 8
+workflows:
+  - name: "Board meeting agenda and packet assembly"
+    description: "Standardize board meeting agenda and packet assembly for Nonprofit Executive Director operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Nonprofit Executive Director teams rely on ad-hoc handoffs for board meeting agenda and packet assembly, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Strategic initiative milestone tracking"
+    description: "Standardize strategic initiative milestone tracking for Nonprofit Executive Director operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Nonprofit Executive Director teams rely on ad-hoc handoffs for strategic initiative milestone tracking, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Budget variance review with program leads"
+    description: "Standardize budget variance review with program leads for Nonprofit Executive Director operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Nonprofit Executive Director teams rely on ad-hoc handoffs for budget variance review with program leads, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Major gift solicitation assignment tracking"
+    description: "Standardize major gift solicitation assignment tracking for Nonprofit Executive Director operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Nonprofit Executive Director teams rely on ad-hoc handoffs for major gift solicitation assignment tracking, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Policy approval and governance document control"
+    description: "Standardize policy approval and governance document control for Nonprofit Executive Director operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Nonprofit Executive Director teams rely on ad-hoc handoffs for policy approval and governance document control, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 4
+    seedability_score: 3
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 3
+      total: 23
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Cross-program staffing and capacity planning"
+    description: "Standardize cross-program staffing and capacity planning for Nonprofit Executive Director operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Nonprofit Executive Director teams rely on ad-hoc handoffs for cross-program staffing and capacity planning, causing delays, rework, and missed follow-through."
+    frequency: monthly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 3
+      frequency: 3
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 22
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Funder compliance risk register updates"
+    description: "Standardize funder compliance risk register updates for Nonprofit Executive Director operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Nonprofit Executive Director teams rely on ad-hoc handoffs for funder compliance risk register updates, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 4
+    seedability_score: 3
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 3
+      total: 23
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Monthly impact narrative compilation"
+    description: "Standardize monthly impact narrative compilation for Nonprofit Executive Director operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Nonprofit Executive Director teams rely on ad-hoc handoffs for monthly impact narrative compilation, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false

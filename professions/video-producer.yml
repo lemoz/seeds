@@ -1,0 +1,135 @@
+id: video-producer
+name: "Video Producer"
+sector: "Creative"
+summary: "Coordinates pre-production, production, edits, and delivery milestones."
+status: draft
+workflow_count_estimate: 8
+workflows:
+  - name: "Discovery brief and storyboard approvals"
+    description: "Standardize discovery brief and storyboard approvals for Video Producer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Video Producer teams rely on ad-hoc handoffs for discovery brief and storyboard approvals, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Shoot schedule and crew call sheet coordination"
+    description: "Standardize shoot schedule and crew call sheet coordination for Video Producer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Video Producer teams rely on ad-hoc handoffs for shoot schedule and crew call sheet coordination, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Footage ingest and proxy generation tracking"
+    description: "Standardize footage ingest and proxy generation tracking for Video Producer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Video Producer teams rely on ad-hoc handoffs for footage ingest and proxy generation tracking, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Edit review rounds with timestamped feedback"
+    description: "Standardize edit review rounds with timestamped feedback for Video Producer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Video Producer teams rely on ad-hoc handoffs for edit review rounds with timestamped feedback, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Motion graphics request intake queue"
+    description: "Standardize motion graphics request intake queue for Video Producer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Video Producer teams rely on ad-hoc handoffs for motion graphics request intake queue, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 2
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 5
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Music licensing and usage clearance checks"
+    description: "Standardize music licensing and usage clearance checks for Video Producer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Video Producer teams rely on ad-hoc handoffs for music licensing and usage clearance checks, causing delays, rework, and missed follow-through."
+    frequency: monthly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 3
+      frequency: 3
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 22
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Final render QA and delivery packaging"
+    description: "Standardize final render qa and delivery packaging for Video Producer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Video Producer teams rely on ad-hoc handoffs for final render qa and delivery packaging, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Archive management for project assets"
+    description: "Standardize archive management for project assets for Video Producer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Video Producer teams rely on ad-hoc handoffs for archive management for project assets, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false

@@ -1,0 +1,135 @@
+id: startup-founder
+name: "Startup Founder"
+sector: "Tech"
+summary: "Balances product, growth, fundraising, and operating cadence in early-stage teams."
+status: draft
+workflow_count_estimate: 8
+workflows:
+  - name: "Weekly operating metrics review and action log"
+    description: "Standardize weekly operating metrics review and action log for Startup Founder operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Startup Founder teams rely on ad-hoc handoffs for weekly operating metrics review and action log, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Investor update drafting and distribution"
+    description: "Standardize investor update drafting and distribution for Startup Founder operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Startup Founder teams rely on ad-hoc handoffs for investor update drafting and distribution, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Candidate pipeline and interview stage tracking"
+    description: "Standardize candidate pipeline and interview stage tracking for Startup Founder operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Startup Founder teams rely on ad-hoc handoffs for candidate pipeline and interview stage tracking, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Burn runway forecast and expense approvals"
+    description: "Standardize burn runway forecast and expense approvals for Startup Founder operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Startup Founder teams rely on ad-hoc handoffs for burn runway forecast and expense approvals, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Customer discovery interview synthesis"
+    description: "Standardize customer discovery interview synthesis for Startup Founder operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Startup Founder teams rely on ad-hoc handoffs for customer discovery interview synthesis, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Product launch checklist and owner assignments"
+    description: "Standardize product launch checklist and owner assignments for Startup Founder operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Startup Founder teams rely on ad-hoc handoffs for product launch checklist and owner assignments, causing delays, rework, and missed follow-through."
+    frequency: monthly
+    complexity_score: 2
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 3
+      frequency: 3
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 5
+      total: 23
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Partnership outreach follow-up queue"
+    description: "Standardize partnership outreach follow-up queue for Startup Founder operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Startup Founder teams rely on ad-hoc handoffs for partnership outreach follow-up queue, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 2
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 5
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Board meeting agenda and materials prep"
+    description: "Standardize board meeting agenda and materials prep for Startup Founder operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Startup Founder teams rely on ad-hoc handoffs for board meeting agenda and materials prep, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false

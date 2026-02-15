@@ -1,0 +1,135 @@
+id: optometrist
+name: "Optometrist"
+sector: "Health & Wellness"
+summary: "Runs eye exams, lens orders, patient records, and recall programs."
+status: draft
+workflow_count_estimate: 8
+workflows:
+  - name: "Eye exam appointment and recall reminders"
+    description: "Standardize eye exam appointment and recall reminders for Optometrist operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Optometrist teams rely on ad-hoc handoffs for eye exam appointment and recall reminders, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 2
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 5
+      total: 26
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Contact lens trial fitting follow-up"
+    description: "Standardize contact lens trial fitting follow-up for Optometrist operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Optometrist teams rely on ad-hoc handoffs for contact lens trial fitting follow-up, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Vision insurance eligibility verification"
+    description: "Standardize vision insurance eligibility verification for Optometrist operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Optometrist teams rely on ad-hoc handoffs for vision insurance eligibility verification, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 4
+    seedability_score: 3
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 3
+      total: 23
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Prescription release and eyewear order routing"
+    description: "Standardize prescription release and eyewear order routing for Optometrist operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Optometrist teams rely on ad-hoc handoffs for prescription release and eyewear order routing, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Frame inventory and reorder management"
+    description: "Standardize frame inventory and reorder management for Optometrist operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Optometrist teams rely on ad-hoc handoffs for frame inventory and reorder management, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Exam room pretest workflow tracking"
+    description: "Standardize exam room pretest workflow tracking for Optometrist operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Optometrist teams rely on ad-hoc handoffs for exam room pretest workflow tracking, causing delays, rework, and missed follow-through."
+    frequency: monthly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 3
+      frequency: 3
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 22
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Medical eye condition referral coordination"
+    description: "Standardize medical eye condition referral coordination for Optometrist operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Optometrist teams rely on ad-hoc handoffs for medical eye condition referral coordination, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Daily optical sales reconciliation"
+    description: "Standardize daily optical sales reconciliation for Optometrist operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Optometrist teams rely on ad-hoc handoffs for daily optical sales reconciliation, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false
