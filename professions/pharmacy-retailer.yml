@@ -1,0 +1,140 @@
+id: pharmacy-retailer
+name: "Pharmacy Retailer"
+sector: "Retail"
+summary: "Retail pharmacies handling high-volume product and customer transactions."
+description: "Pharmacy retailers coordinate inventory accuracy, checkout operations, customer service, and staff scheduling."
+workflow_count_estimate: 8
+tags:
+  - pharmacy
+  - retail-ops
+  - inventory-control
+status: draft
+workflows:
+  - id: inventory-and-reorder-management
+    name: "Inventory and Reorder Management"
+    description: "Track stock movement and trigger reorder decisions before stockouts."
+    pain_point: "Inventory blind spots cause lost sales and excess carrying costs."
+    frequency: daily
+    complexity_score: 4
+    seedability_score: 5
+    rubric_scores:
+      pain_severity: 5
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 26
+    priority_seed: false
+  - id: point-of-sale-and-end-of-day-close
+    name: "Point of Sale and End of Day Close"
+    description: "Consolidate transactions, cash counts, and daily reconciliation reports."
+    pain_point: "Manual close processes create discrepancies and delayed financial visibility."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+    priority_seed: false
+  - id: purchase-order-and-vendor-tracking
+    name: "Purchase Order and Vendor Tracking"
+    description: "Manage supplier purchase orders, lead times, and receiving workflows."
+    pain_point: "Vendor communication in email makes delivery timing hard to manage."
+    frequency: weekly
+    complexity_score: 4
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 3
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 23
+    priority_seed: false
+  - id: ecommerce-order-fulfillment
+    name: "Ecommerce Order Fulfillment"
+    description: "Route online orders through pick, pack, ship, and tracking stages."
+    pain_point: "Disconnected order and shipping tools lead to missed SLAs."
+    frequency: daily
+    complexity_score: 4
+    seedability_score: 3
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 3
+      skill_match: 3
+      total: 23
+    priority_seed: false
+  - id: customer-loyalty-and-crm
+    name: "Customer Loyalty and CRM"
+    description: "Track purchase history, preferences, and loyalty campaign performance."
+    pain_point: "Without CRM context, repeat customers are treated like first-time buyers."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+    priority_seed: false
+  - id: staff-scheduling-and-timesheets
+    name: "Staff Scheduling and Timesheets"
+    description: "Manage staffing plans, shift assignments, and hours tracking."
+    pain_point: "Manual schedules and timesheets create payroll errors and coverage gaps."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+    priority_seed: false
+  - id: promotion-pricing-and-markdown-planning
+    name: "Promotion Pricing and Markdown Planning"
+    description: "Plan campaigns, pricing changes, and markdown execution windows."
+    pain_point: "Promo decisions are delayed when inventory and margin data are stale."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 3
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 23
+    priority_seed: false
+  - id: returns-refunds-and-issue-resolution
+    name: "Returns, Refunds, and Issue Resolution"
+    description: "Track return requests, dispositions, and customer outcomes."
+    pain_point: "Inconsistent return handling creates customer frustration and shrink risk."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+    priority_seed: false

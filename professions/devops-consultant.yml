@@ -1,0 +1,140 @@
+id: devops-consultant
+name: "DevOps Consultant"
+sector: "Tech"
+summary: "Consultants improving reliability, delivery, and incident response systems."
+description: "DevOps consultants manage onboarding, incident workflows, documentation, and recurring client operations reporting."
+workflow_count_estimate: 8
+tags:
+  - devops
+  - reliability
+  - consulting
+status: draft
+workflows:
+  - id: lead-pipeline-and-follow-up
+    name: "Lead Pipeline and Follow-up"
+    description: "Track inbound leads, qualification, and follow-up tasks through close."
+    pain_point: "Pipeline opportunities are lost when follow-up is not systematized."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 5
+    rubric_scores:
+      pain_severity: 5
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 5
+      standalone_value: 4
+      skill_match: 4
+      total: 27
+    priority_seed: false
+  - id: customer-onboarding-and-implementation-tracking
+    name: "Customer Onboarding and Implementation Tracking"
+    description: "Manage onboarding steps, owners, and completion milestones."
+    pain_point: "Onboarding delays grow when ownership and blockers are not visible."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+    priority_seed: false
+  - id: product-feedback-triage-and-prioritization
+    name: "Product Feedback Triage and Prioritization"
+    description: "Aggregate requests, tag themes, and prioritize backlog inputs."
+    pain_point: "Feedback gets lost when support, sales, and product channels are disconnected."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+    priority_seed: false
+  - id: sprint-planning-and-release-tracking
+    name: "Sprint Planning and Release Tracking"
+    description: "Plan iterations, monitor delivery, and communicate release status."
+    pain_point: "Release predictability suffers without unified planning and tracking."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+    priority_seed: false
+  - id: incident-response-and-postmortem-management
+    name: "Incident Response and Postmortem Management"
+    description: "Track incidents, responders, timelines, and follow-up actions."
+    pain_point: "Critical context is lost when incident work happens across chat threads."
+    frequency: daily
+    complexity_score: 4
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 5
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 26
+    priority_seed: false
+  - id: billing-subscription-and-renewal-ops
+    name: "Billing, Subscription, and Renewal Operations"
+    description: "Manage billing cycles, renewal workflows, and churn prevention tasks."
+    pain_point: "Renewal risk is hard to manage when billing and CRM signals are disconnected."
+    frequency: weekly
+    complexity_score: 4
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 3
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 23
+    priority_seed: false
+  - id: knowledge-base-and-internal-documentation
+    name: "Knowledge Base and Internal Documentation"
+    description: "Maintain SOPs, decision logs, and onboarding documentation."
+    pain_point: "Teams repeat mistakes when institutional knowledge is hard to find."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 3
+      frequency: 3
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 22
+    priority_seed: false
+  - id: hiring-pipeline-and-interview-coordination
+    name: "Hiring Pipeline and Interview Coordination"
+    description: "Track candidates, interview loops, feedback, and offer decisions."
+    pain_point: "Hiring slows down when interview and feedback workflows are ad hoc."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 3
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 23
+    priority_seed: false

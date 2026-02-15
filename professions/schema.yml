@@ -1,25 +1,57 @@
-# Profession definition schema.
+# Profession mapping schema.
 
 # Unique profession id (kebab-case).
-id: marketing-agency
+id: accountant
 # Human-friendly profession name.
-name: Marketing Agency
+name: Accountant
+# One of:
+# Professional Services
+# Food & Hospitality
+# Health & Wellness
+# Education
+# Creative
+# Retail
+# Construction & Trades
+# Nonprofit
+# Tech
+sector: Professional Services
 # Short, one-line summary for listings.
-summary: "Teams that manage marketing, branding, and client campaigns."
+summary: "Professionals who manage bookkeeping, tax planning, and financial compliance."
 # Longer description of the profession's scope.
-description: "Agencies delivering marketing strategy, creative production, and ongoing client services."
+description: "Accountants support businesses and individuals with financial records, filing, reporting, and advisory services."
+# Placeholder estimate for expected workflow count.
+workflow_count_estimate: 8
 # Tags to help search and grouping.
 tags:
-  - marketing
-  - agency
-  - creative
+  - finance
+  - compliance
+  - advisory
 # Lifecycle status for the profession entry.
 status: draft
-# Workflows relevant to this profession.
+# Workflows relevant to this profession (5-15 items).
 workflows:
   - # Workflow id (kebab-case).
-    id: client-scheduling
-    # Importance for this profession: primary | secondary | tertiary.
-    priority: primary
-    # Outcome phrasing tailored to this profession.
-    outcome: "Clients can book branded discovery calls without back-and-forth."
+    id: monthly-close-and-reporting
+    # Workflow name.
+    name: Monthly Close and Reporting
+    # What happens in this workflow.
+    description: "Collect, reconcile, and close books, then produce client-ready financial reports."
+    # Core pain point solved by software.
+    pain_point: "Manual reconciliations and spreadsheet handoffs delay close and increase error risk."
+    # Typical cadence: daily | weekly | monthly | quarterly | ad-hoc.
+    frequency: monthly
+    # Delivery complexity for a seed implementation (1-5).
+    complexity_score: 3
+    # How seedable the workflow is with OSS + AI tailoring (1-5).
+    seedability_score: 5
+    # Rubric-aligned scoring from rubric/scoring.md.
+    rubric_scores:
+      pain_severity: 4
+      frequency: 3
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 23
+    # Flag true only for the catalog-wide top 10 highest scoring workflows.
+    priority_seed: false

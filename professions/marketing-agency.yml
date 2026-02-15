@@ -1,0 +1,140 @@
+id: marketing-agency
+name: "Marketing Agency"
+sector: "Creative"
+summary: "Agencies delivering strategy, campaigns, and creative operations for clients."
+description: "Marketing agencies coordinate pipeline, project execution, approvals, reporting, and recurring client delivery."
+workflow_count_estimate: 8
+tags:
+  - marketing
+  - agency
+  - campaigns
+status: draft
+workflows:
+  - id: lead-intake-and-brief-scoping
+    name: "Lead Intake and Brief Scoping"
+    description: "Capture project inquiries and convert them into structured briefs."
+    pain_point: "Unstructured inbound requests make estimation and prioritization inconsistent."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+    priority_seed: false
+  - id: proposal-contract-and-signoff
+    name: "Proposal, Contract, and Signoff"
+    description: "Generate proposals and contracts, then route for approvals and signatures."
+    pain_point: "Proposal and contract versioning across email slows deal cycles."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 3
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 23
+    priority_seed: false
+  - id: project-planning-and-task-tracking
+    name: "Project Planning and Task Tracking"
+    description: "Plan work, assign owners, and monitor status across deliverables."
+    pain_point: "Work ownership and progress are unclear without a shared delivery system."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+    priority_seed: false
+  - id: asset-review-and-client-approvals
+    name: "Asset Review and Client Approvals"
+    description: "Centralize creative review cycles, comments, and approval checkpoints."
+    pain_point: "Feedback spread across channels creates revision churn and approval delays."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 5
+    rubric_scores:
+      pain_severity: 5
+      frequency: 5
+      oss_availability: 5
+      ai_tailorability: 5
+      standalone_value: 5
+      skill_match: 5
+      total: 30
+    priority_seed: true
+  - id: content-production-calendar
+    name: "Content Production Calendar"
+    description: "Maintain publishing cadence, dependencies, and delivery milestones."
+    pain_point: "Production schedules drift when deadlines and dependencies are not visible."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 3
+      frequency: 3
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 22
+    priority_seed: false
+  - id: file-delivery-and-version-control
+    name: "File Delivery and Version Control"
+    description: "Package, share, and track final assets with version history."
+    pain_point: "File version confusion creates rework and client delivery mistakes."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+    priority_seed: false
+  - id: invoicing-and-payment-follow-up
+    name: "Invoicing and Payment Follow-up"
+    description: "Issue invoices, monitor due dates, and automate follow-up reminders."
+    pain_point: "Manual collections work delays revenue and increases admin overhead."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 3
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 23
+    priority_seed: false
+  - id: performance-reporting-and-client-retrospectives
+    name: "Performance Reporting and Client Retrospectives"
+    description: "Compile outcomes, insights, and next-step recommendations for clients."
+    pain_point: "Performance summaries are manual and inconsistent across accounts."
+    frequency: monthly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 3
+      frequency: 2
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 21
+    priority_seed: false

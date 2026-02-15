@@ -1,0 +1,140 @@
+id: cafe-owner
+name: "Cafe Owner"
+sector: "Food & Hospitality"
+summary: "Operators managing fast-paced beverage and food service businesses."
+description: "Cafe owners manage shifts, inventory, sales reconciliation, and customer retention campaigns."
+workflow_count_estimate: 8
+tags:
+  - cafe
+  - hospitality
+  - retention
+status: draft
+workflows:
+  - id: reservation-and-table-management
+    name: "Reservation and Table Management"
+    description: "Manage bookings, waitlists, seating plans, and service pacing in one flow."
+    pain_point: "Walk-ins, phone calls, and online bookings collide without a unified system."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 5
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 5
+      standalone_value: 4
+      skill_match: 4
+      total: 26
+    priority_seed: false
+  - id: staff-scheduling-and-shift-swaps
+    name: "Staff Scheduling and Shift Swaps"
+    description: "Publish shifts, collect availability, and manage swap requests efficiently."
+    pain_point: "Schedule changes through chat messages create coverage gaps and confusion."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+    priority_seed: false
+  - id: inventory-and-supplier-ordering
+    name: "Inventory and Supplier Ordering"
+    description: "Track stock levels, consumption trends, and supplier purchase cycles."
+    pain_point: "Manual inventory checks lead to stockouts, waste, and rushed vendor orders."
+    frequency: daily
+    complexity_score: 4
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+    priority_seed: false
+  - id: point-of-sale-and-daily-reconciliation
+    name: "Point of Sale and Daily Reconciliation"
+    description: "Consolidate sales, tips, and payment records for accurate day-end close."
+    pain_point: "Reconciling sales channels manually creates reporting errors and delays."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+    priority_seed: false
+  - id: customer-feedback-and-reputation-management
+    name: "Customer Feedback and Reputation Management"
+    description: "Collect reviews, triage issues, and respond with service recovery workflows."
+    pain_point: "Feedback spread across platforms makes response quality inconsistent."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 3
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 23
+    priority_seed: false
+  - id: online-order-and-delivery-orchestration
+    name: "Online Order and Delivery Orchestration"
+    description: "Coordinate inbound online orders, prep timing, and delivery dispatch."
+    pain_point: "Separate ordering channels cause missed tickets and delayed fulfillment."
+    frequency: daily
+    complexity_score: 4
+    seedability_score: 3
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 3
+      skill_match: 3
+      total: 23
+    priority_seed: false
+  - id: menu-pricing-and-cost-control
+    name: "Menu Pricing and Cost Control"
+    description: "Monitor ingredient costs, margin targets, and menu pricing updates."
+    pain_point: "Without cost visibility, pricing decisions lag behind supplier changes."
+    frequency: weekly
+    complexity_score: 4
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 3
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 23
+    priority_seed: false
+  - id: loyalty-promotions-and-campaign-tracking
+    name: "Loyalty, Promotions, and Campaign Tracking"
+    description: "Run repeat-visit campaigns and track redemption and retention metrics."
+    pain_point: "Promotions are hard to measure when campaign and sales data are disconnected."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 3
+      frequency: 3
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 22
+    priority_seed: false

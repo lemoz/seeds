@@ -1,0 +1,140 @@
+id: volunteer-coordinator
+name: "Volunteer Coordinator"
+sector: "Nonprofit"
+summary: "Operators recruiting, scheduling, and supporting volunteers."
+description: "Volunteer coordinators run sign-ups, shift coverage, communications, and service tracking workflows."
+workflow_count_estimate: 8
+tags:
+  - volunteers
+  - coordination
+  - community
+status: draft
+workflows:
+  - id: donor-intake-and-crm-hygiene
+    name: "Donor Intake and CRM Hygiene"
+    description: "Capture donor interactions and maintain accurate constituent records."
+    pain_point: "Donor context gets lost when notes and contact history are fragmented."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 5
+    rubric_scores:
+      pain_severity: 5
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 26
+    priority_seed: false
+  - id: grant-calendar-and-deadline-tracking
+    name: "Grant Calendar and Deadline Tracking"
+    description: "Track grant opportunities, submission milestones, and reporting due dates."
+    pain_point: "Critical funding deadlines are missed when tracking is manual."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 5
+      frequency: 3
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+    priority_seed: false
+  - id: volunteer-recruitment-and-scheduling
+    name: "Volunteer Recruitment and Scheduling"
+    description: "Manage volunteer onboarding, availability, and shift coverage."
+    pain_point: "Volunteer coordination through spreadsheets causes no-shows and understaffing."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 3
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 23
+    priority_seed: false
+  - id: program-enrollment-and-service-delivery-tracking
+    name: "Program Enrollment and Service Delivery Tracking"
+    description: "Track participant intake, services delivered, and case progress."
+    pain_point: "Service data quality drops when intake and delivery are tracked separately."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+    priority_seed: false
+  - id: event-planning-and-ticket-donation-management
+    name: "Event Planning and Ticket or Donation Management"
+    description: "Coordinate event logistics, registrations, and donation capture."
+    pain_point: "Event details across tools increase coordination overhead and mistakes."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 3
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 23
+    priority_seed: false
+  - id: recurring-giving-and-receipt-automation
+    name: "Recurring Giving and Receipt Automation"
+    description: "Automate recurring donations, acknowledgments, and tax receipts."
+    pain_point: "Manual receipt workflows create donor trust issues and admin burden."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 3
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 23
+    priority_seed: false
+  - id: impact-reporting-and-board-packets
+    name: "Impact Reporting and Board Packets"
+    description: "Assemble impact metrics and board-ready reporting materials."
+    pain_point: "Board reporting is slow when program data is pulled manually."
+    frequency: monthly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 5
+      frequency: 2
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 23
+    priority_seed: false
+  - id: stakeholder-communications-and-newsletters
+    name: "Stakeholder Communications and Newsletters"
+    description: "Plan and send segmented updates to donors, volunteers, and partners."
+    pain_point: "Inconsistent outreach lowers engagement and repeat support."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 3
+      frequency: 3
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 22
+    priority_seed: false
