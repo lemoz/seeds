@@ -1,34 +1,73 @@
 id: seeds
 name: Seeds
-description: Reverse-seed GitHub repos into launchable prompts for any workflow
+description: >
+  Open-source library of self-contained generative prompts that produce fully deployed,
+  customized software when run with any coding agent (Claude Code, Codex, OpenClaw).
+  Browse by profession → workflow → seed → run. The prompt is the product.
 type: long_term
 stage: foundations
 status: active
 priority: 1
 starred: true
 
+vision: |
+  The default answer to "I need software for X" is "check Seeds first."
+  Agent-agnostic, open source, community-driven. Seeds democratize the knowledge
+  of what to build — not just how to build it.
+
 success_criteria: |
-  Reverse-seed process that reliably extracts deployment prompts from GitHub repos.
-  Library of 1000+ seeds covering top workflows across professions.
-  Searchable catalog: "Launch [OSS] for your needs" by workflow/outcome.
+  - 1,000+ published seeds covering every common business workflow
+  - 50+ professions mapped with scored workflows
+  - 500+ OSS repos reverse-seeded into the library
+  - < 30 minutes from seed to running URL, consistently
+  - > 90% success rate — seeds that work on first run
+  - Browsable catalog website (seeds.dandelion.industries)
+  - Active open-source community contributing seeds and professions
+  - Agent-agnostic: works with Claude Code, Codex, OpenClaw, any future agent
 
 success_metrics:
   - name: Seeds published
     target: 1000
-    current: 0
+    current: 1
   - name: Professions covered
     target: 50
-    current: 0
+    current: 1
   - name: Workflows mapped
     target: 2000
-    current: 0
+    current: 5
   - name: Repos reverse-seeded
     target: 500
     current: 0
+  - name: Success rate
+    target: 90%
+    current: untested
+  - name: Time to deploy
+    target: 30 min
+    current: untested
+
+tracks:
+  - name: Foundations
+    description: Seed format, templates, schemas, scoring rubrics
+    wos: [WO-001]
+  - name: Profession Mapping
+    description: Map professions → workflows → seed opportunities
+    wos: [WO-002, WO-003]
+  - name: Reverse-Seeding
+    description: Extract DNA from OSS repos into seeds
+    wos: [WO-004, WO-005, WO-006]
+  - name: Catalog Website
+    description: Browsable front door — profession → workflow → seed
+    wos: []
+  - name: Community & Growth
+    description: Contribution guides, quality gates, community engagement
+    wos: []
+
+parent: dandelion-industries
 
 tags:
-  - meta
-  - automation
   - oss
+  - automation
   - prompts
-  - github
+  - dandelion
+  - agent-agnostic
+  - catalog
