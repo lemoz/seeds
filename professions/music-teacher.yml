@@ -1,0 +1,140 @@
+id: music-teacher
+name: "Music Teacher"
+sector: "Education"
+summary: "Instructors running recurring lessons, practice plans, and recitals."
+description: "Music teachers coordinate student schedules, curriculum, feedback, and billing for private instruction."
+workflow_count_estimate: 8
+tags:
+  - music-lessons
+  - curriculum
+  - student-management
+status: draft
+workflows:
+  - id: student-enrollment-and-intake
+    name: "Student Enrollment and Intake"
+    description: "Collect student profiles, goals, and required onboarding information."
+    pain_point: "Enrollment details arrive in mixed formats and are hard to consolidate."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 3
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 23
+    priority_seed: false
+  - id: lesson-planning-and-content-management
+    name: "Lesson Planning and Content Management"
+    description: "Organize curriculum materials, session plans, and reusable lesson assets."
+    pain_point: "Content lives across drives and notes, making lesson prep repetitive."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 3
+      frequency: 3
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 5
+      skill_match: 4
+      total: 23
+    priority_seed: false
+  - id: attendance-tracking-and-alerts
+    name: "Attendance Tracking and Alerts"
+    description: "Track attendance in real time and notify stakeholders on absence patterns."
+    pain_point: "Manual attendance logs delay interventions and family communication."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 5
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 26
+    priority_seed: false
+  - id: assignment-feedback-and-grading
+    name: "Assignment Feedback and Grading"
+    description: "Collect submissions, provide feedback, and maintain transparent grading records."
+    pain_point: "Feedback cycles are slow when submissions and notes are fragmented."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 3
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 23
+    priority_seed: false
+  - id: parent-student-communication
+    name: "Parent and Student Communication"
+    description: "Centralize updates, reminders, and action items for families and learners."
+    pain_point: "Communication spread across channels causes missed updates and confusion."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+    priority_seed: false
+  - id: billing-subscriptions-and-payment-reminders
+    name: "Billing, Subscriptions, and Payment Reminders"
+    description: "Manage tuition billing, installment schedules, and payment follow-up."
+    pain_point: "Manual payment tracking causes collections delays and parent confusion."
+    frequency: monthly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 3
+      frequency: 2
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 21
+    priority_seed: false
+  - id: progress-reporting-and-goal-tracking
+    name: "Progress Reporting and Goal Tracking"
+    description: "Track learner milestones and generate regular progress updates."
+    pain_point: "Progress reporting takes too long when evidence is spread across tools."
+    frequency: monthly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 2
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 22
+    priority_seed: false
+  - id: schedule-coordination-and-rescheduling
+    name: "Schedule Coordination and Rescheduling"
+    description: "Coordinate calendars, conflicts, and rescheduling requests."
+    pain_point: "Calendar changes handled manually create frequent booking conflicts."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+    priority_seed: false

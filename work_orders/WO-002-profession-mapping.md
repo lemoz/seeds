@@ -1,7 +1,7 @@
 ---
 id: WO-002
 title: Profession Mapping Framework
-status: ready
+status: you_review
 priority: 1
 tags:
   - professions
