@@ -1,7 +1,7 @@
 ---
 id: WO-005
 title: Reverse-Seed Process
-status: ready
+status: you_review
 priority: 1
 tags:
   - core
