@@ -1,51 +1,13 @@
 id: architect
 name: "Architect"
 sector: "Professional Services"
-summary: "Design professionals producing plans, approvals, and construction documentation."
-description: "Architects coordinate client requirements, revisions, permitting, and milestone delivery across projects."
-workflow_count_estimate: 8
-tags:
-  - architecture
-  - design
-  - project-delivery
+summary: "Designs buildings, coordinates documentation, and manages approvals with clients."
 status: draft
+workflow_count_estimate: 8
 workflows:
-  - id: client-intake-and-qualification
-    name: "Client Intake and Qualification"
-    description: "Capture new client details, goals, and fit criteria before work begins."
-    pain_point: "Intake details are scattered across email and forms, causing slow follow-up and rework."
-    frequency: daily
-    complexity_score: 3
-    seedability_score: 5
-    rubric_scores:
-      pain_severity: 4
-      frequency: 5
-      oss_availability: 4
-      ai_tailorability: 4
-      standalone_value: 4
-      skill_match: 4
-      total: 25
-    priority_seed: false
-  - id: proposal-and-engagement-letter-generation
-    name: "Proposal and Engagement Letter Generation"
-    description: "Generate scoped proposals and engagement letters with reusable templates."
-    pain_point: "Drafting engagement documents manually slows response time and introduces inconsistency."
-    frequency: weekly
-    complexity_score: 3
-    seedability_score: 4
-    rubric_scores:
-      pain_severity: 4
-      frequency: 3
-      oss_availability: 4
-      ai_tailorability: 4
-      standalone_value: 4
-      skill_match: 4
-      total: 23
-    priority_seed: false
-  - id: document-collection-and-tracking
-    name: "Document Collection and Tracking"
-    description: "Request, organize, and track required client documents through completion."
-    pain_point: "Missing files and unclear document status create delays and repeated follow-ups."
+  - name: "Client program requirements capture"
+    description: "Standardize client program requirements capture for Architect operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Architect teams rely on ad-hoc handoffs for client program requirements capture, causing delays, rework, and missed follow-through."
     frequency: daily
     complexity_score: 3
     seedability_score: 4
@@ -57,84 +19,117 @@ workflows:
       standalone_value: 4
       skill_match: 4
       total: 25
+      qualifies_for_seed: true
     priority_seed: false
-  - id: task-deadline-and-calendar-management
-    name: "Task Deadline and Calendar Management"
-    description: "Track deliverables, due dates, and owner assignments across active clients."
-    pain_point: "Deadline tracking in spreadsheets leads to missed handoffs and fire drills."
+  - name: "Schematic design option review cycle"
+    description: "Standardize schematic design option review cycle for Architect operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Architect teams rely on ad-hoc handoffs for schematic design option review cycle, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Consultant drawing coordination matrix"
+    description: "Standardize consultant drawing coordination matrix for Architect operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Architect teams rely on ad-hoc handoffs for consultant drawing coordination matrix, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Permit set submission tracking"
+    description: "Standardize permit set submission tracking for Architect operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Architect teams rely on ad-hoc handoffs for permit set submission tracking, causing delays, rework, and missed follow-through."
     frequency: daily
-    complexity_score: 3
-    seedability_score: 4
-    rubric_scores:
-      pain_severity: 4
-      frequency: 5
-      oss_availability: 4
-      ai_tailorability: 4
-      standalone_value: 4
-      skill_match: 4
-      total: 25
-    priority_seed: false
-  - id: billing-time-tracking-and-invoicing
-    name: "Billing, Time Tracking, and Invoicing"
-    description: "Log billable work, generate invoices, and track payment status."
-    pain_point: "Manual time collection and invoicing delay cash flow and create disputes."
-    frequency: weekly
-    complexity_score: 3
-    seedability_score: 4
-    rubric_scores:
-      pain_severity: 4
-      frequency: 3
-      oss_availability: 4
-      ai_tailorability: 4
-      standalone_value: 4
-      skill_match: 4
-      total: 23
-    priority_seed: false
-  - id: compliance-and-record-retention
-    name: "Compliance and Record Retention"
-    description: "Maintain required records, audit trails, and policy-aligned retention schedules."
-    pain_point: "Fragmented compliance records increase audit risk and manual verification effort."
-    frequency: weekly
     complexity_score: 4
     seedability_score: 3
     rubric_scores:
-      pain_severity: 5
-      frequency: 3
-      oss_availability: 3
-      ai_tailorability: 3
-      standalone_value: 3
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
       skill_match: 3
-      total: 20
+      total: 24
+      qualifies_for_seed: true
     priority_seed: false
-  - id: client-portal-and-status-updates
-    name: "Client Portal and Status Updates"
-    description: "Publish project status, milestones, and requests in a shared client-facing portal."
-    pain_point: "Status updates are repeated manually across email threads and meetings."
+  - name: "RFI and submittal response log"
+    description: "Standardize rfi and submittal response log for Architect operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Architect teams rely on ad-hoc handoffs for rfi and submittal response log, causing delays, rework, and missed follow-through."
     frequency: weekly
     complexity_score: 3
     seedability_score: 4
     rubric_scores:
       pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Construction administration site observation reports"
+    description: "Standardize construction administration site observation reports for Architect operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Architect teams rely on ad-hoc handoffs for construction administration site observation reports, causing delays, rework, and missed follow-through."
+    frequency: monthly
+    complexity_score: 2
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 3
       frequency: 3
       oss_availability: 4
       ai_tailorability: 4
       standalone_value: 4
-      skill_match: 4
+      skill_match: 5
       total: 23
+      qualifies_for_seed: true
     priority_seed: false
-  - id: reporting-and-review-preparation
-    name: "Reporting and Review Preparation"
-    description: "Compile recurring summaries and review packs for clients and stakeholders."
-    pain_point: "Manual report assembly consumes high-value time every month."
-    frequency: monthly
+  - name: "Change order impact assessment"
+    description: "Standardize change order impact assessment for Architect operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Architect teams rely on ad-hoc handoffs for change order impact assessment, causing delays, rework, and missed follow-through."
+    frequency: weekly
     complexity_score: 3
     seedability_score: 4
     rubric_scores:
-      pain_severity: 3
-      frequency: 2
+      pain_severity: 4
+      frequency: 4
       oss_availability: 4
       ai_tailorability: 4
       standalone_value: 4
       skill_match: 4
-      total: 21
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Fee proposal and milestone invoicing"
+    description: "Standardize fee proposal and milestone invoicing for Architect operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Architect teams rely on ad-hoc handoffs for fee proposal and milestone invoicing, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+      qualifies_for_seed: true
     priority_seed: false

@@ -1,51 +1,13 @@
 id: lawyer
 name: "Lawyer"
 sector: "Professional Services"
-summary: "Legal practitioners handling casework, contracts, and client counsel."
-description: "Lawyers run client intake, document workflows, deadlines, and billing while maintaining strict compliance requirements."
-workflow_count_estimate: 8
-tags:
-  - legal
-  - case-management
-  - compliance
+summary: "Delivers legal counsel, contract drafting, and matter execution for clients."
 status: draft
+workflow_count_estimate: 8
 workflows:
-  - id: client-intake-and-qualification
-    name: "Client Intake and Qualification"
-    description: "Capture new client details, goals, and fit criteria before work begins."
-    pain_point: "Intake details are scattered across email and forms, causing slow follow-up and rework."
-    frequency: daily
-    complexity_score: 3
-    seedability_score: 5
-    rubric_scores:
-      pain_severity: 5
-      frequency: 5
-      oss_availability: 5
-      ai_tailorability: 5
-      standalone_value: 5
-      skill_match: 5
-      total: 30
-    priority_seed: true
-  - id: proposal-and-engagement-letter-generation
-    name: "Proposal and Engagement Letter Generation"
-    description: "Generate scoped proposals and engagement letters with reusable templates."
-    pain_point: "Drafting engagement documents manually slows response time and introduces inconsistency."
-    frequency: weekly
-    complexity_score: 3
-    seedability_score: 4
-    rubric_scores:
-      pain_severity: 4
-      frequency: 3
-      oss_availability: 4
-      ai_tailorability: 4
-      standalone_value: 4
-      skill_match: 4
-      total: 23
-    priority_seed: false
-  - id: document-collection-and-tracking
-    name: "Document Collection and Tracking"
-    description: "Request, organize, and track required client documents through completion."
-    pain_point: "Missing files and unclear document status create delays and repeated follow-ups."
+  - name: "Matter intake conflict check workflow"
+    description: "Standardize matter intake conflict check workflow for Lawyer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Lawyer teams rely on ad-hoc handoffs for matter intake conflict check workflow, causing delays, rework, and missed follow-through."
     frequency: daily
     complexity_score: 3
     seedability_score: 4
@@ -57,84 +19,117 @@ workflows:
       standalone_value: 4
       skill_match: 4
       total: 25
+      qualifies_for_seed: true
     priority_seed: false
-  - id: task-deadline-and-calendar-management
-    name: "Task Deadline and Calendar Management"
-    description: "Track deliverables, due dates, and owner assignments across active clients."
-    pain_point: "Deadline tracking in spreadsheets leads to missed handoffs and fire drills."
-    frequency: daily
-    complexity_score: 3
-    seedability_score: 4
-    rubric_scores:
-      pain_severity: 4
-      frequency: 5
-      oss_availability: 4
-      ai_tailorability: 4
-      standalone_value: 4
-      skill_match: 4
-      total: 25
-    priority_seed: false
-  - id: billing-time-tracking-and-invoicing
-    name: "Billing, Time Tracking, and Invoicing"
-    description: "Log billable work, generate invoices, and track payment status."
-    pain_point: "Manual time collection and invoicing delay cash flow and create disputes."
+  - name: "Document drafting and clause library assembly"
+    description: "Standardize document drafting and clause library assembly for Lawyer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Lawyer teams rely on ad-hoc handoffs for document drafting and clause library assembly, causing delays, rework, and missed follow-through."
     frequency: weekly
     complexity_score: 3
     seedability_score: 4
     rubric_scores:
       pain_severity: 4
-      frequency: 3
+      frequency: 4
       oss_availability: 4
       ai_tailorability: 4
       standalone_value: 4
       skill_match: 4
-      total: 23
+      total: 24
+      qualifies_for_seed: true
     priority_seed: false
-  - id: compliance-and-record-retention
-    name: "Compliance and Record Retention"
-    description: "Maintain required records, audit trails, and policy-aligned retention schedules."
-    pain_point: "Fragmented compliance records increase audit risk and manual verification effort."
+  - name: "Court deadline and filing calendar management"
+    description: "Standardize court deadline and filing calendar management for Lawyer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Lawyer teams rely on ad-hoc handoffs for court deadline and filing calendar management, causing delays, rework, and missed follow-through."
     frequency: weekly
     complexity_score: 4
     seedability_score: 3
     rubric_scores:
-      pain_severity: 5
-      frequency: 3
-      oss_availability: 3
-      ai_tailorability: 3
-      standalone_value: 3
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
       skill_match: 3
-      total: 20
+      total: 23
+      qualifies_for_seed: true
     priority_seed: false
-  - id: client-portal-and-status-updates
-    name: "Client Portal and Status Updates"
-    description: "Publish project status, milestones, and requests in a shared client-facing portal."
-    pain_point: "Status updates are repeated manually across email threads and meetings."
+  - name: "Discovery request and production tracking"
+    description: "Standardize discovery request and production tracking for Lawyer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Lawyer teams rely on ad-hoc handoffs for discovery request and production tracking, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Time entry review and billing pre-bill edits"
+    description: "Standardize time entry review and billing pre-bill edits for Lawyer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Lawyer teams rely on ad-hoc handoffs for time entry review and billing pre-bill edits, causing delays, rework, and missed follow-through."
     frequency: weekly
     complexity_score: 3
     seedability_score: 4
     rubric_scores:
       pain_severity: 4
-      frequency: 3
+      frequency: 4
       oss_availability: 4
       ai_tailorability: 4
       standalone_value: 4
       skill_match: 4
-      total: 23
+      total: 24
+      qualifies_for_seed: true
     priority_seed: false
-  - id: reporting-and-review-preparation
-    name: "Reporting and Review Preparation"
-    description: "Compile recurring summaries and review packs for clients and stakeholders."
-    pain_point: "Manual report assembly consumes high-value time every month."
+  - name: "Client communication log with privilege controls"
+    description: "Standardize client communication log with privilege controls for Lawyer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Lawyer teams rely on ad-hoc handoffs for client communication log with privilege controls, causing delays, rework, and missed follow-through."
     frequency: monthly
     complexity_score: 3
     seedability_score: 4
     rubric_scores:
       pain_severity: 3
-      frequency: 2
+      frequency: 3
       oss_availability: 4
       ai_tailorability: 4
       standalone_value: 4
       skill_match: 4
-      total: 21
+      total: 22
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "E-signature packet routing for agreements"
+    description: "Standardize e-signature packet routing for agreements for Lawyer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Lawyer teams rely on ad-hoc handoffs for e-signature packet routing for agreements, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Post-matter closing checklist and archiving"
+    description: "Standardize post-matter closing checklist and archiving for Lawyer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Lawyer teams rely on ad-hoc handoffs for post-matter closing checklist and archiving, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 2
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 5
+      total: 26
+      qualifies_for_seed: true
     priority_seed: false

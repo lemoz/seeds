@@ -1,140 +1,135 @@
 id: general-contractor
 name: "General Contractor"
 sector: "Construction & Trades"
-summary: "Builders coordinating estimates, crews, materials, and project delivery."
-description: "General contractors manage intake, scheduling, compliance, field reporting, and billing across active jobs."
-workflow_count_estimate: 8
-tags:
-  - construction
-  - project-management
-  - field-ops
+summary: "Plans jobs, schedules subcontractors, and tracks project execution in the field."
 status: draft
+workflow_count_estimate: 8
 workflows:
-  - id: lead-intake-and-estimate-creation
-    name: "Lead Intake and Estimate Creation"
-    description: "Capture inquiries, scope requests, and produce structured estimates."
-    pain_point: "Estimate details in text threads create errors and slow quote turnaround."
-    frequency: daily
-    complexity_score: 3
-    seedability_score: 4
-    rubric_scores:
-      pain_severity: 4
-      frequency: 5
-      oss_availability: 4
-      ai_tailorability: 4
-      standalone_value: 4
-      skill_match: 4
-      total: 25
-    priority_seed: false
-  - id: job-scheduling-and-dispatch
-    name: "Job Scheduling and Dispatch"
-    description: "Assign crews, optimize routes, and dispatch work orders in real time."
-    pain_point: "Manual dispatching causes missed windows, overtime, and idle crew time."
+  - name: "Subcontractor schedule and dependency coordination"
+    description: "Standardize subcontractor schedule and dependency coordination for General Contractor operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "General Contractor teams rely on ad-hoc handoffs for subcontractor schedule and dependency coordination, causing delays, rework, and missed follow-through."
     frequency: daily
     complexity_score: 3
     seedability_score: 5
     rubric_scores:
       pain_severity: 5
       frequency: 5
-      oss_availability: 4
-      ai_tailorability: 4
-      standalone_value: 4
-      skill_match: 4
-      total: 26
-    priority_seed: false
-  - id: on-site-checklists-and-photo-documentation
-    name: "On-site Checklists and Photo Documentation"
-    description: "Capture field checklists, photos, and completion evidence from mobile devices."
-    pain_point: "Field updates arrive late or incomplete, creating billing and quality disputes."
-    frequency: daily
+      oss_availability: 5
+      ai_tailorability: 5
+      standalone_value: 5
+      skill_match: 5
+      total: 30
+      qualifies_for_seed: true
+    priority_seed: true
+  - name: "Bid package distribution and comparison"
+    description: "Standardize bid package distribution and comparison for General Contractor operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "General Contractor teams rely on ad-hoc handoffs for bid package distribution and comparison, causing delays, rework, and missed follow-through."
+    frequency: weekly
     complexity_score: 3
     seedability_score: 4
     rubric_scores:
       pain_severity: 4
-      frequency: 5
+      frequency: 4
       oss_availability: 4
       ai_tailorability: 4
       standalone_value: 4
       skill_match: 4
-      total: 25
+      total: 24
+      qualifies_for_seed: true
     priority_seed: false
-  - id: materials-ordering-and-inventory-tracking
-    name: "Materials Ordering and Inventory Tracking"
-    description: "Track material usage, replenish stock, and coordinate supplier deliveries."
-    pain_point: "Untracked material usage leads to shortages, delays, and over-ordering."
-    frequency: daily
-    complexity_score: 4
-    seedability_score: 4
-    rubric_scores:
-      pain_severity: 4
-      frequency: 5
-      oss_availability: 4
-      ai_tailorability: 4
-      standalone_value: 4
-      skill_match: 4
-      total: 25
-    priority_seed: false
-  - id: permit-compliance-and-inspection-tracking
-    name: "Permit Compliance and Inspection Tracking"
-    description: "Track permit requirements, inspection milestones, and corrective actions."
-    pain_point: "Permit and inspection status is hard to track across active jobs."
+  - name: "Permit and inspection milestone tracking"
+    description: "Standardize permit and inspection milestone tracking for General Contractor operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "General Contractor teams rely on ad-hoc handoffs for permit and inspection milestone tracking, causing delays, rework, and missed follow-through."
     frequency: weekly
     complexity_score: 4
     seedability_score: 3
     rubric_scores:
-      pain_severity: 5
-      frequency: 3
-      oss_availability: 3
-      ai_tailorability: 3
-      standalone_value: 3
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
       skill_match: 3
-      total: 20
+      total: 23
+      qualifies_for_seed: true
     priority_seed: false
-  - id: invoicing-progress-billing-and-collections
-    name: "Invoicing, Progress Billing, and Collections"
-    description: "Issue invoices by milestone and automate payment follow-up."
-    pain_point: "Delayed progress billing creates cash flow gaps during active projects."
+  - name: "Daily jobsite report collection"
+    description: "Standardize daily jobsite report collection for General Contractor operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "General Contractor teams rely on ad-hoc handoffs for daily jobsite report collection, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 2
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 5
+      total: 26
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Change order pricing and approval routing"
+    description: "Standardize change order pricing and approval routing for General Contractor operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "General Contractor teams rely on ad-hoc handoffs for change order pricing and approval routing, causing delays, rework, and missed follow-through."
     frequency: weekly
     complexity_score: 3
     seedability_score: 4
     rubric_scores:
       pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Submittal and RFI turnaround tracking"
+    description: "Standardize submittal and rfi turnaround tracking for General Contractor operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "General Contractor teams rely on ad-hoc handoffs for submittal and rfi turnaround tracking, causing delays, rework, and missed follow-through."
+    frequency: monthly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 3
       frequency: 3
       oss_availability: 4
       ai_tailorability: 4
       standalone_value: 4
       skill_match: 4
-      total: 23
+      total: 22
+      qualifies_for_seed: true
     priority_seed: false
-  - id: crew-time-tracking-and-payroll-export
-    name: "Crew Time Tracking and Payroll Export"
-    description: "Log labor hours by job and export clean payroll inputs."
-    pain_point: "Timesheet errors lead to payroll disputes and poor job costing."
-    frequency: daily
+  - name: "Budget draw request preparation"
+    description: "Standardize budget draw request preparation for General Contractor operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "General Contractor teams rely on ad-hoc handoffs for budget draw request preparation, causing delays, rework, and missed follow-through."
+    frequency: weekly
     complexity_score: 3
     seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Safety incident and toolbox talk logs"
+    description: "Standardize safety incident and toolbox talk logs for General Contractor operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "General Contractor teams rely on ad-hoc handoffs for safety incident and toolbox talk logs, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 4
+    seedability_score: 3
     rubric_scores:
       pain_severity: 4
       frequency: 5
       oss_availability: 4
       ai_tailorability: 4
       standalone_value: 4
-      skill_match: 4
-      total: 25
-    priority_seed: false
-  - id: customer-updates-and-work-order-closeout
-    name: "Customer Updates and Work Order Closeout"
-    description: "Share progress updates and close out completed work orders with records."
-    pain_point: "Customers lack visibility when updates rely on ad-hoc phone calls."
-    frequency: daily
-    complexity_score: 3
-    seedability_score: 4
-    rubric_scores:
-      pain_severity: 4
-      frequency: 5
-      oss_availability: 4
-      ai_tailorability: 4
-      standalone_value: 4
-      skill_match: 4
-      total: 25
+      skill_match: 3
+      total: 24
+      qualifies_for_seed: true
     priority_seed: false

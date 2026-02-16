@@ -1,0 +1,135 @@
+id: grant-writer
+name: "Grant Writer"
+sector: "Nonprofit"
+summary: "Builds grant calendars, drafts submissions, and tracks reporting obligations."
+status: draft
+workflow_count_estimate: 8
+workflows:
+  - name: "Funding opportunity qualification screening"
+    description: "Standardize funding opportunity qualification screening for Grant Writer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Grant Writer teams rely on ad-hoc handoffs for funding opportunity qualification screening, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Grant narrative draft review workflow"
+    description: "Standardize grant narrative draft review workflow for Grant Writer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Grant Writer teams rely on ad-hoc handoffs for grant narrative draft review workflow, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Budget narrative alignment checks"
+    description: "Standardize budget narrative alignment checks for Grant Writer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Grant Writer teams rely on ad-hoc handoffs for budget narrative alignment checks, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Submission checklist and deadline alerts"
+    description: "Standardize submission checklist and deadline alerts for Grant Writer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Grant Writer teams rely on ad-hoc handoffs for submission checklist and deadline alerts, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 2
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 5
+      total: 26
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Attachment packet assembly and versioning"
+    description: "Standardize attachment packet assembly and versioning for Grant Writer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Grant Writer teams rely on ad-hoc handoffs for attachment packet assembly and versioning, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Funder portal submission confirmation logs"
+    description: "Standardize funder portal submission confirmation logs for Grant Writer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Grant Writer teams rely on ad-hoc handoffs for funder portal submission confirmation logs, causing delays, rework, and missed follow-through."
+    frequency: monthly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 3
+      frequency: 3
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 22
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Award reporting milestone tracking"
+    description: "Standardize award reporting milestone tracking for Grant Writer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Grant Writer teams rely on ad-hoc handoffs for award reporting milestone tracking, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 2
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 5
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Declined grant debrief and reuse notes"
+    description: "Standardize declined grant debrief and reuse notes for Grant Writer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Grant Writer teams rely on ad-hoc handoffs for declined grant debrief and reuse notes, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 2
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 5
+      total: 26
+      qualifies_for_seed: true
+    priority_seed: false

@@ -1,0 +1,135 @@
+id: freelance-developer
+name: "Freelance Developer"
+sector: "Tech"
+summary: "Runs client software engagements from intake and estimation through delivery."
+status: draft
+workflow_count_estimate: 8
+workflows:
+  - name: "Discovery call notes to project scope draft"
+    description: "Standardize discovery call notes to project scope draft for Freelance Developer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Freelance Developer teams rely on ad-hoc handoffs for discovery call notes to project scope draft, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 2
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 5
+      total: 26
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Proposal estimation and milestone plan"
+    description: "Standardize proposal estimation and milestone plan for Freelance Developer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Freelance Developer teams rely on ad-hoc handoffs for proposal estimation and milestone plan, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Statement of work revision tracking"
+    description: "Standardize statement of work revision tracking for Freelance Developer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Freelance Developer teams rely on ad-hoc handoffs for statement of work revision tracking, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Git issue backlog prioritization"
+    description: "Standardize git issue backlog prioritization for Freelance Developer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Freelance Developer teams rely on ad-hoc handoffs for git issue backlog prioritization, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "QA bug triage before handoff"
+    description: "Standardize qa bug triage before handoff for Freelance Developer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Freelance Developer teams rely on ad-hoc handoffs for qa bug triage before handoff, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Client demo feedback to task updates"
+    description: "Standardize client demo feedback to task updates for Freelance Developer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Freelance Developer teams rely on ad-hoc handoffs for client demo feedback to task updates, causing delays, rework, and missed follow-through."
+    frequency: monthly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 3
+      frequency: 3
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 22
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Time tracking and invoice generation"
+    description: "Standardize time tracking and invoice generation for Freelance Developer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Freelance Developer teams rely on ad-hoc handoffs for time tracking and invoice generation, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Post-launch support request queue"
+    description: "Standardize post-launch support request queue for Freelance Developer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Freelance Developer teams rely on ad-hoc handoffs for post-launch support request queue, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 2
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 5
+      total: 26
+      qualifies_for_seed: true
+    priority_seed: false

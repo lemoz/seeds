@@ -1,0 +1,135 @@
+id: cybersecurity-analyst
+name: "Cybersecurity Analyst"
+sector: "Tech"
+summary: "Executes threat monitoring, incident response, and security control audits."
+status: draft
+workflow_count_estimate: 8
+workflows:
+  - name: "SIEM alert triage and escalation"
+    description: "Standardize siem alert triage and escalation for Cybersecurity Analyst operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Cybersecurity Analyst teams rely on ad-hoc handoffs for siem alert triage and escalation, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 5
+    rubric_scores:
+      pain_severity: 5
+      frequency: 5
+      oss_availability: 5
+      ai_tailorability: 5
+      standalone_value: 5
+      skill_match: 5
+      total: 30
+      qualifies_for_seed: true
+    priority_seed: true
+  - name: "Phishing report investigation queue"
+    description: "Standardize phishing report investigation queue for Cybersecurity Analyst operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Cybersecurity Analyst teams rely on ad-hoc handoffs for phishing report investigation queue, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 2
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 5
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Vulnerability remediation SLA tracking"
+    description: "Standardize vulnerability remediation sla tracking for Cybersecurity Analyst operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Cybersecurity Analyst teams rely on ad-hoc handoffs for vulnerability remediation sla tracking, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Endpoint detection incident playbooks"
+    description: "Standardize endpoint detection incident playbooks for Cybersecurity Analyst operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Cybersecurity Analyst teams rely on ad-hoc handoffs for endpoint detection incident playbooks, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 4
+    seedability_score: 3
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 3
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Access review exception approvals"
+    description: "Standardize access review exception approvals for Cybersecurity Analyst operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Cybersecurity Analyst teams rely on ad-hoc handoffs for access review exception approvals, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Threat intel indicator ingestion"
+    description: "Standardize threat intel indicator ingestion for Cybersecurity Analyst operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Cybersecurity Analyst teams rely on ad-hoc handoffs for threat intel indicator ingestion, causing delays, rework, and missed follow-through."
+    frequency: monthly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 3
+      frequency: 3
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 22
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Security awareness simulation follow-up"
+    description: "Standardize security awareness simulation follow-up for Cybersecurity Analyst operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Cybersecurity Analyst teams rely on ad-hoc handoffs for security awareness simulation follow-up, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Incident postmortem action closure"
+    description: "Standardize incident postmortem action closure for Cybersecurity Analyst operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Cybersecurity Analyst teams rely on ad-hoc handoffs for incident postmortem action closure, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 4
+    seedability_score: 3
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 3
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false

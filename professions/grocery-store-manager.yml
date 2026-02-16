@@ -1,0 +1,135 @@
+id: grocery-store-manager
+name: "Grocery Store Manager"
+sector: "Retail"
+summary: "Oversees perishables, staffing, inventory turns, and daily revenue operations."
+status: draft
+workflow_count_estimate: 8
+workflows:
+  - name: "Fresh produce shrink tracking and markdowns"
+    description: "Standardize fresh produce shrink tracking and markdowns for Grocery Store Manager operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Grocery Store Manager teams rely on ad-hoc handoffs for fresh produce shrink tracking and markdowns, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Vendor delivery receiving and discrepancy capture"
+    description: "Standardize vendor delivery receiving and discrepancy capture for Grocery Store Manager operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Grocery Store Manager teams rely on ad-hoc handoffs for vendor delivery receiving and discrepancy capture, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Shelf replenishment task routing by aisle"
+    description: "Standardize shelf replenishment task routing by aisle for Grocery Store Manager operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Grocery Store Manager teams rely on ad-hoc handoffs for shelf replenishment task routing by aisle, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Weekly ad price change execution"
+    description: "Standardize weekly ad price change execution for Grocery Store Manager operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Grocery Store Manager teams rely on ad-hoc handoffs for weekly ad price change execution, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Food safety temperature log compliance"
+    description: "Standardize food safety temperature log compliance for Grocery Store Manager operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Grocery Store Manager teams rely on ad-hoc handoffs for food safety temperature log compliance, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 4
+    seedability_score: 3
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 3
+      total: 23
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Labor scheduling against foot-traffic forecasts"
+    description: "Standardize labor scheduling against foot-traffic forecasts for Grocery Store Manager operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Grocery Store Manager teams rely on ad-hoc handoffs for labor scheduling against foot-traffic forecasts, causing delays, rework, and missed follow-through."
+    frequency: monthly
+    complexity_score: 2
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 3
+      frequency: 3
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 5
+      total: 23
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Online order pickup staging"
+    description: "Standardize online order pickup staging for Grocery Store Manager operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Grocery Store Manager teams rely on ad-hoc handoffs for online order pickup staging, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Endcap promotion performance reporting"
+    description: "Standardize endcap promotion performance reporting for Grocery Store Manager operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Grocery Store Manager teams rely on ad-hoc handoffs for endcap promotion performance reporting, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 2
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 5
+      total: 26
+      qualifies_for_seed: true
+    priority_seed: false

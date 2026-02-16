@@ -1,0 +1,135 @@
+id: corporate-trainer
+name: "Corporate Trainer"
+sector: "Education"
+summary: "Builds and delivers workforce training programs with assessment and reporting."
+status: draft
+workflow_count_estimate: 8
+workflows:
+  - name: "Training needs assessment intake"
+    description: "Standardize training needs assessment intake for Corporate Trainer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Corporate Trainer teams rely on ad-hoc handoffs for training needs assessment intake, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Cohort schedule and facilitator assignment"
+    description: "Standardize cohort schedule and facilitator assignment for Corporate Trainer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Corporate Trainer teams rely on ad-hoc handoffs for cohort schedule and facilitator assignment, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "LMS enrollment and access provisioning"
+    description: "Standardize lms enrollment and access provisioning for Corporate Trainer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Corporate Trainer teams rely on ad-hoc handoffs for lms enrollment and access provisioning, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Quiz scoring and completion reminders"
+    description: "Standardize quiz scoring and completion reminders for Corporate Trainer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Corporate Trainer teams rely on ad-hoc handoffs for quiz scoring and completion reminders, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 2
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 5
+      total: 26
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Manager feedback collection after sessions"
+    description: "Standardize manager feedback collection after sessions for Corporate Trainer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Corporate Trainer teams rely on ad-hoc handoffs for manager feedback collection after sessions, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Certification issuance and renewal tracking"
+    description: "Standardize certification issuance and renewal tracking for Corporate Trainer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Corporate Trainer teams rely on ad-hoc handoffs for certification issuance and renewal tracking, causing delays, rework, and missed follow-through."
+    frequency: monthly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 3
+      frequency: 3
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 22
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Training material version control"
+    description: "Standardize training material version control for Corporate Trainer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Corporate Trainer teams rely on ad-hoc handoffs for training material version control, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Quarterly training impact reporting"
+    description: "Standardize quarterly training impact reporting for Corporate Trainer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Corporate Trainer teams rely on ad-hoc handoffs for quarterly training impact reporting, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 2
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 5
+      total: 26
+      qualifies_for_seed: true
+    priority_seed: false

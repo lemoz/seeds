@@ -1,0 +1,135 @@
+id: school-administrator
+name: "School Administrator"
+sector: "Education"
+summary: "Coordinates school operations, enrollment, attendance, and compliance reporting."
+status: draft
+workflow_count_estimate: 8
+workflows:
+  - name: "Student attendance intervention workflow"
+    description: "Standardize student attendance intervention workflow for School Administrator operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "School Administrator teams rely on ad-hoc handoffs for student attendance intervention workflow, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 5
+    rubric_scores:
+      pain_severity: 5
+      frequency: 5
+      oss_availability: 5
+      ai_tailorability: 5
+      standalone_value: 5
+      skill_match: 5
+      total: 30
+      qualifies_for_seed: true
+    priority_seed: true
+  - name: "Enrollment document collection and verification"
+    description: "Standardize enrollment document collection and verification for School Administrator operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "School Administrator teams rely on ad-hoc handoffs for enrollment document collection and verification, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Staff substitute coverage request routing"
+    description: "Standardize staff substitute coverage request routing for School Administrator operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "School Administrator teams rely on ad-hoc handoffs for staff substitute coverage request routing, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Parent communication and notification tracking"
+    description: "Standardize parent communication and notification tracking for School Administrator operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "School Administrator teams rely on ad-hoc handoffs for parent communication and notification tracking, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Discipline referral review and follow-up"
+    description: "Standardize discipline referral review and follow-up for School Administrator operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "School Administrator teams rely on ad-hoc handoffs for discipline referral review and follow-up, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "State reporting data validation checks"
+    description: "Standardize state reporting data validation checks for School Administrator operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "School Administrator teams rely on ad-hoc handoffs for state reporting data validation checks, causing delays, rework, and missed follow-through."
+    frequency: monthly
+    complexity_score: 2
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 3
+      frequency: 3
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 5
+      total: 23
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Facility maintenance ticket prioritization"
+    description: "Standardize facility maintenance ticket prioritization for School Administrator operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "School Administrator teams rely on ad-hoc handoffs for facility maintenance ticket prioritization, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Meal program eligibility and audit logs"
+    description: "Standardize meal program eligibility and audit logs for School Administrator operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "School Administrator teams rely on ad-hoc handoffs for meal program eligibility and audit logs, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false

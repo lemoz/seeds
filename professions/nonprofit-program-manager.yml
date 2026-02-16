@@ -1,67 +1,13 @@
 id: nonprofit-program-manager
 name: "Nonprofit Program Manager"
 sector: "Nonprofit"
-summary: "Managers running programs, grants, and service delivery operations."
-description: "Program managers coordinate constituents, services, reporting, and funding deadlines across nonprofit initiatives."
-workflow_count_estimate: 8
-tags:
-  - nonprofit
-  - program-delivery
-  - impact
+summary: "Operates service delivery programs, participant tracking, and outcomes measurement."
 status: draft
+workflow_count_estimate: 8
 workflows:
-  - id: donor-intake-and-crm-hygiene
-    name: "Donor Intake and CRM Hygiene"
-    description: "Capture donor interactions and maintain accurate constituent records."
-    pain_point: "Donor context gets lost when notes and contact history are fragmented."
-    frequency: daily
-    complexity_score: 3
-    seedability_score: 5
-    rubric_scores:
-      pain_severity: 5
-      frequency: 5
-      oss_availability: 5
-      ai_tailorability: 5
-      standalone_value: 5
-      skill_match: 5
-      total: 30
-    priority_seed: true
-  - id: grant-calendar-and-deadline-tracking
-    name: "Grant Calendar and Deadline Tracking"
-    description: "Track grant opportunities, submission milestones, and reporting due dates."
-    pain_point: "Critical funding deadlines are missed when tracking is manual."
-    frequency: weekly
-    complexity_score: 3
-    seedability_score: 4
-    rubric_scores:
-      pain_severity: 5
-      frequency: 3
-      oss_availability: 4
-      ai_tailorability: 4
-      standalone_value: 4
-      skill_match: 4
-      total: 24
-    priority_seed: false
-  - id: volunteer-recruitment-and-scheduling
-    name: "Volunteer Recruitment and Scheduling"
-    description: "Manage volunteer onboarding, availability, and shift coverage."
-    pain_point: "Volunteer coordination through spreadsheets causes no-shows and understaffing."
-    frequency: weekly
-    complexity_score: 3
-    seedability_score: 4
-    rubric_scores:
-      pain_severity: 4
-      frequency: 3
-      oss_availability: 4
-      ai_tailorability: 4
-      standalone_value: 4
-      skill_match: 4
-      total: 23
-    priority_seed: false
-  - id: program-enrollment-and-service-delivery-tracking
-    name: "Program Enrollment and Service Delivery Tracking"
-    description: "Track participant intake, services delivered, and case progress."
-    pain_point: "Service data quality drops when intake and delivery are tracked separately."
+  - name: "Participant intake and eligibility verification"
+    description: "Standardize participant intake and eligibility verification for Nonprofit Program Manager operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Nonprofit Program Manager teams rely on ad-hoc handoffs for participant intake and eligibility verification, causing delays, rework, and missed follow-through."
     frequency: daily
     complexity_score: 3
     seedability_score: 4
@@ -73,60 +19,76 @@ workflows:
       standalone_value: 4
       skill_match: 4
       total: 25
+      qualifies_for_seed: true
     priority_seed: false
-  - id: event-planning-and-ticket-donation-management
-    name: "Event Planning and Ticket or Donation Management"
-    description: "Coordinate event logistics, registrations, and donation capture."
-    pain_point: "Event details across tools increase coordination overhead and mistakes."
+  - name: "Service delivery session attendance tracking"
+    description: "Standardize service delivery session attendance tracking for Nonprofit Program Manager operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Nonprofit Program Manager teams rely on ad-hoc handoffs for service delivery session attendance tracking, causing delays, rework, and missed follow-through."
     frequency: weekly
     complexity_score: 3
     seedability_score: 4
     rubric_scores:
       pain_severity: 4
-      frequency: 3
+      frequency: 4
       oss_availability: 4
       ai_tailorability: 4
       standalone_value: 4
       skill_match: 4
-      total: 23
+      total: 24
+      qualifies_for_seed: true
     priority_seed: false
-  - id: recurring-giving-and-receipt-automation
-    name: "Recurring Giving and Receipt Automation"
-    description: "Automate recurring donations, acknowledgments, and tax receipts."
-    pain_point: "Manual receipt workflows create donor trust issues and admin burden."
+  - name: "Case note completion and supervisor review"
+    description: "Standardize case note completion and supervisor review for Nonprofit Program Manager operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Nonprofit Program Manager teams rely on ad-hoc handoffs for case note completion and supervisor review, causing delays, rework, and missed follow-through."
     frequency: weekly
     complexity_score: 3
     seedability_score: 4
     rubric_scores:
       pain_severity: 4
-      frequency: 3
+      frequency: 4
       oss_availability: 4
       ai_tailorability: 4
       standalone_value: 4
       skill_match: 4
-      total: 23
+      total: 24
+      qualifies_for_seed: true
     priority_seed: false
-  - id: impact-reporting-and-board-packets
-    name: "Impact Reporting and Board Packets"
-    description: "Assemble impact metrics and board-ready reporting materials."
-    pain_point: "Board reporting is slow when program data is pulled manually."
+  - name: "Referral partner follow-up queue"
+    description: "Standardize referral partner follow-up queue for Nonprofit Program Manager operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Nonprofit Program Manager teams rely on ad-hoc handoffs for referral partner follow-up queue, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 2
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 5
+      total: 26
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Outcome metric collection by cohort"
+    description: "Standardize outcome metric collection by cohort for Nonprofit Program Manager operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Nonprofit Program Manager teams rely on ad-hoc handoffs for outcome metric collection by cohort, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Program supply inventory and reorder"
+    description: "Standardize program supply inventory and reorder for Nonprofit Program Manager operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Nonprofit Program Manager teams rely on ad-hoc handoffs for program supply inventory and reorder, causing delays, rework, and missed follow-through."
     frequency: monthly
-    complexity_score: 3
-    seedability_score: 4
-    rubric_scores:
-      pain_severity: 5
-      frequency: 2
-      oss_availability: 4
-      ai_tailorability: 4
-      standalone_value: 4
-      skill_match: 4
-      total: 23
-    priority_seed: false
-  - id: stakeholder-communications-and-newsletters
-    name: "Stakeholder Communications and Newsletters"
-    description: "Plan and send segmented updates to donors, volunteers, and partners."
-    pain_point: "Inconsistent outreach lowers engagement and repeat support."
-    frequency: weekly
     complexity_score: 3
     seedability_score: 4
     rubric_scores:
@@ -137,4 +99,37 @@ workflows:
       standalone_value: 4
       skill_match: 4
       total: 22
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Incident reporting and escalation workflow"
+    description: "Standardize incident reporting and escalation workflow for Nonprofit Program Manager operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Nonprofit Program Manager teams rely on ad-hoc handoffs for incident reporting and escalation workflow, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 4
+    seedability_score: 3
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 3
+      total: 23
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Grant deliverable evidence packet assembly"
+    description: "Standardize grant deliverable evidence packet assembly for Nonprofit Program Manager operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Nonprofit Program Manager teams rely on ad-hoc handoffs for grant deliverable evidence packet assembly, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+      qualifies_for_seed: true
     priority_seed: false

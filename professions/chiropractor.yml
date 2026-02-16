@@ -1,35 +1,13 @@
 id: chiropractor
 name: "Chiropractor"
 sector: "Health & Wellness"
-summary: "Providers delivering musculoskeletal treatment plans and sessions."
-description: "Chiropractors coordinate recurring appointments, plan adherence, documentation, and payment workflows."
-workflow_count_estimate: 8
-tags:
-  - chiropractic
-  - treatment
-  - practice-ops
+summary: "Manages patient visits, treatment plans, SOAP notes, and recurring care schedules."
 status: draft
+workflow_count_estimate: 8
 workflows:
-  - id: appointment-scheduling-and-reminders
-    name: "Appointment Scheduling and Reminders"
-    description: "Manage bookings, provider calendars, reminders, and reschedules."
-    pain_point: "Phone-heavy scheduling causes no-shows, double-booking, and staff overload."
-    frequency: daily
-    complexity_score: 3
-    seedability_score: 5
-    rubric_scores:
-      pain_severity: 5
-      frequency: 5
-      oss_availability: 4
-      ai_tailorability: 4
-      standalone_value: 4
-      skill_match: 4
-      total: 26
-    priority_seed: false
-  - id: patient-intake-and-form-collection
-    name: "Patient Intake and Form Collection"
-    description: "Collect demographics, consent, history, and insurance details digitally."
-    pain_point: "Paper and email intake create errors and delays before care starts."
+  - name: "New patient intake and contraindication screening"
+    description: "Standardize new patient intake and contraindication screening for Chiropractor operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Chiropractor teams rely on ad-hoc handoffs for new patient intake and contraindication screening, causing delays, rework, and missed follow-through."
     frequency: daily
     complexity_score: 3
     seedability_score: 4
@@ -41,100 +19,117 @@ workflows:
       standalone_value: 4
       skill_match: 4
       total: 25
+      qualifies_for_seed: true
     priority_seed: false
-  - id: treatment-plan-and-session-notes
-    name: "Treatment Plan and Session Notes"
-    description: "Capture visit notes, care plans, and progress updates consistently."
-    pain_point: "Inconsistent documentation reduces care continuity and audit readiness."
+  - name: "SOAP note completion after adjustments"
+    description: "Standardize soap note completion after adjustments for Chiropractor operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Chiropractor teams rely on ad-hoc handoffs for soap note completion after adjustments, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Treatment plan visit package tracking"
+    description: "Standardize treatment plan visit package tracking for Chiropractor operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Chiropractor teams rely on ad-hoc handoffs for treatment plan visit package tracking, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Re-exam scheduling and reminder cadence"
+    description: "Standardize re-exam scheduling and reminder cadence for Chiropractor operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Chiropractor teams rely on ad-hoc handoffs for re-exam scheduling and reminder cadence, causing delays, rework, and missed follow-through."
     frequency: daily
-    complexity_score: 4
-    seedability_score: 3
+    complexity_score: 2
+    seedability_score: 4
     rubric_scores:
       pain_severity: 4
       frequency: 5
-      oss_availability: 3
-      ai_tailorability: 3
-      standalone_value: 3
-      skill_match: 3
-      total: 21
-    priority_seed: false
-  - id: billing-claims-and-payment-posting
-    name: "Billing, Claims, and Payment Posting"
-    description: "Submit claims, post payments, and resolve denials with clear queues."
-    pain_point: "Claims denials and manual follow-up slow reimbursement and cash flow."
-    frequency: weekly
-    complexity_score: 4
-    seedability_score: 3
-    rubric_scores:
-      pain_severity: 5
-      frequency: 3
-      oss_availability: 4
-      ai_tailorability: 3
-      standalone_value: 3
-      skill_match: 3
-      total: 21
-    priority_seed: false
-  - id: follow-up-recall-and-care-plan-adherence
-    name: "Follow-up, Recall, and Care Plan Adherence"
-    description: "Automate recalls and follow-up tasks to improve treatment completion."
-    pain_point: "Manual reminders cause missed follow-ups and reduced patient outcomes."
-    frequency: weekly
-    complexity_score: 3
-    seedability_score: 4
-    rubric_scores:
-      pain_severity: 4
-      frequency: 3
       oss_availability: 4
       ai_tailorability: 4
       standalone_value: 4
-      skill_match: 4
-      total: 23
+      skill_match: 5
+      total: 26
+      qualifies_for_seed: true
     priority_seed: false
-  - id: referral-lab-and-order-tracking
-    name: "Referral, Lab, and Order Tracking"
-    description: "Track outbound referrals, lab orders, and inbound results."
-    pain_point: "Referral status is opaque, causing delayed care and repeated outreach."
+  - name: "Insurance claim submission for CPT codes"
+    description: "Standardize insurance claim submission for cpt codes for Chiropractor operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Chiropractor teams rely on ad-hoc handoffs for insurance claim submission for cpt codes, causing delays, rework, and missed follow-through."
     frequency: weekly
     complexity_score: 4
     seedability_score: 3
     rubric_scores:
       pain_severity: 4
-      frequency: 3
-      oss_availability: 3
+      frequency: 4
+      oss_availability: 4
       ai_tailorability: 4
-      standalone_value: 3
+      standalone_value: 4
       skill_match: 3
-      total: 20
+      total: 23
+      qualifies_for_seed: true
     priority_seed: false
-  - id: compliance-documentation-and-audit-readiness
-    name: "Compliance Documentation and Audit Readiness"
-    description: "Maintain policy artifacts, logs, and required documentation for audits."
-    pain_point: "Audit prep is reactive when compliance records are fragmented."
-    frequency: weekly
+  - name: "Prior authorization follow-up queue"
+    description: "Standardize prior authorization follow-up queue for Chiropractor operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Chiropractor teams rely on ad-hoc handoffs for prior authorization follow-up queue, causing delays, rework, and missed follow-through."
+    frequency: monthly
     complexity_score: 4
     seedability_score: 3
-    rubric_scores:
-      pain_severity: 5
-      frequency: 3
-      oss_availability: 3
-      ai_tailorability: 3
-      standalone_value: 3
-      skill_match: 3
-      total: 20
-    priority_seed: false
-  - id: outcome-reporting-and-practice-analytics
-    name: "Outcome Reporting and Practice Analytics"
-    description: "Build recurring dashboards on outcomes, utilization, and operational KPIs."
-    pain_point: "Practice insights are delayed when reporting is assembled manually."
-    frequency: monthly
-    complexity_score: 3
-    seedability_score: 4
     rubric_scores:
       pain_severity: 3
-      frequency: 2
+      frequency: 3
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 3
+      total: 21
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Home exercise program assignment delivery"
+    description: "Standardize home exercise program assignment delivery for Chiropractor operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Chiropractor teams rely on ad-hoc handoffs for home exercise program assignment delivery, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
       oss_availability: 4
       ai_tailorability: 4
       standalone_value: 4
       skill_match: 4
-      total: 21
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Patient outcome score collection"
+    description: "Standardize patient outcome score collection for Chiropractor operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Chiropractor teams rely on ad-hoc handoffs for patient outcome score collection, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+      qualifies_for_seed: true
     priority_seed: false

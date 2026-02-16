@@ -1,19 +1,13 @@
 id: video-producer
 name: "Video Producer"
 sector: "Creative"
-summary: "Producers managing pre-production, editing, and client delivery."
-description: "Video producers run intake, planning, approvals, production calendars, and post-project reporting."
-workflow_count_estimate: 8
-tags:
-  - video
-  - production
-  - post-production
+summary: "Coordinates pre-production, production, edits, and delivery milestones."
 status: draft
+workflow_count_estimate: 8
 workflows:
-  - id: lead-intake-and-brief-scoping
-    name: "Lead Intake and Brief Scoping"
-    description: "Capture project inquiries and convert them into structured briefs."
-    pain_point: "Unstructured inbound requests make estimation and prioritization inconsistent."
+  - name: "Discovery brief and storyboard approvals"
+    description: "Standardize discovery brief and storyboard approvals for Video Producer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Video Producer teams rely on ad-hoc handoffs for discovery brief and storyboard approvals, causing delays, rework, and missed follow-through."
     frequency: daily
     complexity_score: 3
     seedability_score: 4
@@ -25,27 +19,43 @@ workflows:
       standalone_value: 4
       skill_match: 4
       total: 25
+      qualifies_for_seed: true
     priority_seed: false
-  - id: proposal-contract-and-signoff
-    name: "Proposal, Contract, and Signoff"
-    description: "Generate proposals and contracts, then route for approvals and signatures."
-    pain_point: "Proposal and contract versioning across email slows deal cycles."
+  - name: "Shoot schedule and crew call sheet coordination"
+    description: "Standardize shoot schedule and crew call sheet coordination for Video Producer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Video Producer teams rely on ad-hoc handoffs for shoot schedule and crew call sheet coordination, causing delays, rework, and missed follow-through."
     frequency: weekly
     complexity_score: 3
     seedability_score: 4
     rubric_scores:
       pain_severity: 4
-      frequency: 3
+      frequency: 4
       oss_availability: 4
       ai_tailorability: 4
       standalone_value: 4
       skill_match: 4
-      total: 23
+      total: 24
+      qualifies_for_seed: true
     priority_seed: false
-  - id: project-planning-and-task-tracking
-    name: "Project Planning and Task Tracking"
-    description: "Plan work, assign owners, and monitor status across deliverables."
-    pain_point: "Work ownership and progress are unclear without a shared delivery system."
+  - name: "Footage ingest and proxy generation tracking"
+    description: "Standardize footage ingest and proxy generation tracking for Video Producer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Video Producer teams rely on ad-hoc handoffs for footage ingest and proxy generation tracking, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Edit review rounds with timestamped feedback"
+    description: "Standardize edit review rounds with timestamped feedback for Video Producer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Video Producer teams rely on ad-hoc handoffs for edit review rounds with timestamped feedback, causing delays, rework, and missed follow-through."
     frequency: daily
     complexity_score: 3
     seedability_score: 4
@@ -57,28 +67,28 @@ workflows:
       standalone_value: 4
       skill_match: 4
       total: 25
+      qualifies_for_seed: true
     priority_seed: false
-  - id: asset-review-and-client-approvals
-    name: "Asset Review and Client Approvals"
-    description: "Centralize creative review cycles, comments, and approval checkpoints."
-    pain_point: "Feedback spread across channels creates revision churn and approval delays."
-    frequency: daily
-    complexity_score: 3
-    seedability_score: 5
+  - name: "Motion graphics request intake queue"
+    description: "Standardize motion graphics request intake queue for Video Producer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Video Producer teams rely on ad-hoc handoffs for motion graphics request intake queue, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 2
+    seedability_score: 4
     rubric_scores:
-      pain_severity: 5
-      frequency: 5
+      pain_severity: 4
+      frequency: 4
       oss_availability: 4
       ai_tailorability: 4
       standalone_value: 4
-      skill_match: 4
-      total: 26
+      skill_match: 5
+      total: 25
+      qualifies_for_seed: true
     priority_seed: false
-  - id: content-production-calendar
-    name: "Content Production Calendar"
-    description: "Maintain publishing cadence, dependencies, and delivery milestones."
-    pain_point: "Production schedules drift when deadlines and dependencies are not visible."
-    frequency: weekly
+  - name: "Music licensing and usage clearance checks"
+    description: "Standardize music licensing and usage clearance checks for Video Producer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Video Producer teams rely on ad-hoc handoffs for music licensing and usage clearance checks, causing delays, rework, and missed follow-through."
+    frequency: monthly
     complexity_score: 3
     seedability_score: 4
     rubric_scores:
@@ -89,11 +99,27 @@ workflows:
       standalone_value: 4
       skill_match: 4
       total: 22
+      qualifies_for_seed: true
     priority_seed: false
-  - id: file-delivery-and-version-control
-    name: "File Delivery and Version Control"
-    description: "Package, share, and track final assets with version history."
-    pain_point: "File version confusion creates rework and client delivery mistakes."
+  - name: "Final render QA and delivery packaging"
+    description: "Standardize final render qa and delivery packaging for Video Producer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Video Producer teams rely on ad-hoc handoffs for final render qa and delivery packaging, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Archive management for project assets"
+    description: "Standardize archive management for project assets for Video Producer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Video Producer teams rely on ad-hoc handoffs for archive management for project assets, causing delays, rework, and missed follow-through."
     frequency: daily
     complexity_score: 3
     seedability_score: 4
@@ -105,36 +131,5 @@ workflows:
       standalone_value: 4
       skill_match: 4
       total: 25
-    priority_seed: false
-  - id: invoicing-and-payment-follow-up
-    name: "Invoicing and Payment Follow-up"
-    description: "Issue invoices, monitor due dates, and automate follow-up reminders."
-    pain_point: "Manual collections work delays revenue and increases admin overhead."
-    frequency: weekly
-    complexity_score: 3
-    seedability_score: 4
-    rubric_scores:
-      pain_severity: 4
-      frequency: 3
-      oss_availability: 4
-      ai_tailorability: 4
-      standalone_value: 4
-      skill_match: 4
-      total: 23
-    priority_seed: false
-  - id: performance-reporting-and-client-retrospectives
-    name: "Performance Reporting and Client Retrospectives"
-    description: "Compile outcomes, insights, and next-step recommendations for clients."
-    pain_point: "Performance summaries are manual and inconsistent across accounts."
-    frequency: monthly
-    complexity_score: 3
-    seedability_score: 4
-    rubric_scores:
-      pain_severity: 3
-      frequency: 2
-      oss_availability: 4
-      ai_tailorability: 4
-      standalone_value: 4
-      skill_match: 4
-      total: 21
+      qualifies_for_seed: true
     priority_seed: false

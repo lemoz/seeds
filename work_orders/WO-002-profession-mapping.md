@@ -7,19 +7,6 @@ tags:
   - professions
   - mapping
 created_at: 2025-01-15
-goal: Map 50 professions with their top workflows. Each profession gets a YAML file listing 5-15 workflows scored against the rubric. This is the catalog backbone — what Seeds covers.
-acceptance_criteria:
-  - professions/ directory contains 50 YAML files, one per profession
-  - Each file follows professions/schema.yml format
-  - Each profession has 5-15 workflows identified and scored against rubric/scoring.md
-  - "Workflows organized into sectors: Professional Services, Food & Hospitality, Health & Wellness, Education, Creative, Retail, Construction & Trades, Nonprofit, Tech"
-  - Total workflow count >= 400 across all professions
-  - "Each workflow has: name, description, pain_point, frequency, complexity_score, seedability_score"
-  - Top 10 highest-scoring workflows flagged for priority seeding
-stop_conditions:
-  - If a profession has fewer than 5 identifiable software workflows, skip it and substitute another
-  - Focus on workflows where software solves a real pain point, not theoretical needs
-estimate_hours: 6
 updated_at: 2026-02-15
 ---
 # WO-002: Profession Mapping Framework

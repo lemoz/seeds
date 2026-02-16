@@ -1,0 +1,135 @@
+id: bar-owner
+name: "Bar Owner"
+sector: "Food & Hospitality"
+summary: "Manages beverage service, staffing, inventory, and event programming."
+status: draft
+workflow_count_estimate: 8
+workflows:
+  - name: "Opening and closing cash drawer reconciliation"
+    description: "Standardize opening and closing cash drawer reconciliation for Bar Owner operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Bar Owner teams rely on ad-hoc handoffs for opening and closing cash drawer reconciliation, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Liquor inventory depletion and variance tracking"
+    description: "Standardize liquor inventory depletion and variance tracking for Bar Owner operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Bar Owner teams rely on ad-hoc handoffs for liquor inventory depletion and variance tracking, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "ID check and incident log management"
+    description: "Standardize id check and incident log management for Bar Owner operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Bar Owner teams rely on ad-hoc handoffs for id check and incident log management, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 4
+    seedability_score: 3
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 3
+      total: 23
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Happy hour pricing rule scheduling"
+    description: "Standardize happy hour pricing rule scheduling for Bar Owner operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Bar Owner teams rely on ad-hoc handoffs for happy hour pricing rule scheduling, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 2
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 5
+      total: 26
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Event booking and minimum spend tracking"
+    description: "Standardize event booking and minimum spend tracking for Bar Owner operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Bar Owner teams rely on ad-hoc handoffs for event booking and minimum spend tracking, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Draft line cleaning compliance checklist"
+    description: "Standardize draft line cleaning compliance checklist for Bar Owner operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Bar Owner teams rely on ad-hoc handoffs for draft line cleaning compliance checklist, causing delays, rework, and missed follow-through."
+    frequency: monthly
+    complexity_score: 4
+    seedability_score: 3
+    rubric_scores:
+      pain_severity: 3
+      frequency: 3
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 3
+      total: 21
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Distributor invoice matching and payment runs"
+    description: "Standardize distributor invoice matching and payment runs for Bar Owner operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Bar Owner teams rely on ad-hoc handoffs for distributor invoice matching and payment runs, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Bartender shift scheduling and coverage swaps"
+    description: "Standardize bartender shift scheduling and coverage swaps for Bar Owner operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Bar Owner teams rely on ad-hoc handoffs for bartender shift scheduling and coverage swaps, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 2
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 5
+      total: 26
+      qualifies_for_seed: true
+    priority_seed: false

@@ -1,67 +1,13 @@
 id: volunteer-coordinator
 name: "Volunteer Coordinator"
 sector: "Nonprofit"
-summary: "Operators recruiting, scheduling, and supporting volunteers."
-description: "Volunteer coordinators run sign-ups, shift coverage, communications, and service tracking workflows."
-workflow_count_estimate: 8
-tags:
-  - volunteers
-  - coordination
-  - community
+summary: "Recruits and schedules volunteers, tracks hours, and maintains engagement communications."
 status: draft
+workflow_count_estimate: 8
 workflows:
-  - id: donor-intake-and-crm-hygiene
-    name: "Donor Intake and CRM Hygiene"
-    description: "Capture donor interactions and maintain accurate constituent records."
-    pain_point: "Donor context gets lost when notes and contact history are fragmented."
-    frequency: daily
-    complexity_score: 3
-    seedability_score: 5
-    rubric_scores:
-      pain_severity: 5
-      frequency: 5
-      oss_availability: 4
-      ai_tailorability: 4
-      standalone_value: 4
-      skill_match: 4
-      total: 26
-    priority_seed: false
-  - id: grant-calendar-and-deadline-tracking
-    name: "Grant Calendar and Deadline Tracking"
-    description: "Track grant opportunities, submission milestones, and reporting due dates."
-    pain_point: "Critical funding deadlines are missed when tracking is manual."
-    frequency: weekly
-    complexity_score: 3
-    seedability_score: 4
-    rubric_scores:
-      pain_severity: 5
-      frequency: 3
-      oss_availability: 4
-      ai_tailorability: 4
-      standalone_value: 4
-      skill_match: 4
-      total: 24
-    priority_seed: false
-  - id: volunteer-recruitment-and-scheduling
-    name: "Volunteer Recruitment and Scheduling"
-    description: "Manage volunteer onboarding, availability, and shift coverage."
-    pain_point: "Volunteer coordination through spreadsheets causes no-shows and understaffing."
-    frequency: weekly
-    complexity_score: 3
-    seedability_score: 4
-    rubric_scores:
-      pain_severity: 4
-      frequency: 3
-      oss_availability: 4
-      ai_tailorability: 4
-      standalone_value: 4
-      skill_match: 4
-      total: 23
-    priority_seed: false
-  - id: program-enrollment-and-service-delivery-tracking
-    name: "Program Enrollment and Service Delivery Tracking"
-    description: "Track participant intake, services delivered, and case progress."
-    pain_point: "Service data quality drops when intake and delivery are tracked separately."
+  - name: "Volunteer application screening and onboarding"
+    description: "Standardize volunteer application screening and onboarding for Volunteer Coordinator operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Volunteer Coordinator teams rely on ad-hoc handoffs for volunteer application screening and onboarding, causing delays, rework, and missed follow-through."
     frequency: daily
     complexity_score: 3
     seedability_score: 4
@@ -73,61 +19,77 @@ workflows:
       standalone_value: 4
       skill_match: 4
       total: 25
+      qualifies_for_seed: true
     priority_seed: false
-  - id: event-planning-and-ticket-donation-management
-    name: "Event Planning and Ticket or Donation Management"
-    description: "Coordinate event logistics, registrations, and donation capture."
-    pain_point: "Event details across tools increase coordination overhead and mistakes."
+  - name: "Shift scheduling by role and availability"
+    description: "Standardize shift scheduling by role and availability for Volunteer Coordinator operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Volunteer Coordinator teams rely on ad-hoc handoffs for shift scheduling by role and availability, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 2
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 5
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Background check status tracking"
+    description: "Standardize background check status tracking for Volunteer Coordinator operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Volunteer Coordinator teams rely on ad-hoc handoffs for background check status tracking, causing delays, rework, and missed follow-through."
     frequency: weekly
     complexity_score: 3
     seedability_score: 4
     rubric_scores:
       pain_severity: 4
-      frequency: 3
+      frequency: 4
       oss_availability: 4
       ai_tailorability: 4
       standalone_value: 4
       skill_match: 4
-      total: 23
+      total: 24
+      qualifies_for_seed: true
     priority_seed: false
-  - id: recurring-giving-and-receipt-automation
-    name: "Recurring Giving and Receipt Automation"
-    description: "Automate recurring donations, acknowledgments, and tax receipts."
-    pain_point: "Manual receipt workflows create donor trust issues and admin burden."
+  - name: "Training completion reminder workflow"
+    description: "Standardize training completion reminder workflow for Volunteer Coordinator operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Volunteer Coordinator teams rely on ad-hoc handoffs for training completion reminder workflow, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 2
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 5
+      total: 26
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Event day check-in and assignment routing"
+    description: "Standardize event day check-in and assignment routing for Volunteer Coordinator operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Volunteer Coordinator teams rely on ad-hoc handoffs for event day check-in and assignment routing, causing delays, rework, and missed follow-through."
     frequency: weekly
     complexity_score: 3
     seedability_score: 4
     rubric_scores:
       pain_severity: 4
-      frequency: 3
+      frequency: 4
       oss_availability: 4
       ai_tailorability: 4
       standalone_value: 4
       skill_match: 4
-      total: 23
+      total: 24
+      qualifies_for_seed: true
     priority_seed: false
-  - id: impact-reporting-and-board-packets
-    name: "Impact Reporting and Board Packets"
-    description: "Assemble impact metrics and board-ready reporting materials."
-    pain_point: "Board reporting is slow when program data is pulled manually."
+  - name: "Volunteer hours verification and reporting"
+    description: "Standardize volunteer hours verification and reporting for Volunteer Coordinator operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Volunteer Coordinator teams rely on ad-hoc handoffs for volunteer hours verification and reporting, causing delays, rework, and missed follow-through."
     frequency: monthly
-    complexity_score: 3
-    seedability_score: 4
-    rubric_scores:
-      pain_severity: 5
-      frequency: 2
-      oss_availability: 4
-      ai_tailorability: 4
-      standalone_value: 4
-      skill_match: 4
-      total: 23
-    priority_seed: false
-  - id: stakeholder-communications-and-newsletters
-    name: "Stakeholder Communications and Newsletters"
-    description: "Plan and send segmented updates to donors, volunteers, and partners."
-    pain_point: "Inconsistent outreach lowers engagement and repeat support."
-    frequency: weekly
-    complexity_score: 3
+    complexity_score: 2
     seedability_score: 4
     rubric_scores:
       pain_severity: 3
@@ -135,6 +97,39 @@ workflows:
       oss_availability: 4
       ai_tailorability: 4
       standalone_value: 4
+      skill_match: 5
+      total: 23
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Recognition and retention outreach cadence"
+    description: "Standardize recognition and retention outreach cadence for Volunteer Coordinator operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Volunteer Coordinator teams rely on ad-hoc handoffs for recognition and retention outreach cadence, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
       skill_match: 4
-      total: 22
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Incident report escalation for volunteers"
+    description: "Standardize incident report escalation for volunteers for Volunteer Coordinator operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Volunteer Coordinator teams rely on ad-hoc handoffs for incident report escalation for volunteers, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 4
+    seedability_score: 3
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 3
+      total: 24
+      qualifies_for_seed: true
     priority_seed: false

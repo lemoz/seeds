@@ -1,27 +1,27 @@
-# Workflow schema used inside each profession file.
-
-# Unique workflow id (kebab-case).
-id: monthly-close-and-reporting
-# Human-friendly workflow name.
-name: Monthly Close and Reporting
-# What happens in this workflow.
-description: "Collect, reconcile, and close books, then produce client-ready financial reports."
-# Core pain point solved by software.
-pain_point: "Manual reconciliations and spreadsheet handoffs delay close and increase error risk."
-# Typical cadence: daily | weekly | monthly | quarterly | ad-hoc.
-frequency: monthly
-# Delivery complexity for a seed implementation (1-5).
+# Workflow schema (embedded under `workflows` in each profession file).
+#
+# Required keys:
+# - name
+# - description
+# - pain_point
+# - frequency (daily | weekly | monthly)
+# - complexity_score (1-5; higher means harder to implement)
+# - seedability_score (1-5; higher means better seed candidate)
+# - rubric_scores.* (Part 1 criteria from rubric/scoring.md)
+# - priority_seed (true only for top-ranked cross-catalog workflows)
+name: "Appointment scheduling and reminders"
+description: "Coordinate appointment slots, cancellations, and reminder outreach across providers."
+pain_point: "No-shows and scheduling backlogs reduce utilization and care continuity."
+frequency: daily
 complexity_score: 3
-# How seedable the workflow is with OSS + AI tailoring (1-5).
 seedability_score: 5
-# Rubric-aligned scoring from rubric/scoring.md.
 rubric_scores:
-  pain_severity: 4
-  frequency: 3
-  oss_availability: 4
-  ai_tailorability: 4
-  standalone_value: 4
-  skill_match: 4
-  total: 23
-# Flag true only for the catalog-wide top 10 highest scoring workflows.
-priority_seed: false
+  pain_severity: 5
+  frequency: 5
+  oss_availability: 5
+  ai_tailorability: 5
+  standalone_value: 5
+  skill_match: 5
+  total: 30
+  qualifies_for_seed: true
+priority_seed: true

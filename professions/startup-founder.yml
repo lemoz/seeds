@@ -1,35 +1,13 @@
 id: startup-founder
 name: "Startup Founder"
 sector: "Tech"
-summary: "Early-stage leaders balancing growth, product, and operational execution."
-description: "Startup founders manage pipeline, onboarding, feedback loops, release execution, and core business operations."
-workflow_count_estimate: 8
-tags:
-  - startup
-  - growth
-  - product-ops
+summary: "Balances product, growth, fundraising, and operating cadence in early-stage teams."
 status: draft
+workflow_count_estimate: 8
 workflows:
-  - id: lead-pipeline-and-follow-up
-    name: "Lead Pipeline and Follow-up"
-    description: "Track inbound leads, qualification, and follow-up tasks through close."
-    pain_point: "Pipeline opportunities are lost when follow-up is not systematized."
-    frequency: daily
-    complexity_score: 3
-    seedability_score: 5
-    rubric_scores:
-      pain_severity: 5
-      frequency: 5
-      oss_availability: 5
-      ai_tailorability: 5
-      standalone_value: 5
-      skill_match: 5
-      total: 30
-    priority_seed: true
-  - id: customer-onboarding-and-implementation-tracking
-    name: "Customer Onboarding and Implementation Tracking"
-    description: "Manage onboarding steps, owners, and completion milestones."
-    pain_point: "Onboarding delays grow when ownership and blockers are not visible."
+  - name: "Weekly operating metrics review and action log"
+    description: "Standardize weekly operating metrics review and action log for Startup Founder operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Startup Founder teams rely on ad-hoc handoffs for weekly operating metrics review and action log, causing delays, rework, and missed follow-through."
     frequency: daily
     complexity_score: 3
     seedability_score: 4
@@ -41,77 +19,77 @@ workflows:
       standalone_value: 4
       skill_match: 4
       total: 25
+      qualifies_for_seed: true
     priority_seed: false
-  - id: product-feedback-triage-and-prioritization
-    name: "Product Feedback Triage and Prioritization"
-    description: "Aggregate requests, tag themes, and prioritize backlog inputs."
-    pain_point: "Feedback gets lost when support, sales, and product channels are disconnected."
-    frequency: daily
-    complexity_score: 3
-    seedability_score: 4
-    rubric_scores:
-      pain_severity: 4
-      frequency: 5
-      oss_availability: 4
-      ai_tailorability: 4
-      standalone_value: 4
-      skill_match: 4
-      total: 25
-    priority_seed: false
-  - id: sprint-planning-and-release-tracking
-    name: "Sprint Planning and Release Tracking"
-    description: "Plan iterations, monitor delivery, and communicate release status."
-    pain_point: "Release predictability suffers without unified planning and tracking."
-    frequency: daily
-    complexity_score: 3
-    seedability_score: 4
-    rubric_scores:
-      pain_severity: 4
-      frequency: 5
-      oss_availability: 4
-      ai_tailorability: 4
-      standalone_value: 4
-      skill_match: 4
-      total: 25
-    priority_seed: false
-  - id: incident-response-and-postmortem-management
-    name: "Incident Response and Postmortem Management"
-    description: "Track incidents, responders, timelines, and follow-up actions."
-    pain_point: "Critical context is lost when incident work happens across chat threads."
-    frequency: daily
-    complexity_score: 4
-    seedability_score: 4
-    rubric_scores:
-      pain_severity: 5
-      frequency: 5
-      oss_availability: 4
-      ai_tailorability: 4
-      standalone_value: 4
-      skill_match: 4
-      total: 26
-    priority_seed: false
-  - id: billing-subscription-and-renewal-ops
-    name: "Billing, Subscription, and Renewal Operations"
-    description: "Manage billing cycles, renewal workflows, and churn prevention tasks."
-    pain_point: "Renewal risk is hard to manage when billing and CRM signals are disconnected."
-    frequency: weekly
-    complexity_score: 4
-    seedability_score: 4
-    rubric_scores:
-      pain_severity: 4
-      frequency: 3
-      oss_availability: 4
-      ai_tailorability: 4
-      standalone_value: 4
-      skill_match: 4
-      total: 23
-    priority_seed: false
-  - id: knowledge-base-and-internal-documentation
-    name: "Knowledge Base and Internal Documentation"
-    description: "Maintain SOPs, decision logs, and onboarding documentation."
-    pain_point: "Teams repeat mistakes when institutional knowledge is hard to find."
+  - name: "Investor update drafting and distribution"
+    description: "Standardize investor update drafting and distribution for Startup Founder operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Startup Founder teams rely on ad-hoc handoffs for investor update drafting and distribution, causing delays, rework, and missed follow-through."
     frequency: weekly
     complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Candidate pipeline and interview stage tracking"
+    description: "Standardize candidate pipeline and interview stage tracking for Startup Founder operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Startup Founder teams rely on ad-hoc handoffs for candidate pipeline and interview stage tracking, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Burn runway forecast and expense approvals"
+    description: "Standardize burn runway forecast and expense approvals for Startup Founder operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Startup Founder teams rely on ad-hoc handoffs for burn runway forecast and expense approvals, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Customer discovery interview synthesis"
+    description: "Standardize customer discovery interview synthesis for Startup Founder operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Startup Founder teams rely on ad-hoc handoffs for customer discovery interview synthesis, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Product launch checklist and owner assignments"
+    description: "Standardize product launch checklist and owner assignments for Startup Founder operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Startup Founder teams rely on ad-hoc handoffs for product launch checklist and owner assignments, causing delays, rework, and missed follow-through."
+    frequency: monthly
+    complexity_score: 2
     seedability_score: 4
     rubric_scores:
       pain_severity: 3
@@ -119,22 +97,39 @@ workflows:
       oss_availability: 4
       ai_tailorability: 4
       standalone_value: 4
-      skill_match: 4
-      total: 22
+      skill_match: 5
+      total: 23
+      qualifies_for_seed: true
     priority_seed: false
-  - id: hiring-pipeline-and-interview-coordination
-    name: "Hiring Pipeline and Interview Coordination"
-    description: "Track candidates, interview loops, feedback, and offer decisions."
-    pain_point: "Hiring slows down when interview and feedback workflows are ad hoc."
+  - name: "Partnership outreach follow-up queue"
+    description: "Standardize partnership outreach follow-up queue for Startup Founder operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Startup Founder teams rely on ad-hoc handoffs for partnership outreach follow-up queue, causing delays, rework, and missed follow-through."
     frequency: weekly
+    complexity_score: 2
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 5
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Board meeting agenda and materials prep"
+    description: "Standardize board meeting agenda and materials prep for Startup Founder operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Startup Founder teams rely on ad-hoc handoffs for board meeting agenda and materials prep, causing delays, rework, and missed follow-through."
+    frequency: daily
     complexity_score: 3
     seedability_score: 4
     rubric_scores:
       pain_severity: 4
-      frequency: 3
+      frequency: 5
       oss_availability: 4
       ai_tailorability: 4
       standalone_value: 4
       skill_match: 4
-      total: 23
+      total: 25
+      qualifies_for_seed: true
     priority_seed: false

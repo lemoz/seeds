@@ -1,0 +1,135 @@
+id: social-media-manager
+name: "Social Media Manager"
+sector: "Creative"
+summary: "Plans, publishes, and reports on social content calendars and engagement."
+status: draft
+workflow_count_estimate: 8
+workflows:
+  - name: "Content calendar planning and approvals"
+    description: "Standardize content calendar planning and approvals for Social Media Manager operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Social Media Manager teams rely on ad-hoc handoffs for content calendar planning and approvals, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 2
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 5
+      total: 26
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Multi-platform publishing queue management"
+    description: "Standardize multi-platform publishing queue management for Social Media Manager operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Social Media Manager teams rely on ad-hoc handoffs for multi-platform publishing queue management, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 2
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 5
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Community moderation and escalation triage"
+    description: "Standardize community moderation and escalation triage for Social Media Manager operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Social Media Manager teams rely on ad-hoc handoffs for community moderation and escalation triage, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Creator collaboration contract tracking"
+    description: "Standardize creator collaboration contract tracking for Social Media Manager operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Social Media Manager teams rely on ad-hoc handoffs for creator collaboration contract tracking, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Paid social campaign budget pacing"
+    description: "Standardize paid social campaign budget pacing for Social Media Manager operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Social Media Manager teams rely on ad-hoc handoffs for paid social campaign budget pacing, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Weekly engagement insights reporting"
+    description: "Standardize weekly engagement insights reporting for Social Media Manager operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Social Media Manager teams rely on ad-hoc handoffs for weekly engagement insights reporting, causing delays, rework, and missed follow-through."
+    frequency: monthly
+    complexity_score: 2
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 3
+      frequency: 3
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 5
+      total: 23
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "UGC rights request and storage workflow"
+    description: "Standardize ugc rights request and storage workflow for Social Media Manager operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Social Media Manager teams rely on ad-hoc handoffs for ugc rights request and storage workflow, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Crisis response playbook activation logs"
+    description: "Standardize crisis response playbook activation logs for Social Media Manager operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Social Media Manager teams rely on ad-hoc handoffs for crisis response playbook activation logs, causing delays, rework, and missed follow-through."
+    frequency: daily
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 5
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 25
+      qualifies_for_seed: true
+    priority_seed: false

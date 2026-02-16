@@ -1,19 +1,13 @@
 id: photographer
 name: "Photographer"
 sector: "Creative"
-summary: "Creative professionals delivering shoots, edits, and client galleries."
-description: "Photographers manage leads, scheduling, approvals, file delivery, and invoicing for client projects."
-workflow_count_estimate: 8
-tags:
-  - photography
-  - creative-services
-  - client-work
+summary: "Handles bookings, shoot planning, asset delivery, and client revision cycles."
 status: draft
+workflow_count_estimate: 8
 workflows:
-  - id: lead-intake-and-brief-scoping
-    name: "Lead Intake and Brief Scoping"
-    description: "Capture project inquiries and convert them into structured briefs."
-    pain_point: "Unstructured inbound requests make estimation and prioritization inconsistent."
+  - name: "Inquiry to booking conversion workflow"
+    description: "Standardize inquiry to booking conversion workflow for Photographer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Photographer teams rely on ad-hoc handoffs for inquiry to booking conversion workflow, causing delays, rework, and missed follow-through."
     frequency: daily
     complexity_score: 3
     seedability_score: 4
@@ -25,29 +19,45 @@ workflows:
       standalone_value: 4
       skill_match: 4
       total: 25
+      qualifies_for_seed: true
     priority_seed: false
-  - id: proposal-contract-and-signoff
-    name: "Proposal, Contract, and Signoff"
-    description: "Generate proposals and contracts, then route for approvals and signatures."
-    pain_point: "Proposal and contract versioning across email slows deal cycles."
+  - name: "Shot list and run-of-show planning"
+    description: "Standardize shot list and run-of-show planning for Photographer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Photographer teams rely on ad-hoc handoffs for shot list and run-of-show planning, causing delays, rework, and missed follow-through."
     frequency: weekly
     complexity_score: 3
     seedability_score: 4
     rubric_scores:
       pain_severity: 4
-      frequency: 3
+      frequency: 4
       oss_availability: 4
       ai_tailorability: 4
       standalone_value: 4
       skill_match: 4
-      total: 23
+      total: 24
+      qualifies_for_seed: true
     priority_seed: false
-  - id: project-planning-and-task-tracking
-    name: "Project Planning and Task Tracking"
-    description: "Plan work, assign owners, and monitor status across deliverables."
-    pain_point: "Work ownership and progress are unclear without a shared delivery system."
+  - name: "Location permit and release form tracking"
+    description: "Standardize location permit and release form tracking for Photographer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Photographer teams rely on ad-hoc handoffs for location permit and release form tracking, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 4
+    seedability_score: 3
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 3
+      total: 23
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "RAW ingest, culling, and backup checklist"
+    description: "Standardize raw ingest, culling, and backup checklist for Photographer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Photographer teams rely on ad-hoc handoffs for raw ingest, culling, and backup checklist, causing delays, rework, and missed follow-through."
     frequency: daily
-    complexity_score: 3
+    complexity_score: 2
     seedability_score: 4
     rubric_scores:
       pain_severity: 4
@@ -55,31 +65,31 @@ workflows:
       oss_availability: 4
       ai_tailorability: 4
       standalone_value: 4
-      skill_match: 4
-      total: 25
-    priority_seed: false
-  - id: asset-review-and-client-approvals
-    name: "Asset Review and Client Approvals"
-    description: "Centralize creative review cycles, comments, and approval checkpoints."
-    pain_point: "Feedback spread across channels creates revision churn and approval delays."
-    frequency: daily
-    complexity_score: 3
-    seedability_score: 5
-    rubric_scores:
-      pain_severity: 5
-      frequency: 5
-      oss_availability: 4
-      ai_tailorability: 4
-      standalone_value: 4
-      skill_match: 4
+      skill_match: 5
       total: 26
+      qualifies_for_seed: true
     priority_seed: false
-  - id: content-production-calendar
-    name: "Content Production Calendar"
-    description: "Maintain publishing cadence, dependencies, and delivery milestones."
-    pain_point: "Production schedules drift when deadlines and dependencies are not visible."
+  - name: "Client gallery proofing and selects management"
+    description: "Standardize client gallery proofing and selects management for Photographer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Photographer teams rely on ad-hoc handoffs for client gallery proofing and selects management, causing delays, rework, and missed follow-through."
     frequency: weekly
     complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Retouch request queue and turnaround tracking"
+    description: "Standardize retouch request queue and turnaround tracking for Photographer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Photographer teams rely on ad-hoc handoffs for retouch request queue and turnaround tracking, causing delays, rework, and missed follow-through."
+    frequency: monthly
+    complexity_score: 2
     seedability_score: 4
     rubric_scores:
       pain_severity: 3
@@ -87,13 +97,29 @@ workflows:
       oss_availability: 4
       ai_tailorability: 4
       standalone_value: 4
-      skill_match: 4
-      total: 22
+      skill_match: 5
+      total: 23
+      qualifies_for_seed: true
     priority_seed: false
-  - id: file-delivery-and-version-control
-    name: "File Delivery and Version Control"
-    description: "Package, share, and track final assets with version history."
-    pain_point: "File version confusion creates rework and client delivery mistakes."
+  - name: "Final delivery packaging and download access"
+    description: "Standardize final delivery packaging and download access for Photographer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Photographer teams rely on ad-hoc handoffs for final delivery packaging and download access, causing delays, rework, and missed follow-through."
+    frequency: weekly
+    complexity_score: 3
+    seedability_score: 4
+    rubric_scores:
+      pain_severity: 4
+      frequency: 4
+      oss_availability: 4
+      ai_tailorability: 4
+      standalone_value: 4
+      skill_match: 4
+      total: 24
+      qualifies_for_seed: true
+    priority_seed: false
+  - name: "Licensing usage monitoring and renewals"
+    description: "Standardize licensing usage monitoring and renewals for Photographer operations with clear ownership, status visibility, and audit-ready records."
+    pain_point: "Photographer teams rely on ad-hoc handoffs for licensing usage monitoring and renewals, causing delays, rework, and missed follow-through."
     frequency: daily
     complexity_score: 3
     seedability_score: 4
@@ -105,36 +131,5 @@ workflows:
       standalone_value: 4
       skill_match: 4
       total: 25
-    priority_seed: false
-  - id: invoicing-and-payment-follow-up
-    name: "Invoicing and Payment Follow-up"
-    description: "Issue invoices, monitor due dates, and automate follow-up reminders."
-    pain_point: "Manual collections work delays revenue and increases admin overhead."
-    frequency: weekly
-    complexity_score: 3
-    seedability_score: 4
-    rubric_scores:
-      pain_severity: 4
-      frequency: 3
-      oss_availability: 4
-      ai_tailorability: 4
-      standalone_value: 4
-      skill_match: 4
-      total: 23
-    priority_seed: false
-  - id: performance-reporting-and-client-retrospectives
-    name: "Performance Reporting and Client Retrospectives"
-    description: "Compile outcomes, insights, and next-step recommendations for clients."
-    pain_point: "Performance summaries are manual and inconsistent across accounts."
-    frequency: monthly
-    complexity_score: 3
-    seedability_score: 4
-    rubric_scores:
-      pain_severity: 3
-      frequency: 2
-      oss_availability: 4
-      ai_tailorability: 4
-      standalone_value: 4
-      skill_match: 4
-      total: 21
+      qualifies_for_seed: true
     priority_seed: false
