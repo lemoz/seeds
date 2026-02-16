@@ -8,21 +8,22 @@ tags:
   - reverse-seed
   - process
 created_at: 2025-01-15
-goal: "Build the first real working seed by reverse-seeding Cal.com patterns into a scheduling seed. Prove the concept: run the seed with Claude Code or Codex, answer 5 questions, get a deployed scheduling app."
+goal: |
+  Create the reverse-seed extraction process that analyzes OSS projects and
+  extracts their "DNA" into self-contained generative seeds. The seed must
+  be able to generate similar software from scratch WITHOUT network access
+  or cloning any repos. Test by creating a scheduling seed from Cal.com patterns.
 acceptance_criteria:
-  - seeds/scheduling/client-booking.md exists as a complete seed
-  - "Seed contains: project DNA, customization hooks, multi-target deployment configs"
-  - "Seed includes deployment logic for: local Docker, Railway, Fly.io"
-  - Running the seed with a coding agent produces a working project structure
-  - "Generated project includes: booking page, availability config, calendar integration patterns, database schema"
-  - Seed is self-contained — no network needed during generation (only for deployment)
-  - docs/reverse-seed-process.md updated with lessons learned from this first extraction
-  - "Test report documenting: generation time, file count, deployment success/failure"
+  - docs/reverse-seed-process.md documents the full extraction methodology
+  - A working scheduling seed exists at seeds/examples/scheduling-seed.md
+  - The seed can generate a complete project structure when run
+  - The seed includes multi-target deployment (local Docker, Railway, Fly.io)
+  - The seed does NOT require cloning Cal.com or any external repo
+  - Test: Running the seed with Claude Code produces working files
 stop_conditions:
-  - If the seed exceeds 500 lines, compress or split into modular sections and document the approach
-  - If certain Cal.com patterns cant be generalized, document as limitations
-  - If deployment to a target fails, document the failure and continue with other targets
-estimate_hours: 10
+  - If unclear what "DNA" to extract vs copy, escalate with examples
+  - If generated seed is too large (>500 lines), escalate to discuss compression
+  - If certain patterns can't be generalized, document as limitation
 updated_at: 2026-02-15
 ---
 # WO-005: Reverse-Seed Process

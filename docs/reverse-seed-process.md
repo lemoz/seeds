@@ -12,6 +12,18 @@ The reverse-seed process analyzes a working open source project and extracts the
 OSS Project → Analyze → Extract DNA → Encode as Seed → Generative Prompt
 ```
 
+## DNA Definition (Contract)
+
+For this project, "DNA" means reusable product patterns that survive implementation changes:
+
+- **Architecture DNA**: app shape, boundary lines, and service decomposition.
+- **Data DNA**: entity relationships, invariants, and indexing intent.
+- **API DNA**: endpoint semantics, payload contracts, and auth model.
+- **Workflow DNA**: user journeys and core algorithm steps.
+- **Ops DNA**: runtime dependencies and deployment requirements.
+
+DNA explicitly excludes exact upstream code, naming, and vendor-specific internals.
+
 ## What We Extract
 
 ### 1. Core Architecture
@@ -44,14 +56,30 @@ OSS Project → Analyze → Extract DNA → Encode as Seed → Generative Prompt
 - Resource needs
 - Network configuration
 
+## Extraction Checklist
+
+Use this checklist before writing a seed:
+
+- [ ] Source context identified (repo snapshot, docs, architecture notes)
+- [ ] 3-5 core entities and relationships documented
+- [ ] 3-7 critical endpoints captured with input/output intent
+- [ ] Core workflow algorithm written in implementation-agnostic steps
+- [ ] Customization hooks identified (branding, business rules, integrations)
+- [ ] Required runtime services documented
+- [ ] At least 3 deployment targets specified
+- [ ] "Extract vs Don't Copy" boundaries recorded
+- [ ] Known limitations recorded for patterns that do not generalize cleanly
+
 ## The Extraction Process
 
 ### Step 1: Study the Project
 
-Clone and explore the OSS project:
+Use a local source snapshot whenever possible:
 - Read README and docs
 - Understand the problem it solves
 - Run it locally to see how it works
+
+If the local source is unavailable, continue with documented architecture patterns and record the limitation in the seed notes. Do not block seed creation.
 
 ### Step 2: Map the Architecture
 
@@ -216,51 +244,17 @@ Before publishing a seed:
 - Require Cal.com license
 - Depend on external repos
 
-## DNA Boundary (What To Extract vs Leave Behind)
+## Lessons Learned (WO-005, First Extraction)
 
-Use this quick boundary test while reverse-seeding:
+Date: February 15, 2026
 
-- Keep if it defines outcomes:
-  - Entity relationships and invariants
-  - API shape and workflow ordering
-  - Core algorithms (for example, availability minus bookings)
-  - Deployment/runtime requirements
-- Drop if it is implementation residue:
-  - Vendor-specific wrappers
-  - UI styling/component internals
-  - Legacy migrations and backward-compatibility branches
-  - Repo-specific scripts that do not affect generated behavior
+1. Availability logic generalized well when described as interval math (`windows - bookings`) instead of preserving framework-specific code paths.
+2. Seed size pressure is real: once a seed approaches 500 lines, split into contract-style sections (questions, DNA, file requirements, deployment logic) instead of expanding full inline code for every file.
+3. Deployment patterns transfer cleanly across projects when the seed includes both config files and execution commands for each target.
+4. Calendar integrations should be extracted as adapter interfaces plus stubs first; full OAuth flows are not required for an MVP seed.
+5. When local upstream source is missing, documenting assumptions and limitations is better than blocking the workflow.
 
-## Extraction Checklist (WO-005 Baseline)
+### First-Extraction Limitations
 
-Use this checklist before writing any seed:
-
-- [ ] Confirm workflow outcome in one sentence (what the user gets)
-- [ ] Identify 3-5 core entities and required relationships
-- [ ] Map the minimum API endpoints needed for end-to-end flow
-- [ ] Isolate one core algorithm and define input/output contract
-- [ ] Define exactly 4-6 user customization questions
-- [ ] Define local + Railway + Fly deployment requirements
-- [ ] Define generation constraints (no network during generation)
-- [ ] Add failure behavior for deployment targets
-- [ ] Run one smoke generation test and capture metrics
-- [ ] Publish lessons learned and known limitations
-
-## Lessons Learned From First Extraction (WO-005, 2026-02-15)
-
-1. A seed needs a strict generation contract, not only architecture notes.
-   - The most reliable format is: ask questions, generate fixed file tree, enforce quality gate, then deploy.
-2. Availability logic must be described as an explicit conflict predicate.
-   - Portable rule: `candidateStart < bookingEnd && bookingStart < candidateEnd`.
-3. Calendar integration must be adapter-first.
-   - Google/Outlook payload adapters plus ICS fallback are generalizable and avoid vendor lock-in.
-4. Deployment logic must include branching behavior, not only config files.
-   - Seeds should tell the agent what command path to run for each target.
-5. Keep seeds compact and operational.
-   - For WO-005, the seed stays below the 500-line stop condition by embedding only critical schema/contracts and using concise file constraints.
-6. Repository availability is a practical limitation to document.
-   - In this workspace, `repos/cal.com` was not present, so extraction used already-documented scheduling patterns rather than fresh source traversal.
-
-## WO-005 Test Evidence
-
-- Detailed run log: `docs/test-reports/WO-005-reverse-seed-test-report.md`
+- OAuth provider setup (Google/Outlook) is scaffolded as an adapter pattern, not end-to-end credential flow.
+- Advanced routing patterns (round-robin, pooled teams) are intentionally excluded from the first scheduling seed.
